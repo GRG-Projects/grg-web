@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* To utilise full width of screen */
+.bd-header {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.bd-main .bd-content .bd-article-container {
+  max-width: none;
+}
+
+.bd-page-width {
+  max-width: none;
+}
+
+.navbar {
+  background: #990000 !important;
+}
+
+.navbar-brand {
+  text-decoration: none !important;
+}
+
+.navbar-brand p {
+  color: white;
+}
+
+/* _static/css/common.css */
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+  position: relative;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  margin-bottom: 10px;
+}
+
+.dropdown-menu li:last-child {
+  margin-bottom: 0;
+}
+
+/* .dropdown-menu a {
+  color: #007bff;
+} */
+
+/* For screens 576px and up (small devices) */
+@media (min-width: 576px) {
+}
+
+/* For screens 768px and up (medium devices) */
+@media (min-width: 768px) {
+}
+
+/* For screens 992px and up (large devices) */
+@media (min-width: 992px) {
+}
+
+/* For screens 1200px and up (extra large devices) */
+@media (min-width: 1600px) {
+}

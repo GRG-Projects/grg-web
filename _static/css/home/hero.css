@@ -1,0 +1,140 @@
+/* Intro CSS */
+#hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Intro-name CSS */
+#hero-item {
+  width: 100%;
+  padding: 2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white; /* Text color */
+  text-align: center;
+}
+
+.hero-name-content {
+  z-index: 1;
+  max-width: 80%;
+  margin-top: 120px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-uni {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  text-align: center; /* Ensure text is centered within the flex item */
+}
+
+#hero-uni-logo {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.hero-uni .hero-uni-description {
+  margin: 0; /* Remove default margin from p element */
+  text-align: center; /* Ensure text is centered within the parent flex container */
+  color: #6b7280;
+  font-size: 20px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin: 12px auto;
+  color: white;
+  font-weight: 800;
+}
+
+.hero-description {
+  text-align: center;
+  color: #6b7280;
+  font-size: 20px;
+  width: 75%;
+}
+
+.hero-video {
+  display: flex;
+  justify-content: center;
+}
+
+#background-video {
+  max-width: 70%;
+  max-height: 70%;
+  width: auto;
+  height: auto;
+  background-size: cover;
+}
+
+/* Intro-vision CSS */
+
+.intro-vision {
+  background-color: #990000;
+  border-top: #ffffff;
+  border-bottom: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.intro-vision-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-vision-content h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin: 12px auto;
+  color: white;
+}
+
+.intro-vision-content p {
+  width: 75%;
+  padding: 2rem;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button-34 {
+  background: #990000;
+  border-radius: 999px;
+  box-shadow: #990000 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}

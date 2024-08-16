@@ -1,0 +1,87 @@
+# Journal Components
+
+[[journal_slides]]
+caption = "Journal 1"
+description = ""
+img = "frontiers.jpg"
+link = ""
+
+[[journal_slides]]
+caption = "Journal 2"
+description = ""
+img = "journal_archives_of_general_psychiatry.jpg"
+link = ""
+
+[[journal_slides]]
+caption = "Journal 3"
+description = ""
+img = "journal_ieee_tmi.jpg"
+link = ""
+
+[[journal_slides]]
+caption = "Journal 4"
+description = ""
+img = "journal_Nature-Communications.jpg"
+link = ""
+
+[[journal_slides]]
+caption = "Journal 5"
+description = ""
+img = "journal_neuroimage.jpg"
+link = ""
+
+[[journal_slides]]
+caption = "Journal 6"
+description = ""
+img = "journal_pattern_recognition_letters.gif"
+link = ""
+
+[[journal_slides]]
+caption = "Journal 7"
+description = ""
+img = "NeurIPS_logo_stacked.png"
+link = ""
+
+[[journal_slides]]
+caption = "Journal 8"
+description = ""
+img = "neuron.jpg"
+link = ""
+
+[[journal_slides]]
+caption = "Journal 9"
+description = ""
+img = "plos_one.jpg"
+link = ""
+
+[[journal_slides]]
+caption = "Journal 10"
+description = ""
+img = "sr_ysrHSfp.jpg"
+link = ""
+
+# Team Components
+
+# [[team_director]]
+# name = ""
+# position = ""
+# img = ""
+# phone = ""
+# email = ""
+# website = ""
+
+[[team_current]]
+name = "Serge Koudoro"
+position = "Software Engineer"
+img = "Serge.png"
+phone = ""
+email = "skoudoro@iu.edu"
+website = ""
+
+[[team_collaborators]]
+# name = ""
+# position = ""
+# img = ""
+# phone = ""
+# email = ""
+# website = ""

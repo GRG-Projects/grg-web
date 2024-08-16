@@ -1,0 +1,25 @@
+/* Common */
+
+@import url("_static/css/common.css");
+@import url("_static/css/navbar.css");
+
+/* Homepage */
+
+@import url("_static/css/home/hero.css");
+@import url("_static/css/home/research.css");
+@import url("_static/css/home/workshop.css");
+@import url("_static/css/home/journals.css");
+
+/* Team */
+
+/* Research */
+
+/* Teaching */
+
+/* Publications */
+
+/* Software */
+
+/* Blog */
+
+/* Careers */

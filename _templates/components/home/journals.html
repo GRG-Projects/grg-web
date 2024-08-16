@@ -1,0 +1,32 @@
+<div class="journal-section">
+  <div class="journal-info">
+    <h1 class="journal-title">Journals</h1>
+    <div class="journal-description">
+      Catalyzing breakthroughs and shaping scientific discourse through
+      influential publications
+    </div>
+  </div>
+  <div class="journal-body">
+    <div id="splide" class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {% for slide in journal_slides %}
+          <li class="splide__slide">
+            <a
+              href="{{ slide.link }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="{% if slide.img.startswith('http') %}{{ slide.img }}{% else %}_static/images/journals/{{ slide.img }}{% endif %}"
+                alt="{{ slide.caption }}"
+                style="width: 100%; height: 100%; object-fit: cover"
+              />
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

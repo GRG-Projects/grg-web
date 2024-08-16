@@ -1,0 +1,88 @@
+.journal-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.journal-body {
+  width: 75%;
+  height: auto;
+}
+
+.journal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.journal-title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.journal-description {
+  text-align: center;
+  color: #6b7280;
+  /* color: white; */
+  font-size: 20px;
+  width: 75%;
+}
+
+.splide {
+  position: relative;
+}
+
+.splide__arrows .splide__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.splide__arrows .splide__arrow--prev {
+  left: -4em;
+}
+
+.splide__arrows .splide__arrow--next {
+  right: -4em;
+}
+
+.journal-body {
+  padding: 0 80px 40px; /* Added bottom padding for pagination */
+}
+
+/* Ensure arrows are visible */
+.splide__arrow {
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+}
+
+.splide__pagination {
+  position: absolute;
+  bottom: -4em; /* Position below the track */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.splide__pagination__page {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #6b7280;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.splide__pagination__page.is-active {
+  background: white;
+}
