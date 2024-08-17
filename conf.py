@@ -74,6 +74,10 @@ with open('context/context.toml', 'rb') as f:
 
 html_context = {
     "journal_slides": config["journal_slides"],
+    "team_current": config["team_current"],
+    "team_director": config["team_director"],
+    "team_collaborators": config["team_collaborators"],
+    "team_alumni": config["team_alumni"],
     "default_mode": "light"
 }
 

@@ -1,0 +1,44 @@
+{% extends "layout.html" %} {% block docs_main %}
+
+<div class="team-member-page">
+  <div class="team-member-container">
+    <img
+      class="team-member-image"
+      src="{% if member.img.startswith('http') %}{{ member.img }}{% else %}_static/images/team/{{ member.img }}{% endif %}"
+      alt="{{ member.name }}"
+    />
+    <h1 class="team-member-name">{{ member.name }}</h1>
+    <p class="team-member-role">{{ member.position }}</p>
+    <div class="team-member-details">
+      {% if member.phone %}
+      <p><strong>Phone:</strong> {{ member.phone }}</p>
+      {% endif %} {% if member.email %}
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+      </p>
+      {% endif %} {% if member.website %}
+      <p>
+        <strong>Website:</strong>
+        <a href="{{ member.website }}" target="_blank">{{ member.website }}</a>
+      </p>
+      {% endif %}
+    </div>
+    {% if member.bio %}
+    <div class="team-member-bio">
+      <h2>Biography</h2>
+      {{ member.bio }}
+    </div>
+    {% endif %} {% if member.publications %}
+    <div class="team-member-publications">
+      <h2>Publications</h2>
+      <ul>
+        {% for publication in member.publications %}
+        <li>{{ publication }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock docs_main %}

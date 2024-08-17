@@ -62,26 +62,175 @@ link = ""
 
 # Team Components
 
-# [[team_director]]
-# name = ""
-# position = ""
-# img = ""
-# phone = ""
-# email = ""
-# website = ""
+[[team_director]]
+name = "Eleftherios Garyfallidis"
+position = "Director"
+link = "https://grg.luddy.indiana.edu/people/Garyfallidis/"
+img = "Eleftherios.jpg"
+phone = "8128565240"
+email = "elef@indiana.edu"
+website = ""
 
 [[team_current]]
 name = "Serge Koudoro"
 position = "Software Engineer"
+link = "https://grg.luddy.indiana.edu/people/skoudoro/"
 img = "Serge.png"
 phone = ""
 email = "skoudoro@iu.edu"
 website = ""
+bio = """
+Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+"""
+publications = [
+  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
+  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+]
+
+[[team_current]]
+name = "Javier Guaje"
+position = "Ph.D. Student"
+link = "https://grg.luddy.indiana.edu/people/guaje/"
+img = "Javier.png"
+phone = "+13177461076"
+email = "jrguajeg@iu.edu"
+website = ""
+bio = """
+Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+"""
+publications = [
+  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
+  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+]
+
+[[team_current]]
+name = "Jong Sung Park"
+position = "Ph.D. Student"
+link = "https://grg.luddy.indiana.edu/people/pjsjongsung/"
+img = "Jong.jpg"
+phone = ""
+email = "jp109@iu.edu"
+website = "https://pjsjongsung.github.io"
+bio = """
+Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+"""
+publications = [
+  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
+  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+]
+
+[[team_current]]
+name = "Sreekar Chigurupati"
+position = "Ph.D. Student"
+link = "https://grg.luddy.indiana.edu/people/sreekarchigurupati/"
+img = "Sreekar.jpg"
+phone = "+18129559352"
+email = "srchig@iu.edu"
+website = "https://sreekar.ch"
+bio = """
+Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+"""
+publications = [
+  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
+  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+]
+
+[[team_current]]
+name = "Maharshi"
+position = "Graduate Software Engineer"
+link = "https://grg.luddy.indiana.edu/people/Mk996/"
+img = "Maharishi.jpeg"
+phone = "8128376007"
+email = "magor@iu.edu"
+website = ""
+bio = """
+Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+"""
+publications = [
+  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
+  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+]
+
+[[team_current]]
+name = "Atharva Shah"
+position = "Graduate Research Assistant"
+link = "https://grg.luddy.indiana.edu/people/Atharva-Shah-2298/"
+img = "Atharva.png"
+phone = "8128373963"
+email = "athshah@iu.edu"
+website = ""
+bio = """
+Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+"""
+publications = [
+  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
+  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+]
+
+[[team_current]]
+name = "Mansi Ranka"
+position = "Research Assistant"
+link = "https://grg.luddy.indiana.edu/people/MRanka29/"
+img = "Mansi.png"
+phone = "8128373852"
+email = "mranka@iu.edu"
+website = ""
+bio = """
+Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+"""
+publications = [
+  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
+  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+]
+
+[[team_current]]
+name = "Aayush Jaiswal"
+position = "M.Sc. Student"
+link = "https://grg.luddy.indiana.edu/people/aayush9400/"
+img = "Aayush.jpeg"
+phone = ""
+email = "aajais@iu.edu"
+website = "https://linkedin.com/in/jaiswal-aayush/"
+bio = """
+Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+"""
+publications = [
+  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
+  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+]
 
 [[team_collaborators]]
-# name = ""
-# position = ""
-# img = ""
-# phone = ""
-# email = ""
-# website = ""
+name = "David Reagan"
+position = "Sr. Analyst/Programmer"
+link = "https://grg.luddy.indiana.edu/people/dmreagan/"
+img = "David.jpg"
+phone = ""
+email = "dmreagan@iu.edu"
+website = ""
+
+[[team_collaborators]]
+name = "Bishakh Ghosh"
+position = "PhD Student"
+link = "https://grg.luddy.indiana.edu/people/ghoshbishakh/"
+img = "Bikash.jpg"
+phone = ""
+email = "ghoshbishakh@gmail.com"
+website = "https://ghoshbishakh.github.io/"
+
+[[team_alumni]]
+name = "Bramsh Qamar Chandio"
+position = "PhD Candidate & Graduate Research"
+link = "https://grg.luddy.indiana.edu/people/BramshQamar/"
+img = ""
+phone = ""
+email = "bqchandi@iu.edu"
+website = ""
+
+[[team_alumni]]
+name = "Shreyas Fadnavis"
+position = "Alumnus"
+link = "https://grg.luddy.indiana.edu/people/ShreyasFadnavis/"
+img = ""
+phone = ""
+email = "shfadn@iu.edu"
+website = ""

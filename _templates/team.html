@@ -1,12 +1,9 @@
-{% extends "layout.html" %} {% block docs_main %}
+{% extends "layout.html" %}
+{% block docs_main %}
 
 <div class="team-page">
   <div class="">
-    <img
-      id="team-image"
-      src="_static/images/team/team.jpg"
-      alt="grg-team-image"
-    />
+    <img id="team-image" src="_static/images/team/team.jpg" alt="grg-team-image" />
   </div>
   <div class="team-container">
     <h1 class="team-title">Team</h1>
@@ -14,43 +11,51 @@
       Innovators by nature, game-changers by design. We turn bold ideas into
       tomorrow's breakthroughs.
     </p>
-    <h2 class="team-association">Current Team</h2>
-    <div class="team-grid">
-      {% for member in team_current %}
-      <div class="team-member">
-        <img
-          class="team-member-image"
-          src="{% if member.img.startswith('http') %}{{ member.img }}{% else %}_static/images/team/{{ member.img }}{% endif %}"
-          alt="{{ member.name }}"
-        />
-        <h2 class="team-member-name">{{ member.name }}</h2>
-        <p class="team-member-role">{{ member.position }}</p>
-        <div class="team-social-links">
-          <a href="#" class="team-social-link" aria-label="phone">
+    
+    {% for section, members in [
+      ('Director', team_director),
+      ('Current Team', team_current),
+      ('Collaborators', team_collaborators),
+    ] %}
+      <h2 class="team-association">{{ section }}</h2>
+      <div class="team-grid">
+        {% for member in members %}
+          <div class="team-member">
             <img
               class="team-member-image"
-              src="_static/images/logos/phone.svg"
-              alt="phone"
+              src="{% if member.img.startswith('http') %}{{ member.img }}{% else %}_static/images/team/{{ member.img }}{% endif %}"
+              alt="{{ member.name }}"
             />
-          </a>
-          <a href="#" class="team-social-link" aria-label="email">
-            <img
-              class="team-member-image"
-              src="_static/images/logos/email.svg"
-              alt="email"
-            />
-          </a>
-          <a href="#" class="team-social-link" aria-label="web">
-            <img
-              class="team-member-image"
-              src="_static/images/logos/web.svg"
-              alt="web"
-            />
-          </a>
-        </div>
+            <a href="{{ pathto('team/' + member.name.lower().replace(' ', '_')) }}" target="_blank">
+              <h2 class="team-member-name">{{ member.name }}</h2>
+            </a>
+            <p class="team-member-role">{{ member.position }}</p>
+            <div class="team-social-links">
+              {% for type, icon in [
+                ('phone', 'phone'),
+                ('email', 'email'),
+                ('website', 'web')
+              ] %}
+                {% if member[type] %}
+                  <a
+                    href="{% if type == 'phone' %}tel:{% elif type == 'email' %}mailto:{% endif %}{{ member[type] }}"
+                    class="team-social-link"
+                    aria-label="{{ type }}"
+                    {% if type == 'website' %}target="_blank"{% endif %}
+                  >
+                    <img
+                      class="team-member-social-image"
+                      src="_static/images/logos/{{ icon }}.svg"
+                      alt="{{ type }}"
+                    />
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
       </div>
-      {% endfor %}
-    </div>
+    {% endfor %}
   </div>
 </div>
 {% endblock docs_main %}
