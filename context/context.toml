@@ -65,7 +65,6 @@ link = ""
 [[team_director]]
 name = "Eleftherios Garyfallidis"
 position = "Director"
-link = "https://grg.luddy.indiana.edu/people/Garyfallidis/"
 img = "Eleftherios.jpg"
 phone = "8128565240"
 email = "elef@indiana.edu"
@@ -74,163 +73,645 @@ website = ""
 [[team_current]]
 name = "Serge Koudoro"
 position = "Software Engineer"
-link = "https://grg.luddy.indiana.edu/people/skoudoro/"
+role = "Software Engineer in Intelligent Systems Engineering"
 img = "Serge.png"
 phone = ""
 email = "skoudoro@iu.edu"
 website = ""
+interests = "Image Processing, Software Optimization, Algorithms, NeuroInformatics"
+education = [ 
+  "BSc in Electrical Engineering and Industrial Data Processing",
+  "MSc in Computer Vision - Image Processing"
+]
 bio = """
-Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+Serge is from Fontainebleau, France. He completed a Master of Science degree in Computer Vision - Image Processing at the University of Burgundy in 2008. During his master he specialized in software optimization and completed an internship with Upek, focusing in detection within biometric systems.
+
+Since 2008, Serge has served as a Software Research Engineer for the Centre for Mathematical Morphology at Mines ParisTech - France. He was responsible for developing software and libraries for researchers in the Centre and assisting them at any stage of the software lifecycle. Moreover, he implemented and facilitated the technology transfer to industrial partners of the lab (i.e. L'Oreal, Michelin) by designing timely, user-friendly solutions.
+
+Today, Serge is Release Manager for DIPY, a large opensource software for computational neuroanatomy. His interests focus on neuroengineering, image processing, and software optimization.
 """
-publications = [
-  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
-  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+centers = [
+  "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
 ]
 
 [[team_current]]
 name = "Javier Guaje"
 position = "Ph.D. Student"
-link = "https://grg.luddy.indiana.edu/people/guaje/"
+role = "Ph.D Student of Intelligent Systems Engineering"
 img = "Javier.png"
 phone = "+13177461076"
 email = "jrguajeg@iu.edu"
 website = ""
+interests = "Neuroimaging, Computer Vision, Image Processing"
+education = []
 bio = """
-Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+Javier Guaje is a Colombian citizen born and raised in Bogota. He holds a Bachelor and a Master degree in Systems and Computational Engineering from the National University of Colombia. During his master he specialized in medical image processing, mainly working with functional MRI (fMRI) acquired in resting state (RS).
+
+He has also worked on image processing with Landsat 7 images, which are one of the many types of spectral images captured by NASA's satellites. As a data analyst, Guaje has worked for Bavaria S.A., one of the subsidiaries of SAB Miller, now AB InBev. His job consisted in performing several types of analysis to measure and/or improve the performance of trade marketing campaigns.
+
+Guaje is currently a doctoral student in Intelligent Systems Engineering at Indiana University. His research is focused on developing fiber tracking algorithms using machine learning and neuroimaging.
 """
-publications = [
-  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
-  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+centers = [
+  "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
 ]
 
 [[team_current]]
 name = "Jong Sung Park"
 position = "Ph.D. Student"
-link = "https://grg.luddy.indiana.edu/people/pjsjongsung/"
+role = ""
 img = "Jong.jpg"
 phone = ""
 email = "jp109@iu.edu"
 website = "https://pjsjongsung.github.io"
-bio = """
-Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
-"""
-publications = [
-  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
-  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+interests = ""
+education = []
+bio = ""
+centers = [
+  "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
 ]
 
 [[team_current]]
 name = "Sreekar Chigurupati"
 position = "Ph.D. Student"
-link = "https://grg.luddy.indiana.edu/people/sreekarchigurupati/"
+role = "Ph.D Student of Intelligent Systems Engineering"
 img = "Sreekar.jpg"
 phone = "+18129559352"
 email = "srchig@iu.edu"
 website = "https://sreekar.ch"
+interests = "Neuroimaging, Artificial Intelligence, Neuroengineering, AGI"
+education = []
 bio = """
-Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
+Sreekar Chigurupati is from Hyderabad, India. He is currently a dual major PhD student at Indiana University in the Intelligent Systems Engineering and Neuroscience departments.
+
+He holds a Bachelor's degree from Birla Institute of Technology and Science, Pilani in Electronics and Communication Engineering. He has worked as a software engineer for Telstra, where he built petabyte scale data streaming systems
 """
-publications = [
-  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
-  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+centers = [
+  "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
 ]
 
 [[team_current]]
 name = "Maharshi"
 position = "Graduate Software Engineer"
-link = "https://grg.luddy.indiana.edu/people/Mk996/"
+role = "Software Engineer in Intelligent Systems Engineering"
 img = "Maharishi.jpeg"
 phone = "8128376007"
 email = "magor@iu.edu"
 website = ""
-bio = """
-Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
-"""
-publications = [
-  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
-  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+interests = ""
+education = []
+bio = ""
+centers = [
+  "Garyfallidis Research Group"
 ]
 
 [[team_current]]
 name = "Atharva Shah"
 position = "Graduate Research Assistant"
-link = "https://grg.luddy.indiana.edu/people/Atharva-Shah-2298/"
+role = ""
 img = "Atharva.png"
 phone = "8128373963"
 email = "athshah@iu.edu"
 website = ""
-bio = """
-Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
-"""
-publications = [
-  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
-  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+interests = ""
+education = []
+bio = ""
+centers = [
+  "Garyfallidis Research Group"
 ]
 
 [[team_current]]
 name = "Mansi Ranka"
 position = "Research Assistant"
-link = "https://grg.luddy.indiana.edu/people/MRanka29/"
+role = ""
 img = "Mansi.png"
 phone = "8128373852"
 email = "mranka@iu.edu"
 website = ""
-bio = """
-Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
-"""
-publications = [
-  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
-  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+interests = ""
+education = []
+bio = ""
+centers = [
+  "Garyfallidis Research Group"
 ]
 
 [[team_current]]
 name = "Aayush Jaiswal"
 position = "M.Sc. Student"
-link = "https://grg.luddy.indiana.edu/people/aayush9400/"
+role = ""
 img = "Aayush.jpeg"
 phone = ""
 email = "aajais@iu.edu"
 website = "https://linkedin.com/in/jaiswal-aayush/"
-bio = """
-Serge Koudoro is a Software Engineer at the Group for Reproducible Research...
-"""
-publications = [
-  "Koudoro, S. et al. (2023). 'Advanced neuroimaging techniques using FURY'...",
-  "Koudoro, S. et al. (2022). 'FURY: An open-source scientific visualization library'..."
+interests = ""
+education = []
+bio = ""
+centers = [
+  "Garyfallidis Research Group"
 ]
 
 [[team_collaborators]]
 name = "David Reagan"
 position = "Sr. Analyst/Programmer"
+role = ""
 link = "https://grg.luddy.indiana.edu/people/dmreagan/"
 img = "David.jpg"
 phone = ""
 email = "dmreagan@iu.edu"
 website = ""
+interests = ""
+education = []
+bio = ""
+centers = []
 
 [[team_collaborators]]
 name = "Bishakh Ghosh"
 position = "PhD Student"
+role = ""
 link = "https://grg.luddy.indiana.edu/people/ghoshbishakh/"
 img = "Bikash.jpg"
 phone = ""
 email = "ghoshbishakh@gmail.com"
 website = "https://ghoshbishakh.github.io/"
+interests = ""
+education = []
+bio = ""
+centers = []
 
-[[team_alumni]]
-name = "Bramsh Qamar Chandio"
-position = "PhD Candidate & Graduate Research"
-link = "https://grg.luddy.indiana.edu/people/BramshQamar/"
-img = ""
-phone = ""
-email = "bqchandi@iu.edu"
-website = ""
+# [[team_alumni]]
+# name = "Bramsh Qamar Chandio"
+# position = "PhD Candidate & Graduate Research"
+# role = ""
+# link = "https://grg.luddy.indiana.edu/people/BramshQamar/"
+# img = ""
+# phone = ""
+# email = "bqchandi@iu.edu"
+# website = ""
+# interests = ""
+# education = []
+# bio = ""
+# centers = []
 
-[[team_alumni]]
-name = "Shreyas Fadnavis"
-position = "Alumnus"
-link = "https://grg.luddy.indiana.edu/people/ShreyasFadnavis/"
-img = ""
-phone = ""
-email = "shfadn@iu.edu"
-website = ""
+# [[team_alumni]]
+# name = "Shreyas Fadnavis"
+# position = "Alumnus"
+# role = ""
+# link = "https://grg.luddy.indiana.edu/people/ShreyasFadnavis/"
+# img = ""
+# phone = ""
+# email = "shfadn@iu.edu"
+# website = ""
+# interests = ""
+# education = []
+# bio = ""
+# centers = []
+
+# Teaching Courses Components
+
+[[teaching_course]]
+name = "Image Processing for Medical Applications"
+code = "ISE - ENGR - E435/535"
+level = "Graduate"
+semester = "Spring 2017-2021"
+prerequisite = "One programming course, linear algebra and calculus are required. Any machine learning or computer vision course would be helpful, but not necessary."
+description = "Learn how to build intelligent algorithms and software for medical imaging that can help medical doctors to treat their patients and researchers to understand how the body works. Students will be familiarized with algorithmic techniques such as tracking, denoising, warping, segmentation, model fitting, optimization and interactive visualization of medical datasets."
+link = ""
+
+[[teaching_course]]
+name = "Intelligent Systems I"
+code = "ISE - ENGR – E221"
+level = "Undergraduate"
+semester = "Fall 2017"
+prerequisite = "Calc I (M211); Calc II (M212); Physics I (P221); Software systems engineering (ENGR – E-111)"
+description = "This course introduces important concepts about intelligent systems. It provides a basis in mathematical tools and algorithms used in AI and machine learning. It introduces optimization techniques used in Intelligent Systems II. It will describe many current examples and how they are implemented in cloud systems. The course is based on Python for data analytics."
+link = ""
+
+[[teaching_course]]
+name = "Intro to ISE Neuro-Engineering"
+code = "ISE-ENGR-E506"
+level = "Graduate"
+semester = "Fall 2018, 2019"
+prerequisite = "None"
+description = "The students will learn key concepts of neuroengineering. For example what is plasticity. Furthermore you will learn how to build cool machines for neuroengineering applications but more importantly understand the biology and anatomy of human intelligence"
+link = ""
+
+# Publications component
+
+[[publication_paper]]
+title = "Dipy, a library for the analysis of diffusion MRI data"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Bagrat Amirbekian, Ariel Rokem, Stefan Van Der Walt, Maxime Descoteaux, Ian Nimmo-Smith, Dipy Contributors"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Tractometer: towards validation of tractography pipelines"
+authors = "Marc-Alexandre Côté, Gabriel Girard, Arnaud Boré, Eleftherios Garyfallidis, Jean-Christophe Houde, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Quickbundles, a method for tractography simplification"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Marta Morgado Correia, Guy B Williams, Ian Nimmo-Smith"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Quantitative comparison of reconstruction methods for intra-voxel fiber recovery from diffusion MRI"
+authors = "Alessandro Daducci, Erick Jorge Canales-Rodrı, Maxime Descoteaux, Eleftherios Garyfallidis, Yaniv Gur, Ying-Chia Lin, Merry Mani, Sylvain Merlet, Michael Paquette, Alonso Ramirez-Manzanares, Marco Reisert, Paulo Reis Rodrigues, Farshid Sepehrband, Emmanuel Caruyer, Jeiran Choupan, Rachid Deriche, Mathews Jacob, Gloria Menegaz, Vesna Prčkovska, Mariano Rivera, Yves Wiaux, Jean-Philippe Thiran"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Extracting biomarkers of autism from MEG resting-state functional connectivity networks"
+authors = "Vassilis Tsiaras, Panagiotis G Simos, Roozbeh Rezaie, Bhavin R Sheth, Eleftherios Garyfallidis, Eduardo M Castillo, Andrew C Papanicolaou"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Reduced brain white matter integrity in trichotillomania: a diffusion tensor imaging study"
+authors = "Samuel R Chamberlain, Adam Hampshire, Lara A Menzies, Eleftherios Garyfallidis, Jon E Grant, Brian L Odlaug, Kevin Craig, Naomi Fineberg, Barbara J Sahakian"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Ph.D Thesis: Towards an accurate brain tractography"
+authors = "Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Dipy–a novel software library for diffusion MR and tractography"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Bagrat Amirbekian, Christopher Nguyen, Fang-Cheng Yeh, Y Halchenko, I Nimmo-Smith"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Robust and efficient linear registration of white-matter fascicles in the space of streamlines"
+authors = "Eleftherios Garyfallidis, Omar Ocegueda, Demian Wassermann, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Dynamic changes in white matter abnormalities correlate with late improvement and deterioration following TBI: a diffusion tensor imaging study"
+authors = "Virginia FJ Newcombe, Marta M Correia, Christian Ledig, Maria G Abate, Joanne G Outtrim, Doris Chatfield, Thomas Geeraerts, Anne E Manktelow, Eleftherios Garyfallidis, John D Pickard, Barbara J Sahakian, Peter JA Hutchinson, Daniel Rueckert, Jonathan P Coles, Guy B Williams, David K Menon"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "The approximation of the dissimilarity projection"
+authors = "Emanuele Olivetti, Thien Bao Nguyen, Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Fast clustering for interactive tractography segmentation"
+authors = "Emanuele Olivetti, Thien Bao Nguyen, Eleftherios Garyfallidis, Nivedita Agarwal, Paolo Avesani"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Cleaning up the mess: tractography outlier removal using hierarchical QuickBundles clustering"
+authors = "Marc-Alexandre Côté, Eleftherios Garyfallidis, Hugo Larochelle, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Fast dimensionality reduction for brain tractography clustering"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Ian Nimmo-Smith"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Tractography-based connectomes are dominated by false-positive connections"
+authors = "Klaus Maier-Hein, Peter Neher, Jean-Christophe Houde, Marc-Alexandre Cote, Eleftherios Garyfallidis, Jidan Zhong, Maxime Chamberland, Fang-Cheng Yeh, Ying Chia Lin, Qing Ji"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Tract-profiling and bundle statistics: a test-retest validation study"
+authors = "Martin Cousineau, Eleftherios Garyfallidis, Marc-Alexandre Côté, Pierre-Marc Jodoin, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Tractome: a visual data mining tool for brain connectivity analysis"
+authors = "Diana Porro-Muñoz, Emanuele Olivetti, Nusrat Sharmin, Thien Bao Nguyen, Eleftherios Garyfallidis, Paolo Avesani"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Comparison between discrete and continuous propagator indices from cartesian q-space dsi sampling"
+authors = "Mauro Zucchelli, Eleftherios Garyfallidis, Michael Paquette, Sylvain Merlet, Gloria Menegaz, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Semi-Automatic Segmentation of Optic Radiations and LGN, and Their Relationship to EEG Alpha Waves"
+authors = "Emmanuelle Renauld, Maxime Descoteaux, Michaël Bernier, Eleftherios Garyfallidis, Kevin Whittingstall"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "A hybrid approach for optimal automatic segmentation of white matter tracts in hardi"
+authors = "Amira Chekir, Maxime Descoteaux, Eleftherios Garyfallidis, Marc-Alexandre Côté, Fatima Oulebsir Boumghar"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "QuickBundlesX: sequential clustering of millions of streamlines in multiple levels of detail at record execution time"
+authors = "Eleftherios Garyfallidis, Marc-Alexandre Côté, François Rheault, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Localizing and characterizing single fiber populations throughout the brain"
+authors = "Chantal MW Tax, Dmitry S Novikov, Eleftherios Garyfallidis, Max A Viergever, Maxime Descoteaux, Alexander Leemans"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Direct native-space fiber bundle alignment for group comparisons"
+authors = "Eleftherios Garyfallidis, Demian Wassermann, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Constrained spherical deconvolution on signal and ODF values"
+authors = "Eleftherios Garyfallidis, Samuel St-Jean, Michael Paquette, Pierrick Coupé, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Identification of corresponding tracks in diffusion MRI tractographies"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Vassilis Tsiaras, George Vogiatzis, Ian Nimmo-Smith"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "On the computation of integrals over fixed-size rectangles of arbitrary dimension"
+authors = "Omar Ocegueda, Oscar Dalmau, Eleftherios Garyfallidis, Maxime Descoteaux, Mariano Rivera"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "False positive bundles in tractography"
+authors = "Maxime Descoteaux, Jasmeen Sidhu, Eleftherios Garyfallidis, Jean-Christophe Houde, Peter Neher, Bram Stieltjes, Klaus H Maier-Hein"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Deconvolution enhanced Generalized Q-Sampling 2 and DSI deconvolution"
+authors = "Eleftherios Garyfallidis, Michael Paquette, Samuel St-Jean, Pierrick Coupé, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Recognition of white matter bundles using local and global streamline-based registration and clustering"
+authors = "Eleftherios Garyfallidis, Marc-Alexandre Côté, Francois Rheault, Jasmeen Sidhu, Janice Hau, Laurent Petit, David Fortin, Stephen Cunanne, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "3D-SSF: A bio-inspired approach for dynamic multi-subject clustering of white matter tracts"
+authors = "A Chekir, Salima Hassas, Maxime Descoteaux, M Côté, Eleftherios Garyfallidis, Fatima Oulebsir-Boumghar"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "To appear in: Computers in Biology and Medicine"
+authors = "A Chekir, S Hassas, M Descoteaux, M Côté, E Garyfallidis, F Oulebsir-Boumghar"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "[Re] Optimization of a free water elimination two-compartment model for diffusion tensor imaging"
+authors = "Rafael Neto Henriques, Ariel Rokem, Eleftherios Garyfallidis, Samuel St-Jean, Eric Thomas Peterson, Marta Correia"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "NeuroView: a customizable browser-base utility"
+authors = "Anibal Sólon Heinsfeld, Alexandre Rosa Franco, Augusto Buchweitz, Felipe Meneguzzi"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "2015 Brainhack Proceedings"
+authors = "R Cameron Craddock, Pierre Bellec, Daniel S Margules, B Nolan Nichols, Jörg P Pfannmöller, AmanPreet Badhwar, David Kennedy, Jean-Baptiste Poline, Roberto Toro, Ben Cipollini, Ariel Rokem, Daniel Clark, Krzysztof J Gorgolewski, Daniel J Clark, Samir Das, Cécile Madjar, Ayan Sengupta, Zia Mohades, Sebastien Dery, Weiran Deng, Eric Earl, Damion V Demeter, Kate Mills, Glad Mihai, Luka Ruzic, Nick Ketz, Andrew Reineberg, Marianne C Reddan, Anne-Lise Goddings, Javier Gonzalez-Castillo, Caroline Froehlich, Gil Dekel, Daniel S Margulies, Ben D Fulcher, Tristan Glatard, Reza Adalat, Natacha Beck, Rémi Bernard, Najmeh Khalili-Mahani, Pierre Rioux, Marc-Étienne Rousseau, Alan C Evans, Yaroslav O Halchenko, Matteo Visconti di Oleggio Castello, Raúl Hernández-Pérez, Edgar A Morales, Laura V Cuaya, Kaori L Ito, Sook-Lei Liew, Hans J Johnson, Erik Kan, Julia Anglin, Michael Borich, Neda Jahanshad, Paul Thompson, Marcel Falkiewicz, Julia M Huntenburg, David O’Connor, Michael P Milham, Ramon Fraga Pereira, Anibal Sólon Heinsfeld, Alexandre Rosa Franco, Augusto Buchweitz, Felipe Meneguzzi, Rickson Mesquita, Luis CT Herrera, Daniela Dentico, Vanessa Sochat, Julio E Villalon-Reina, Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Fast implementations of contextual PDE's for HARDI data processing in DIPY"
+authors = "SPL Meesters, GR Sanguinetti, Eleftherios Garyfallidis, JM Portegies, Remco Duits"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Cleaning output of tractography via fiber to bundle coherence, a new open source implementation"
+authors = "SPL Meesters, GR Sanguinetti, Eleftherios Garyfallidis, JM Portegies, PPW Ossenblok, Remco Duits"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Particle Swarm Optimization in Multi-Tensor Imaging"
+authors = "Micheal Paquette, Eleftherios Garyfallidis, Samuel St-Jean, Pierrick Coupé, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "D21 Manual Segmentation of Fiber Tracts with Bundles of Interest"
+authors = "Paolo Avesani, Eleftherios Garyfallidis, Emanuele Olivetti, Stephan Gerhard"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Robustness of diffusion scalar metrics when estimated with Generalized Q-Sampling Imaging acquisition schemes"
+authors = "MM Correia, GB Williams, F Yeh, I Nimmo-Smith, E Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Multiple-scale Visualization of Large Data based on Hierarchical Clustering"
+authors = "Thien Bao Nguyen, Emanuele Olivetti, Eleftherios Garyfallidis, Nivedita Agarwal, Paolo Avesani"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "brainhack"
+authors = "Julio E Villalon-Reina, Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Cartesian 3D-SHORE with Laplacian Regularization"
+authors = "Gonzalo Sanguinetti, Samuel St-Jean, Eleftherios Garyfallidis, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "An algorithm and quantitative evaluation framework for registration of multi-modal brain MRI"
+authors = "Omar Ocegueda, Eleftherios Garyfallidis, Maxime Descoteaux, Mariano Rivera"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Spherical Deconvolution on single shell and multishell combined with denoising"
+authors = "Samuel St-Jean, Michael Paquette, Eleftherios Garyfallidis, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Cartesian 3D-SHORE with Laplacian Regularization"
+authors = "Michael Paquette, Gonzalo Sanguinetti, Samuel St-Jean, Eleftherios Garyfallidis, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "The challenge of mapping the human connectome based on diffusion tractography"
+authors = "Klaus H. Maier-Hein, Peter F. Neher, Jean-Christophe Houde, Marc-Ale Marc-Alexandre Côté, Eleftherios Garyfallidis, Jidan Zhong, Maxime Chamberland, [...] ,Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "MicroLearn: Framework for machine learning, reconstruction, optimization and microstructure modeling"
+authors = "Shreyas Fadnavis , Marco Reisert , Hamza Farooq , Maryam Afzali , Cheng Hu , Bago Amirbekian , Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Bundle analytics, a computational framework for investigating the shapes and profiles of brain pathways across populations"
+authors = "Bramsh Qamar Chandio, Shannon Leigh Risacher, Franco Pestilli, Daniel Bullock, Fang-Cheng Yeh, Serge Koudoro, Ariel Rokem, Jaroslaw Harezlak & Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "StND: Streamline-based Non-rigid partial-Deformation Tractography Registration"
+authors = "Bramsh Qamar Chandio & Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Brainhack: Developing a culture of open, inclusive, community-driven neuroscience"
+authors = "Rémi Gau, Stephanie Noble, Katja Heuer, Katherine L Bottenhorn, Isil P Bilgin, Yu-Fang Yang, Julia M Huntenburg, Johanna MM Bayer, Richard AI Bethlehem, Shawn A Rhoads, Christoph Vogelbacher, Valentin"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Pandora: 4-D White Matter Bundle Population-Based Atlases Derived from Diffusion MRI Fiber Tractography"
+authors = "Colin B Hansen, Qi Yang, Ilwoo Lyu, Francois Rheault, Cailey Kerley, Bramsh Qamar Chandio, Shreyas Fadnavis, Owen Williams, Andrea T Shafer, Susan M Resnick, David H Zald, Laurie E Cutting, Warren D T"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Patch2Self: Denoising Diffusion MRI with Self-Supervised Learning"
+authors = "Shreyas Fadnavis, Joshua Batson, Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""

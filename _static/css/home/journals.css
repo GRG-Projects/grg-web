@@ -23,14 +23,12 @@
   font-size: 2.25rem;
   font-weight: 600;
   text-align: center;
-  color: white;
   margin-bottom: 2rem;
 }
 
 .journal-description {
   text-align: center;
   color: #6b7280;
-  /* color: white; */
   font-size: 20px;
   width: 75%;
 }
@@ -59,7 +57,7 @@
 
 /* Ensure arrows are visible */
 .splide__arrow {
-  background: rgba(255, 255, 255, 0.7);
+  background: #6b7280;
   z-index: 1;
 }
 
@@ -84,5 +82,5 @@
 }
 
 .splide__pagination__page.is-active {
-  background: white;
+  background: #990000;
 }

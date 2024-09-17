@@ -13,8 +13,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  color: white; /* Text color */
+  justify-content: center; /* Text color */
   text-align: center;
 }
 
@@ -57,7 +56,6 @@
 .hero-title {
   font-size: 3em;
   margin: 12px auto;
-  color: white;
   font-weight: 800;
 }
 
@@ -71,13 +69,11 @@
 .hero-video {
   display: flex;
   justify-content: center;
+  margin-top: -60px;
+  margin-bottom: -35px;
 }
 
 #background-video {
-  max-width: 70%;
-  max-height: 70%;
-  width: auto;
-  height: auto;
   background-size: cover;
 }
 
@@ -85,31 +81,30 @@
 
 .intro-vision {
   background-color: #990000;
-  border-top: #ffffff;
-  border-bottom: #ffffff;
+  border-top: black;
+  border-bottom: black;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
 }
 
 .intro-vision-content {
-  padding: 2rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .intro-vision-content h2 {
   font-size: 2.25rem;
   font-weight: 600;
   margin: 12px auto;
-  color: white;
 }
 
 .intro-vision-content p {
   width: 75%;
   padding: 2rem;
-  color: white;
   font-size: 20px;
   text-align: center;
 }

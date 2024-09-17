@@ -1,0 +1,122 @@
+{% extends "layout.html" %} {% set title = 'Research' %} {% block docs_main %}
+
+<section class="research-section">
+  <div class="research-container">
+    <div class="research-intro">
+      <h1 id="research" class="research-intro-title">Research</h1>
+      <p class="research-intro-description">
+        GRG performs research in the areas of: medical imaging, machine
+        learning, signal processing, scientific visualization and software
+        engineering. More specifically, we concentrate on the development of new
+        methods from these topics applied to MRI analysis for generic
+        applications e.g., understanding the structural connectivity of the
+        brain and specific applications e.g., studying Alzheimer's disease or
+        tracking brain tumors. Finally, the GRG is the headquarters of DIPY.
+        DIPY is a popular international software project for computational
+        neuroanatomy.
+      </p>
+    </div>
+
+    <div class="research-video">
+      <video autoplay muted loop id="research-video">
+        <source
+          src="{{ pathto('_static/video/research.mp4', 1) }}"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="research-container">
+      <div class="research-area">
+        <div
+          class="research-image"
+          style="
+            background-image: url('_static/images/portfolio/three_brains_golden_new.png');
+          "
+        >
+          <div class="research-heading">
+            <h1>Intelligent Neuroimaging</h1>
+          </div>
+        </div>
+        <div class="research-text">
+          <h2>Intelligent Neuroimaging and Brain Mapping</h2>
+          <p>
+            A great percentage of the population struggles from mental diseases
+            and every single person has gown through mentally troubling times in
+            their life. Brain scanners produce datasets that require
+            sophisticated analysis before they can be used by researchers or
+            clinicians. We develop intelligent algorithms and software that
+            performs this analysis and distribute them openly in the world.
+          </p>
+        </div>
+      </div>
+      <div class="research-area">
+        <div
+          class="research-image"
+          style="background-image: url('_static/images/portfolio/jet_odfs.png')"
+        >
+          <div class="research-heading">
+            <h1>Scientific Visualization</h1>
+          </div>
+        </div>
+        <div class="research-text">
+          <h2>Interactive high-level scientific visualization</h2>
+          <p>
+            In GRG, we built game engines for scientific visualization.
+            Scientists need the most advanced tools to visualize their data. We
+            develop highly modular APIs to allow scientists to interact with
+            high dimensional and complex datasets.
+          </p>
+        </div>
+      </div>
+      <div class="research-area">
+        <div
+          class="research-image"
+          style="
+            background-image: url('_static/images/portfolio/machine-learning.jpeg');
+          "
+        >
+          <div class="research-heading">
+            <h1>Machine Learning</h1>
+          </div>
+        </div>
+        <div class="research-text">
+          <h2>Enhance Machine Learning</h2>
+          <p>
+            Machine Learning and A.I. are of great importance to our group. At
+            GRG we have long expertise in sequential unsupervised clustering
+            which started with the development of QuickBundles. However, we
+            develop algorithms both for supervised and reinforcement learning.
+            Our group has also great interest in Artificial General Intelligence
+            who we believe will have an astounding impact in medical
+            applications.
+          </p>
+        </div>
+      </div>
+      <div class="research-area">
+        <div
+          class="research-image"
+          style="
+            background-image: url('_static/images/portfolio/medical_analytic.jpg');
+          "
+        >
+          <div class="research-heading">
+            <h1>Medical Analytics</h1>
+          </div>
+        </div>
+        <div class="research-text">
+          <h2>Simplify complex medical data</h2>
+          <p>
+            Modern medical hardware has many different capabilities and often
+            provide data that are multi-dimensional and inherently complex. At
+            GRG we build tools to simplify these datasets and discover hot
+            points for usage in clinical applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock docs_main %}

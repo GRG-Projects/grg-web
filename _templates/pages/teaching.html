@@ -1,0 +1,46 @@
+{% extends "layout.html" %} {% set title = 'Teaching' %} {% block docs_main %}
+
+<div class="course-section">
+  <div class="course-intro">
+    <h1 id="course" class="course-intro-title">Courses</h1>
+    <p class="course-intro-description">Courses offered</p>
+  </div>
+  <div class="course-list">
+    {% for course in teaching_course %}
+    <div class="course-info">
+      <div class="course-title">{{course.name}}</div>
+    </div>
+    <div class="course-body">
+      <div class="course-details">
+        <div class="detail-item">
+          <span class="detail-label">Course Code:</span>
+          <span>{{course.code}}</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Level:</span>
+          <span>{{course.level}}</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Semester:</span>
+          <span>{{course.semester}}</span>
+        </div>
+      </div>
+      <div class="detail-item" style="margin-top: 20px">
+        <span class="detail-label">Prerequisites:</span>
+        <span>{{course.prerequisite}}</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Course Description:</span>
+        <p>{{course.description}}</p>
+      </div>
+      <div class="detail-item">
+        <!-- <span class="detail-label" style="width: 100%"
+        >Additional Information:</span
+      > -->
+        <button>Download Syllabus</button>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock docs_main %}

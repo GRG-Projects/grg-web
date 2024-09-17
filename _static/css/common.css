@@ -1,12 +1,23 @@
-body {
-  background-color: black;
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a:link,
 a:visited,
 a:active {
-  color: inherit;
-  text-decoration: inherit;
+  color: inherit !important;
+  text-decoration: inherit !important;
 }
 
 /* To utilise full width of screen */
@@ -53,11 +64,16 @@ a:active {
 }
 
 .navbar-item a {
-  text-decoration: none;
-  color: #333;
+  text-decoration: none !important;
+  color: white !important;
 }
 
-.navbar-item.dropdown:hover .dropdown-menu {
+.bd-header .navbar-header-items {
+  display: flex;
+  justify-content: end;
+}
+
+/* .navbar-item.dropdown:hover .dropdown-menu {
   display: block;
 }
 
@@ -79,24 +95,12 @@ a:active {
 
 .dropdown-menu li:last-child {
   margin-bottom: 0;
-}
-
-/* .dropdown-menu a {
-  color: #007bff;
 } */
 
-/* For screens 576px and up (small devices) */
-@media (min-width: 576px) {
-}
-
-/* For screens 768px and up (medium devices) */
-@media (min-width: 768px) {
-}
-
-/* For screens 992px and up (large devices) */
-@media (min-width: 992px) {
-}
-
-/* For screens 1200px and up (extra large devices) */
-@media (min-width: 1600px) {
+.divider {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(135deg, #313132 0%, #202024 50%, #000000 100%);
+  border-radius: 2px;
+  margin: 1rem auto;
 }

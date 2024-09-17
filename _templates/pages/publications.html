@@ -1,0 +1,75 @@
+{% extends "layout.html" %} {% set title = 'Publications' %} {% block docs_main
+%}
+
+<div class="publication-section">
+  <div class="publication-intro">
+    <h1 id="publications" class="publication-intro-title">Publications</h1>
+    <p class="publication-intro-description">
+      Recent research papers and articles
+    </p>
+  </div>
+  <div class="publication-body">
+    <div class="publication-search">
+      <input
+        type="text"
+        id="publication-search-input"
+        placeholder="Title, Authors, Keywords"
+      />
+      <button id="search-button">Search</button>
+      <button id="reset-button">Reset</button>
+    </div>
+    <div class="publication-list" id="publication-list">
+      {% for paper in publication_paper %}
+      <div class="publication-item">
+        <div class="publication-info">
+          <h2 class="publication-title">{{paper.title}}</h2>
+          <p class="publication-description">{{paper.authors}}</p>
+        </div>
+        <div class="publication-links">
+          <div class="link-item">
+            <a
+              href="{{paper.abstract}}"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Abstract</a
+            >
+          </div>
+          <div class="link-item">
+            <a
+              href="{{paper.project}}"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Project</a
+            >
+          </div>
+          <div class="link-item">
+            <a href="{{paper.bibtex}}" target="_blank" rel="noopener noreferrer"
+              >BibTeX</a
+            >
+          </div>
+          <div class="link-item">
+            <a href="{{paper.pdf}}" target="_blank" rel="noopener noreferrer"
+              >PDF</a
+            >
+          </div>
+        </div>
+        <div class="divider"></div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="pagination">
+      <button id="prev-page" disabled>Previous</button>
+      <span id="page-info"
+        >Page <span id="current-page">1</span> of
+        <span id="total-pages">1</span></span
+      >
+      <button id="next-page">Next</button>
+    </div>
+  </div>
+</div>
+
+{% endblock %} {% block extrajs %}
+<script src="{{ pathto('_static/js/search.js', 1) }}"></script>
+<script src="{{ pathto('_static/js/pagination.js', 1) }}"></script>
+<script src="{{ pathto('_static/js/publications.js', 1) }}"></script>
+{% endblock %}

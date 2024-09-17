@@ -1,0 +1,134 @@
+.publication-section {
+  margin-bottom: 30px;
+  padding: 5rem;
+  line-height: 1.6;
+}
+
+.publication-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.publication-intro-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.publication-intro-description {
+  width: 60%;
+  text-align: center;
+  white-space: normal;
+  letter-spacing: -0.025em;
+  font-size: 1.25rem;
+}
+
+.publication-list {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.publication-info {
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.publication-title {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.publication-description {
+  margin-bottom: 20px;
+}
+
+.publication-links {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.link-item {
+  padding-right: 5px;
+  border-right: 1px solid black;
+}
+
+.link-label {
+  font-weight: bold;
+}
+
+.link-item a {
+  color: #990000 !important;
+  text-decoration: none;
+}
+
+.link-item a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for search and pagination */
+.publication-search {
+  width: 60%;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+
+#publication-search-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#search-button,
+#reset-button {
+  padding: 10px 15px;
+  background-color: #990000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#search-button:hover,
+#reset-button:hover {
+  background-color: #5f0101;
+}
+
+#reset-button {
+  background-color: #6b7280;
+}
+
+#reset-button:hover {
+  background-color: #4b5563;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  background-color: #990000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #6b7280;
+  cursor: not-allowed;
+}
+
+#page-info {
+  color: #990000;
+}
