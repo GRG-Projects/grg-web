@@ -1,46 +1,56 @@
 {% extends "layout.html" %} {% set title = 'Teaching' %} {% block docs_main %}
 
-<div class="course-section">
-  <div class="course-intro">
-    <h1 id="course" class="course-intro-title">Courses</h1>
-    <p class="course-intro-description">Courses offered</p>
-  </div>
-  <div class="course-list">
-    {% for course in teaching_course %}
-    <div class="course-info">
-      <div class="course-title">{{course.name}}</div>
+<section class="course-page">
+  <div class="course-hero"></div>
+    <img
+      id="course-image"
+      src="_static/images/banner/teaching.jpg"
+      alt="course-grg-image"
+    />
+  </section>
+  <div class="course-container">
+    <div class="course-intro">
+      <h1 class="team-title">Courses</h1>
+      <p class="team-intro">Courses offered</p>
+      <div class="divider"></div>
     </div>
-    <div class="course-body">
-      <div class="course-details">
-        <div class="detail-item">
-          <span class="detail-label">Course Code:</span>
-          <span>{{course.code}}</span>
+    <div class="course-list">
+      {% for course in teaching_course %}
+      <div class="course-info">
+        <div class="course-title">{{course.name}}</div>
+      </div>
+      <div class="course-body">
+        <div class="course-details">
+          <div class="detail-item">
+            <span class="detail-label">Course Code:</span>
+            <span>{{course.code}}</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Level:</span>
+            <span>{{course.level}}</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Semester:</span>
+            <span>{{course.semester}}</span>
+          </div>
+        </div>
+        <div class="detail-item" style="margin-top: 20px">
+          <span class="detail-label">Prerequisites:</span>
+          <span>{{course.prerequisite}}</span>
         </div>
         <div class="detail-item">
-          <span class="detail-label">Level:</span>
-          <span>{{course.level}}</span>
+          <span class="detail-label">Course Description:</span>
+          <p>{{course.description}}</p>
         </div>
         <div class="detail-item">
-          <span class="detail-label">Semester:</span>
-          <span>{{course.semester}}</span>
+          <!-- <span class="detail-label" style="width: 100%"
+          >Additional Information:</span
+        > -->
+          <button><a href="{{course.link}}" download>Download Syllabus</a></button>
         </div>
       </div>
-      <div class="detail-item" style="margin-top: 20px">
-        <span class="detail-label">Prerequisites:</span>
-        <span>{{course.prerequisite}}</span>
-      </div>
-      <div class="detail-item">
-        <span class="detail-label">Course Description:</span>
-        <p>{{course.description}}</p>
-      </div>
-      <div class="detail-item">
-        <!-- <span class="detail-label" style="width: 100%"
-        >Additional Information:</span
-      > -->
-        <button>Download Syllabus</button>
-      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </div>
 {% endblock docs_main %}
