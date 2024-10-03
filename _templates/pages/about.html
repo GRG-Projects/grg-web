@@ -12,9 +12,8 @@
     <div class="about-header">
       <h1 class="team-title">About</h1>
       <p class="team-intro">About Garyfallidis Research Group</p>
-      <!-- <div class="divider"></div> -->
       <div class="about-selector-cards">
-        <a href="" class="about-selector">
+        <a href="#about-lab" class="about-selector">
           <div>
             <img
               src="_static/images/others/info.svg"
@@ -24,7 +23,7 @@
             <p class="about-section-name">About Lab</p>
           </div>
         </a>
-        <a href="" class="about-selector">
+        <a href="#about-founder" class="about-selector">
           <div>
             <img
               src="_static/images/others/person.svg"
@@ -34,7 +33,7 @@
             <p class="about-section-name">Founder</p>
           </div>
         </a>
-        <a href="" class="about-selector">
+        <a href="{{ pathto('research') }}" class="about-selector">
           <div>
             <img
               src="_static/images/others/brain.svg"
@@ -47,29 +46,155 @@
       </div>
     </div>
     <div id="about-lab">
-      <div class="about-section-header">About the Lab</div>
+      <h2 class="about-section-header">About the Lab</h2>
       <div class="divider"></div>
       <div class="about-section-info">
-        <p>
-          The Garyfallidis Research Group (GRG) was established on September 1,
-          2016, by Dr. Eleftherios Garyfallidis. GRG specializes in cutting-edge
-          research across multiple domains, including medical imaging, machine
-          learning, signal processing, scientific visualization, and software
-          engineering. The group’s primary focus is the development of
-          innovative methods in these areas, particularly for the analysis of
-          MRI data. This research has broad applications, such as mapping the
-          brain's structural connectivity, as well as targeted uses in fields
-          like Alzheimer's disease research and brain tumor tracking. GRG also
-          serves as the headquarters for DIPY, a renowned international software
-          project dedicated to computational neuroanatomy. DIPY is widely
-          recognized for its contributions to the field, offering advanced tools
-          for understanding brain structure and function through imaging
-          technologies.
-        </p>
+        The Garyfallidis Research Group (GRG) was established on September 1,
+        2016, by Dr. Eleftherios Garyfallidis. GRG specializes in cutting-edge
+        research across multiple domains, including medical imaging, machine
+        learning, signal processing, scientific visualization, and software
+        engineering. The group’s primary focus is the development of innovative
+        methods in these areas, particularly for the analysis of MRI data. This
+        research has broad applications, such as mapping the brain's structural
+        connectivity, as well as targeted uses in fields like Alzheimer's
+        disease research and brain tumor tracking.
+        <br />
+        GRG also serves as the headquarters for DIPY, a renowned international
+        software project dedicated to computational neuroanatomy. DIPY is widely
+        recognized for its contributions to the field, offering advanced tools
+        for understanding brain structure and function through imaging
+        technologies.
+      </div>
+    </div>
+    <div id="about-founder">
+      <h2 class="about-section-header">About the Founder</h2>
+      <div class="divider"></div>
+      <div class="about-section-info">
+        <div class="about-section-intro-founder">
+          <img
+            src="_static/images/team/Eleftherios.jpg"
+            alt="Eleftherios"
+            id="about-section-founder-pic"
+          />
+        </div>
+        <div class="about-section-main-founder">
+          <strong>Dr. Eleftherios Garyfallidis</strong> holds the position of
+          Associate Professor of Intelligent Systems Engineering (ISE) at
+          Indiana University (IU) Luddy School of Informatics, Computing, and
+          Engineering. <br /><br />
+          Prof. Garyfallidis works on the interface between machine learning,
+          medical imaging and engineering visualization.
+          <br /><br />
+          Prof. Garyfallidis is a pioneer in the world of scientific open source
+          software as he is a core member of the Neuroimaging in Python
+          development team that revolutionized and democratized the way research
+          is performed in Neuroscience. Other members of the team include
+          Matthew Brett (nibabel), Gael Varoquaux (scikit-learn), Fernando Perez
+          (jupyter), Stefan van der Walt (scikit-image), Satrajit Gosh (nipype)
+          and Ariel Rokem (nitime). Dr. Garyfallidis was the youngest member of
+          the team but he was instrumental to the success of Neuroimaging in
+          Python by leading the Diffusion Imaging in Python (DIPY) project. One
+          of the most challenging and research heavy projects in scientific
+          software in the world. Prof. Garyfallidis is the inventor of multiple
+          ground breaking algorithms including QuickBundles. QuickBundles was
+          the first fast and unsupervised algorithm in neuroimaging for grouping
+          tractographies using streamlines. Prof. Garyfallidis is the inventor
+          of SLR. SLR is the most accurate method for affinely registering
+          bundles or tractograms. Prof. Garyfallidis research has been
+          foundational in understanding the challenges of brain tractography.
+          Due to a method called RecoBundles, in 2015 Garyfallidis enabled the
+          evaluation of tractographies in data with distortions. Until that day,
+          no other method was able to solve this problem. This led to a
+          publication in Nature Communications that evaluated the
+          state-of-the-art in tractography research across many labs in the
+          world.
+          <br /><br />
+          Prof. Garyfallidis is a pioneer in the world of scientific open source
+          software as he is a core member of the Neuroimaging in Python
+          development team that revolutionized and democratized the way research
+          is performed in Neuroscience. Other members of the team include
+          Matthew Brett (nibabel), Gael Varoquaux (scikit-learn), Fernando Perez
+          (jupyter), Stefan van der Walt (scikit-image), Satrajit Gosh (nipype)
+          and Ariel Rokem (nitime). Dr. Garyfallidis was the youngest member of
+          the team but he was instrumental to the success of Neuroimaging in
+          Python by leading the Diffusion Imaging in Python (DIPY) project. One
+          of the most challenging and research heavy projects in scientific
+          software in the world. Prof. Garyfallidis is the inventor of multiple
+          ground breaking algorithms including QuickBundles. QuickBundles was
+          the first fast and unsupervised algorithm in neuroimaging for grouping
+          tractographies using streamlines. Prof. Garyfallidis is the inventor
+          of SLR. SLR is the most accurate method for affinely registering
+          bundles or tractograms. Prof. Garyfallidis research has been
+          foundational in understanding the challenges of brain tractography.
+          Due to a method called RecoBundles, in 2015 Garyfallidis enabled the
+          evaluation of tractographies in data with distortions. Until that day,
+          no other method was able to solve this problem. This led to a
+          publication in Nature Communications that evaluated the
+          state-of-the-art in tractography research across many labs in the
+          world.
+          <br /><br />
+          The pioneering work that Dr. Garyfallidis started and is today
+          championed by his graduate students. See for example his labs work on
+          Patch2Self denoising and Bundle Analytics. Prof. Garyfallidis is
+          organizing yearly workshops (see DIPY workshops) to train faculty and
+          students to use the latest methods in neuroimaging.
+          <br /><br />
+          Prof. Garyfallidis is the creator and lead of FURY. FURY was created
+          to address this necessity of high-performance 3D scientific
+          visualization in an easy-to-use API fully compatible with the Pythonic
+          ecosystem and for heavy duty use (large and dynamic data). FURY uses
+          OpenGL/Vulkan and enhances them using customized shaders. FURY
+          provides access to the latest technologies such as raytracing, signed
+          distance functionality, physically based rendering, and collision
+          detection for direct use in research. More importantly, FURY enables
+          students and researchers to script their own 3D animations in Python
+          and simulate dynamic environments. Students and industrial partners
+          can use FURY to showcase: optimization problems, machine learning
+          algorithms, investigate different representations of the data and even
+          create interactive games with skinning and morphing and physical
+          simulations. FURY is driving scientific innovation. For example, it
+          gave rise to Furious Atoms and Horizon projects.
+          <br /><br />
+          Prof. Garyfallidis is the director of the GRG research group at ISE
+          specializing in the development of new methods and intelligent
+          algorithms for medical imaging and brain mapping. In addition, the GRG
+          creates general purpose machine learning algorithms that solve hard
+          problems for a great range of domains. One of the most exciting
+          projects is Thetan. Thetan is a new machine learning framework that
+          outperforms the current state of the art in machine learning. The
+          Thetan software is aimed to be released in Fall 2023. In addition, the
+          GRG team is working on many areas in ML from improving optimization
+          using topology to creating new neural networks and reinforcement
+          learning methods to solve eminent signal processing problems.
+          <br /><br />
+          Prof. Garyfallidis has won multiple scientific challenges (IEEE) and
+          his research is supported by multiple NIH and NSF grants. His target
+          conferences include NeurIPS, ICML, ICLR, ISMRM, OHBM, IEEEVis and
+          RSNA.
+          <br /><br />
+          Prof. Garyfallidis teaches intro to neuroengineering (ENGR-E 506) and
+          image processing (ENGR-E 435/535, CSCI-B 456) (an advanced signal
+          processing class). Prof. Garyfallidis is a core member of IUNI (IU
+          Network Science Institute) and directs a new project for visualizing
+          and interacting with large dynamic networks.
+          <br /><br />
+          Dr. Garyfallidis has a background in robotics, computer vision and
+          neuroscience. He holds a PhD from the University of Cambridge, UK,
+          advised by Royal Statistician and Prof. Ian Nimmo-Smith. He was also a
+          Postdoctoral researcher with Prof. Maxime Descoteaux, inventor of
+          analytical QBall, at the Sherbrooke Connectivity Imaging Lab (SCIL) of
+          the University of Sherbrooke, CA.
+          <br /><br />
+          Prof. Garyfallidis has 20 years of experience in collaborating and
+          supporting the research and day to day practice of psychiatrists,
+          psychologists, neuroanatomists, neurosurgeons and ophthalmologists
+          (dMRI, EEG, MEG, fMRI, OCT). Finally, Prof. Garyfallidis innovations
+          and software are used by leading engineering companies such as IBM
+          Watson and NVIDIA.
+        </div>
       </div>
     </div>
     <div id="about-research"></div>
-    <div id="about-founder"></div>
   </div>
 </div>
 

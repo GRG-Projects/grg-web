@@ -60,5 +60,33 @@
   color: white !important;
 }
 
+#about-lab {
+  margin-top: 1.5rem;
+}
+
+#about-founder {
+  margin-top: 1.5rem;
+}
+
+#about-research {
+  margin-top: 1.5rem;
+}
+
 .about-section-header {
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.about-section-intro-founder {
+  float: left;
+  max-width: 30%;
+  margin: 2rem;
+}
+
+.about-section-main-founder {
+  padding: 2rem;
+}
+
+#about-section-founder-pic {
+  border-radius: 12px;
 }
