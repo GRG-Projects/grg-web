@@ -78,7 +78,8 @@
 }
 
 .member-detailed h2 {
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 700;
   border-left: 2px solid gray;
   padding: 1rem;
 }

@@ -11,7 +11,7 @@
 }
 
 .about-container {
-  max-width: 75%;
+  max-width: 80%;
   margin: 0 auto;
   padding: 60px 24px;
   display: flex;
@@ -24,6 +24,8 @@
   padding: 2rem;
   gap: 3rem;
   margin-top: 2rem;
+  justify-items: center;
+  align-items: center;
 }
 
 .about-selector {

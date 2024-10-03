@@ -1,10 +1,17 @@
 {% extends "layout.html" %} {% set title = 'Research' %} {% block docs_main %}
 
-<section class="research-section">
+<section class="research-page">
+  <div class="research-hero">
+    <img
+      id="research-image"
+      src="_static/images/banner/research.jpg"
+      alt="research-grg-image"
+    />
+  </div>
   <div class="research-container">
     <div class="research-intro">
-      <h1 id="research" class="research-intro-title">Research</h1>
-      <p class="research-intro-description">
+      <h1 class="team-title">Research</h1>
+      <p class="team-intro">
         GRG performs research in the areas of: medical imaging, machine
         learning, signal processing, scientific visualization and software
         engineering. More specifically, we concentrate on the development of new
@@ -15,9 +22,50 @@
         DIPY is a popular international software project for computational
         neuroanatomy.
       </p>
+      <div class="research-selector-cards">
+        <a href="#research-intelligent-neuroimaging" class="research-selector">
+          <img
+            src="_static/images/others/brain-map.svg"
+            alt="lab-info"
+            class="research-section-icons"
+          />
+          <p class="research-section-name">Intelligent Neuroimaging</p>
+        </a>
+        <a href="#research-scientific-visualization" class="research-selector">
+          <img
+            src="_static/images/others/viz.svg"
+            alt="founder-info"
+            class="research-section-icons"
+          />
+          <p class="research-section-name">Scientific Visualization</p>
+        </a>
+        <a href="#research-machine-learning" class="research-selector">
+          <img
+            src="_static/images/others/ml.svg"
+            alt="research-info"
+            class="research-section-icons"
+          />
+          <p class="research-section-name">
+            Machine <br />
+            Learning
+          </p>
+        </a>
+        <a href="#research-medical-analytics" class="research-selector">
+          <img
+            src="_static/images/others/med.svg"
+            alt="research-info"
+            class="research-section-icons"
+          />
+          <p class="research-section-name">
+            Medical <br />
+            Analytics
+          </p>
+        </a>
+      </div>
+      <div class="divider"></div>
     </div>
 
-    <div class="research-video">
+    <!-- <div class="research-video">
       <video autoplay muted loop id="research-video">
         <source
           src="{{ pathto('_static/video/research.mp4', 1) }}"
@@ -25,22 +73,21 @@
         />
         Your browser does not support the video tag.
       </video>
-    </div>
+    </div> -->
 
-    <div class="research-container">
-      <div class="research-area">
-        <div
-          class="research-image"
-          style="
-            background-image: url('_static/images/portfolio/three_brains_golden_new.png');
-          "
-        >
-          <div class="research-heading">
-            <h1>Intelligent Neuroimaging</h1>
-          </div>
+    <div class="research-zones">
+      <div id="research-intelligent-neuroimaging" class="research-area">
+        <div class="research-image">
+          <img
+            src="_static/images/portfolio/three_brains_golden_new.png"
+            alt=""
+          />
         </div>
         <div class="research-text">
-          <h2>Intelligent Neuroimaging and Brain Mapping</h2>
+          <div class="research-text-header">
+            Intelligent Neuroimaging and Brain Mapping
+          </div>
+          <!-- <div class="divider"></div> -->
           <p>
             A great percentage of the population struggles from mental diseases
             and every single person has gown through mentally troubling times in
@@ -51,17 +98,13 @@
           </p>
         </div>
       </div>
-      <div class="research-area">
-        <div
-          class="research-image"
-          style="background-image: url('_static/images/portfolio/jet_odfs.png')"
-        >
-          <div class="research-heading">
-            <h1>Scientific Visualization</h1>
-          </div>
+      <div id="research-scientific-visualization" class="research-area">
+        <div class="research-image">
+          <img src="_static/images/portfolio/jet_odfs.png" alt="" />
         </div>
         <div class="research-text">
-          <h2>Interactive high-level scientific visualization</h2>
+          <div class="research-text-header">Scientific visualization</div>
+          <!-- <div class="divider"></div> -->
           <p>
             In GRG, we built game engines for scientific visualization.
             Scientists need the most advanced tools to visualize their data. We
@@ -70,19 +113,13 @@
           </p>
         </div>
       </div>
-      <div class="research-area">
-        <div
-          class="research-image"
-          style="
-            background-image: url('_static/images/portfolio/machine-learning.jpeg');
-          "
-        >
-          <div class="research-heading">
-            <h1>Machine Learning</h1>
-          </div>
+      <div id="research-machine-learning" class="research-area">
+        <div class="research-image">
+          <img src="_static/images/portfolio/machine-learning.jpeg" alt="" />
         </div>
         <div class="research-text">
-          <h2>Enhance Machine Learning</h2>
+          <div class="research-text-header">Machine Learning</div>
+          <!-- <div class="divider"></div> -->
           <p>
             Machine Learning and A.I. are of great importance to our group. At
             GRG we have long expertise in sequential unsupervised clustering
@@ -94,19 +131,13 @@
           </p>
         </div>
       </div>
-      <div class="research-area">
-        <div
-          class="research-image"
-          style="
-            background-image: url('_static/images/portfolio/medical_analytic.jpg');
-          "
-        >
-          <div class="research-heading">
-            <h1>Medical Analytics</h1>
-          </div>
+      <div id="research-medical-analytics" class="research-area">
+        <div class="research-image">
+          <img src="_static/images/portfolio/medical_analytic.jpg" alt="" />
         </div>
         <div class="research-text">
-          <h2>Simplify complex medical data</h2>
+          <div class="research-text-header">Medical Analytics</div>
+          <!-- <div class="divider"></div> -->
           <p>
             Modern medical hardware has many different capabilities and often
             provide data that are multi-dimensional and inherently complex. At

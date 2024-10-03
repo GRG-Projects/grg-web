@@ -1,93 +1,103 @@
+.research-page {
+  margin: 0;
+  padding: 0;
+}
+
+#research-image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .research-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 60px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .research-intro {
+  width: 100%;
+}
+
+.research-area {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 4rem;
+  gap: 2rem;
+  padding: 2rem;
 }
 
-.research-intro-title {
-  font-size: 2.5rem;
-  font-weight: 600;
-  text-align: center;
+.research-image {
+  flex: 0 0 400px;
+  height: 400px;
 }
 
-.research-intro-description {
-  width: 60%;
-  text-align: center;
-  white-space: normal;
-  letter-spacing: -0.025em;
-  font-size: 1.25rem;
-}
-
-.research-video {
-  display: flex;
-  justify-content: center;
-}
-
-#research-video {
-  max-width: 75%;
-  max-height: 75%;
-  width: auto;
-  height: auto;
-  background-size: cover;
-  border-radius: 10px;
-  border: 8px solid gray;
+.research-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* .research-container {
-  height: 100vh;
-  perspective: 3px;
-} */
-
-.research-image {
-  position: relative;
-  width: 100%;
-  height: 400px; /* Adjust height as needed */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-top: 4rem;
-}
-
-.research-heading {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
-}
-
-.research-heading h1 {
-  text-align: center;
-  padding: 20px;
-  margin: 0;
-}
-
 .research-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 4rem;
-  gap: 2rem;
+  flex: 1;
 }
 
-.research-text h1 {
-  font-weight: 600;
+.research-text-header {
+  font-size: 2rem;
+  font-weight: 700;
+  border-left: 2px solid gray;
+  padding: 1rem;
 }
 
 .research-text p {
-  max-width: 65%;
-  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-size: 20px;
+  width: 80%;
+}
+
+.research-selector-cards {
+  display: flex;
+  padding: 2rem;
+  gap: 3rem;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.research-selector {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #c23636 0%, #ac0707 40%, #990000 100%);
+}
+
+.research-selector:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.research-section-icons {
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  color: white !important;
+}
+
+.research-section-name {
+  margin-top: 10px;
   text-align: center;
+  white-space: line;
+  color: white !important;
 }
