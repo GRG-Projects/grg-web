@@ -5,14 +5,28 @@
 [[team_director]]
 name = "Eleftherios Garyfallidis"
 position = "Director"
+role = "Professor of Intelligent Systems Engineering, Neuroengineering Track"
 img = "Eleftherios.jpg"
 phone = "8128565240"
 email = "elef@indiana.edu"
 website = ""
-interests = ""
+interests = "Neuroimaging, Machine Learning, Open Source Development, Applied Mathematics, Scientific Visualization"
 education = []
-bio = ""
-centers = []
+bio = """
+Dr. Garyfallidis holds the position of Assistant Professor of Intelligent Systems Engineering (ISE) of Indiana University (IU) School of Informatics, Computing and Engineering. He is also the founder and scientific lead of Diffusion Imaging in Python (DIPY), currently the largest open source project in the development of diffusion MRI methods.
+
+Diffusion MRI is a unique non-invasive MRI technique that is used to study the structural connectivity of the brain.
+
+Dr. Garyfallidis holds a PhD from the University of Cambridge, UK, and worked as a Postdoctoral researcher with Professor Maxime Descoteaux at the Sherbrooke Connectivity Imaging Lab (SCIL) of the University of Sherbrooke, CA.
+
+Dr. Garyfallidis has performed research and development at nearly all levels of diffusion MRI analysis. Recently, he started focusing more on the problems of segmentation and registration of tractography. Some of his most known inventions are QuickBundles and Streamline-based Linear Registration (SLR).
+
+Prof. Garyfallidis is leading this group for Neuroengineering at ISE specializing in the developing of new methods and intelligent algorithms for medical imaging and brain mapping with applications to research, clinic and industry.
+"""
+centers = [
+  "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
+]
 focus = []
 
 # Current Team
@@ -120,7 +134,9 @@ email = "magor@iu.edu"
 website = ""
 interests = ""
 education = []
-bio = ""
+bio = """
+Hi, I am Maharshi Gor. I am a Research Assistant at GRG. I have completed my master's in data science from Indiana University Bloomington. I primarily work on developing new features in DIPY Horizon and FURY.
+"""
 centers = [
   "Garyfallidis Research Group"
 ]
@@ -130,13 +146,16 @@ focus = []
 name = "Atharva Shah"
 position = "Graduate Research Assistant"
 role = "Graduate Research Assistant"
-img = "Atharva.png"
+img = "Atharva.jpg"
 phone = "8128373963"
 email = "athshah@iu.edu"
 website = ""
 interests = ""
 education = []
-bio = ""
+bio = """
+I am a mechanical engineering graduate with a graduate degree in data science. I have worked in neuberg supratech for 2 years mainly in genomics and bioinformatics where I developed test for endometrial receptivity assay meant for IVF.
+I have been a part of GRG since a year and has been working on fiber reconstruction problem with simulations and deep learning.
+"""
 centers = [
   "Garyfallidis Research Group"
 ]

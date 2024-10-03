@@ -1,2 +1,76 @@
-{% extends "layout.html" %} {% set title = 'About' %} {% block docs_main %} {%
-endblock docs_main %}
+{% extends "layout.html" %} {% set title = 'About' %} {% block docs_main %}
+
+<div class="about-page">
+  <div class="about-hero">
+    <img
+      id="about-image"
+      src="_static/images/banner/about.jpg"
+      alt="about-grg-image"
+    />
+  </div>
+  <div class="about-container">
+    <div class="about-header">
+      <h1 class="team-title">About</h1>
+      <p class="team-intro">About Garyfallidis Research Group</p>
+      <!-- <div class="divider"></div> -->
+      <div class="about-selector-cards">
+        <a href="" class="about-selector">
+          <div>
+            <img
+              src="_static/images/others/info.svg"
+              alt="lab-info"
+              class="about-section-icons"
+            />
+            <p class="about-section-name">About Lab</p>
+          </div>
+        </a>
+        <a href="" class="about-selector">
+          <div>
+            <img
+              src="_static/images/others/person.svg"
+              alt="founder-info"
+              class="about-section-icons"
+            />
+            <p class="about-section-name">Founder</p>
+          </div>
+        </a>
+        <a href="" class="about-selector">
+          <div>
+            <img
+              src="_static/images/others/brain.svg"
+              alt="research-info"
+              class="about-section-icons"
+            />
+            <p class="about-section-name">Research</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div id="about-lab">
+      <div class="about-section-header">About the Lab</div>
+      <div class="divider"></div>
+      <div class="about-section-info">
+        <p>
+          The Garyfallidis Research Group (GRG) was established on September 1,
+          2016, by Dr. Eleftherios Garyfallidis. GRG specializes in cutting-edge
+          research across multiple domains, including medical imaging, machine
+          learning, signal processing, scientific visualization, and software
+          engineering. The group’s primary focus is the development of
+          innovative methods in these areas, particularly for the analysis of
+          MRI data. This research has broad applications, such as mapping the
+          brain's structural connectivity, as well as targeted uses in fields
+          like Alzheimer's disease research and brain tumor tracking. GRG also
+          serves as the headquarters for DIPY, a renowned international software
+          project dedicated to computational neuroanatomy. DIPY is widely
+          recognized for its contributions to the field, offering advanced tools
+          for understanding brain structure and function through imaging
+          technologies.
+        </p>
+      </div>
+    </div>
+    <div id="about-research"></div>
+    <div id="about-founder"></div>
+  </div>
+</div>
+
+{% endblock docs_main %}

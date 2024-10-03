@@ -68,7 +68,19 @@
 }
 
 .member-detailed h2 {
+  margin: 0;
+}
+
+.member-bio {
+  white-space: pre-line;
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+.member-detailed h2 {
   font-weight: 500;
+  border-left: 2px solid gray;
+  padding: 1rem;
 }
 
 .member-detailed-title {

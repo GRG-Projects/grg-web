@@ -45,34 +45,40 @@
       {% if member.bio %}
       <div class="member-bio">
         <h2>Biography</h2>
-        {{ member.bio }}
+        <p>{{ member.bio }}</p>
       </div>
       {% endif %} {% if member.education %}
       <div class="member-education">
         <h2>Education</h2>
-        <ul>
-          {% for edu in member.education %}
-          <li>{{ edu }}</li>
-          {% endfor %}
-        </ul>
+        <p>
+          <ul>
+            {% for edu in member.education %}
+            <li>{{ edu }}</li>
+            {% endfor %}
+          </ul>
+        </p>
       </div>
       {% endif %} {% if member.focus %}
       <div class="member-education">
         <h2>Current Focus</h2>
-        <ul>
-          {% for foc in member.focus %}
-          <li>{{ foc }}</li>
-          {% endfor %}
-        </ul>
+        <p>
+          <ul>
+            {% for foc in member.focus %}
+            <li>{{ foc }}</li>
+            {% endfor %}
+          </ul>
+        </p>
       </div>
       {% endif %} {% if member.centers %}
       <div class="member-centers">
         <h2>Centers</h2>
-        <ul>
-          {% for center in member.centers %}
-          <li>{{ center }}</li>
-          {% endfor %}
-        </ul>
+        <p>
+          <ul>
+            {% for center in member.centers %}
+            <li>{{ center }}</li>
+            {% endfor %}
+          </ul>
+        </p>
       </div>
     </div>
 

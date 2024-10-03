@@ -3,7 +3,7 @@
   padding: 0;
 }
 #team-image {
-  border-bottom: 4px solid white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .team-container {
   max-width: 75%;
@@ -36,6 +36,8 @@
   margin-bottom: 4rem;
   font-weight: 700;
   font-family: sans-serif;
+  padding: 0.5rem;
+  border-bottom: 1px solid gray;
 }
 
 .team-grid-A {
@@ -65,10 +67,10 @@
   background: linear-gradient(135deg, #c23636 0%, #ac0707 40%, #990000 100%);
 }
 
-.team-member:hover {
+/* .team-member:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .team-member-pic {
   display: flex;

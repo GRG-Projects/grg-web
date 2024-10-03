@@ -75,6 +75,7 @@ html_css_files = [
     "css/research/research.css",
     "css/teaching/teaching.css",
     "css/publications/papers.css",
+    "css/about/about.css",
 ]
 
 # Load multiple TOML files
@@ -129,4 +130,3 @@ OUTPUT_DIR = "_templates/team"
 for filename in glob.glob(os.path.join(OUTPUT_DIR, "*.html")):
     member_name = os.path.splitext(os.path.basename(filename))[0]
     html_additional_pages[f"team/{member_name}"] = f"team/{os.path.basename(filename)}"
-
