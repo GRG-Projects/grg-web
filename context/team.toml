@@ -1,0 +1,284 @@
+# Team Components
+
+# Director Team
+
+[[team_director]]
+name = "Eleftherios Garyfallidis"
+position = "Director"
+img = "Eleftherios.jpg"
+phone = "8128565240"
+email = "elef@indiana.edu"
+website = ""
+interests = ""
+education = []
+bio = ""
+centers = []
+focus = []
+
+# Current Team
+
+[[team_current]]
+name = "Serge Koudoro"
+position = "Software Engineer"
+role = "Software Engineer in Intelligent Systems Engineering"
+img = "Serge.png"
+phone = ""
+email = "skoudoro@iu.edu"
+website = ""
+interests = "Image Processing, Software Optimization, Algorithms, NeuroInformatics"
+education = [ 
+  "BSc in Electrical Engineering and Industrial Data Processing",
+  "MSc in Computer Vision - Image Processing"
+]
+bio = """
+Serge is from Fontainebleau, France. He completed a Master of Science degree in Computer Vision - Image Processing at the University of Burgundy in 2008. During his master he specialized in software optimization and completed an internship with Upek, focusing in detection within biometric systems.
+
+Since 2008, Serge has served as a Software Research Engineer for the Centre for Mathematical Morphology at Mines ParisTech - France. He was responsible for developing software and libraries for researchers in the Centre and assisting them at any stage of the software lifecycle. Moreover, he implemented and facilitated the technology transfer to industrial partners of the lab (i.e. L'Oreal, Michelin) by designing timely, user-friendly solutions.
+
+Today, Serge is Release Manager for DIPY, a large opensource software for computational neuroanatomy. His interests focus on neuroengineering, image processing, and software optimization.
+"""
+centers = [
+  "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Javier Guaje"
+position = "Ph.D. Student"
+role = "Ph.D Student of Intelligent Systems Engineering"
+img = "Javier.png"
+phone = "+13177461076"
+email = "jrguajeg@iu.edu"
+website = ""
+interests = "Neuroimaging, Computer Vision, Image Processing"
+education = []
+bio = """
+Javier Guaje is a Colombian citizen born and raised in Bogota. He holds a Bachelor and a Master degree in Systems and Computational Engineering from the National University of Colombia. During his master he specialized in medical image processing, mainly working with functional MRI (fMRI) acquired in resting state (RS).
+
+He has also worked on image processing with Landsat 7 images, which are one of the many types of spectral images captured by NASA's satellites. As a data analyst, Guaje has worked for Bavaria S.A., one of the subsidiaries of SAB Miller, now AB InBev. His job consisted in performing several types of analysis to measure and/or improve the performance of trade marketing campaigns.
+
+Guaje is currently a doctoral student in Intelligent Systems Engineering at Indiana University. His research is focused on developing fiber tracking algorithms using machine learning and neuroimaging.
+"""
+centers = [
+  "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Jong Sung Park"
+position = "Ph.D. Student"
+role = "Ph.D. Student"
+img = "Jong.jpg"
+phone = ""
+email = "jp109@iu.edu"
+website = "https://pjsjongsung.github.io"
+interests = ""
+education = []
+bio = """
+Jong Sung Park was born in Gwangju, South Korea. After acquiring a Bachelor in Life Science in Sogang University, South Korea, he has graduated with a Master's degree in Computer Science at Indiana University, Bloomington.
+
+With an interest in Medical images, as a doctoral candidate in Intelligent Systems Engineering and Neuroscience at Indiana University, he works on various pre-processing steps on neuroimages.
+
+As one of the contributors of the open source package DIPY, he is also focusing on implementing and porting methods to faciliate easier and more accurate processing of diffusion images.
+"""
+centers = [
+  "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Sreekar Chigurupati"
+position = "Ph.D. Student"
+role = "Ph.D Student of Intelligent Systems Engineering"
+img = "Sreekar.jpg"
+phone = "+18129559352"
+email = "srchig@iu.edu"
+website = "https://sreekar.ch"
+interests = "Neuroimaging, Artificial Intelligence, Neuroengineering, AGI"
+education = []
+bio = """
+Sreekar Chigurupati is from Hyderabad, India. He is currently a dual major PhD student at Indiana University in the Intelligent Systems Engineering and Neuroscience departments.
+
+He holds a Bachelor's degree from Birla Institute of Technology and Science, Pilani in Electronics and Communication Engineering. He has worked as a software engineer for Telstra, where he built petabyte scale data streaming systems
+"""
+centers = [
+  "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Maharshi"
+position = "Graduate Software Engineer"
+role = "Software Engineer in Intelligent Systems Engineering"
+img = "Maharishi.jpeg"
+phone = "8128376007"
+email = "magor@iu.edu"
+website = ""
+interests = ""
+education = []
+bio = ""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Atharva Shah"
+position = "Graduate Research Assistant"
+role = "Graduate Research Assistant"
+img = "Atharva.png"
+phone = "8128373963"
+email = "athshah@iu.edu"
+website = ""
+interests = ""
+education = []
+bio = ""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Mansi Ranka"
+position = "Research Assistant"
+role = "Research Assistant"
+img = "Mansi.png"
+phone = "8128373852"
+email = "mranka@iu.edu"
+website = ""
+interests = ""
+education = []
+bio = """
+I recently completed my Master’s in Data Science from Indiana University Bloomington, where I gained a deep understanding of topics like machine learning, computer vision, and deep learning systems. Prior to my master’s, I worked as a software developer at NVIDIA and OYO Rooms, where I developed solutions from scratch, led projects, and enhanced user experiences. I am developing a Functional Data Analysis (FDA) model in R and Python for DIPY, identifying regional white matter differences between healthy and unhealthy brains using Z-tests. This work leverages advanced statistical techniques to gain insights into brain health and support neurological research.
+"""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Aayush Jaiswal"
+position = "M.Sc. Student"
+role = "M.Sc. Student"
+img = "Aayush.jpeg"
+phone = ""
+email = "aajais@iu.edu"
+website = "https://linkedin.com/in/jaiswal-aayush/"
+interests = ""
+education = []
+bio = ""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Mohamed Abouagour"
+position = "Ph.D. Student"
+role = "Ph.D. Student"
+img = "Mohamed.jpg"
+phone = "+19309042882"
+email = "moabouag@iu.edu"
+website = ""
+interests = "Computer Graphics, Deep Learning, Tractography"
+education = []
+bio = """
+Mohamed Nagy Abouagour, from the land of the pyramids, Egypt, graduated with a Bachelor of Engineering in Computer Engineering and Automation from Tanta University in 2023. He participated in Google Summer of Code 2022 under the Python Software Foundation and later served as a mentor for the foundation in 2024. Mohamed has experience in computer graphics, deep learning, and computer vision. He led a team to win first place in a Smart Cities Hackathon using an AI project in Egypt, surpassing 35 teams, and was featured on national television. Currently, Mohamed is a PhD student in Intelligent Systems Engineering at Indiana University, where his work focuses on tractography, decision-making systems, computer graphics, and visualization.
+"""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Sai Prajwal Reddy"
+position = "Ph.D. Student"
+role = "Ph.D. Student"
+img = "Prajwal.jpeg"
+phone = ""
+email = "reddysai@iu.edu"
+website = ""
+interests = "Neuroimaging, Artificial Intelligence, Neuroengineering"
+education = []
+bio = """
+Sai Prajwal Reddy is from Bangalore, India. He has a Bachelors Degree in Mechanical Engineering. He graduated with a Master's degree in Data Science at Indiana University, Bloomington.
+He is currently working on various post-processing techniques on neuroimages as a doctoral candidate in Intelligent Systems Enginnering - Neuro Engineering track at Indiana University, Bloomington.
+"""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Aziza Saber"
+position = "Ph.D. Student"
+role = "Ph.D. Student"
+img = "Aziza.jpg"
+phone = ""
+email = "azsaber@iu.edu"
+website = ""
+interests = "Machine Learning, Deep Learning, Computer Vision, Image Processing, Neuroimaging, and Cognitive and Neuro Science"
+education = []
+bio = """
+I am Aziza from Iran. I was privileged to join the GRG lab as a PhD student in Intelligent Systems Engineering, Neuroengineering track at Indiana University Bloomington. 
+
+I completed my Bachelor of Science in Computer Science at Sharif University of Technology, Iran, and my Master of Science in Computer Engineering at Bilkent University, Turkey. 
+I have both experience and enthusiasm in Deep Learning and Machine Learning, especially problems that can be solved using Convolutional Neural Networks (CNN). During my master’s degree, I dedicated my research time to Medical Image analysis using Deep Convolutional Networks and now I am starting to work in the area of Neuroengineering. 
+
+My interests include Machine Learning, Deep Learning, Computer Vision, Image Processing, Neuroimaging, and Cognitive and Neuro Science. All these areas can be brought together in the highly interdisciplinary field of Neuroengineering and hence field of my future research direction.
+"""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
+# Alumni Team
+
+[[team_alumni]]
+name = "Bramsh Qamar Chandio"
+position = "Alumnus"
+role = "Post Doctoral Scholar at USC"
+link = "https://grg.luddy.indiana.edu/people/BramshQamar/"
+img = "Bramsh.jpeg"
+phone = ""
+email = "bqchandi@iu.edu"
+website = ""
+interests = "Neuro-imaging, Clustering, Machine learning, Image processing, and Statistical analysis."
+education = [
+  "PhD in Intelligent Systems Engineering. Indiana University Bloomington, United States of America. (2017-2022)",
+  "Bachelor of Science in Computer Science. National University of Computer and Emerging Sciences, Islamabad, Pakistan. (2013-2017). Under Prime Minister’s National ICT Scholarship"
+]
+bio = """
+Ph.D. from Indiana University Bloomington in the Intelligent Systems Engineering Department. Her research focuses on developing computational methods to analyze brain connectivity from diffusion MRI data.
+
+She has worked on creating a robust framework to automate the segmentation of white matter tracts from diffusion MRI data (whole-brain tractograms), unsupervised filtering of outlier streamlines (denoising) in white matter tracts, and perform statistical analysis and shape analysis of extracted white matter tracts to find group differences in white matter tracts across populations. Nonlinear registration algorithm for white matter tracts. All these methods, along with their tutorials, are publicly available through the open-source project DIPY: https://dipy.org/
+"""
+centers = []
+focus = []
+
+[[team_alumni]]
+name = "Shreyas Fadnavis"
+position = "Alumnus"
+role = "Developing models which work at the intersection of Applied Mathematics and Machine Learning."
+link = "https://grg.luddy.indiana.edu/people/ShreyasFadnavis/"
+img = "Shreyas.jpg"
+phone = ""
+email = "shfadn@iu.edu"
+website = ""
+interests = ""
+education = []
+bio = """
+Shreyas Fadnavis is currently a PhD student at Indiana University in the Intelligent Systems Engineering Department who focuses on Optimization, Machine Learning and Applied Mathematics for Neuroimaging Models.
+In the past, Shreyas has completed his Bachelor’s from Pune Institute of Computer Technology in Computer Engineering where his main focus was Image Processing, Modeling for Statistical Learning, Stochastic Processes and Simulation Studies.
+"""
+centers = []
+focus = [
+  "Microstructure Imaging",
+  "Theory of Learning",
+  "Supervised Bayesian Learning for Neuroanatomy",
+  "Numerical Methods and Mathematical Optimization"
+]

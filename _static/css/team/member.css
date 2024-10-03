@@ -1,6 +1,5 @@
 .member-page {
   margin: 0;
-  color: white;
   font-family: Arial, sans-serif;
 }
 
@@ -11,9 +10,11 @@
 
 .member-intro-section {
   display: flex;
-  background: linear-gradient(135deg, #313132 0%, #202024 50%, #000000 100%);
-  padding: 5rem;
-  border-bottom: 5px solid white;
+  /* background: linear-gradient(135deg, #c23636 0%, #ac0707 40%, #990000 100%); */
+  background: #c73232;
+  padding: 5rem 8rem 5rem 8rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 
 .member-image {
@@ -36,6 +37,7 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
+  color: white;
 }
 
 .member-name {
@@ -61,7 +63,7 @@
 .member-detailed {
   display: flex;
   flex-direction: column;
-  padding: 5rem;
+  padding: 5rem 8rem 5rem 8rem;
   /* background-color: #3a3b3f; */
 }
 

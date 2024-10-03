@@ -6,6 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import glob
 import os
 import sys
 
@@ -76,15 +77,19 @@ html_css_files = [
     "css/publications/papers.css",
 ]
 
-with open("context/context.toml", "rb") as f:
-    config = tomllib.load(f)
+# Load multiple TOML files
+toml_files = ["context/context.toml", "context/publications.toml", "context/team.toml"]
+config = {}
+
+for toml_file in toml_files:
+    with open(toml_file, "rb") as f:
+        config.update(tomllib.load(f))
 
 html_context = {
     "journal_slides": config["journal_slides"],
     "team_current": config["team_current"],
     "team_director": config["team_director"],
-    "team_collaborators": config["team_collaborators"],
-    # "team_alumni": config["team_alumni"],
+    "team_alumni": config["team_alumni"],
     "teaching_course": config["teaching_course"],
     "publication_paper": config["publication_paper"],
     "default_mode": "light",
@@ -96,7 +101,6 @@ html_theme_options = {
     # "secondary_sidebar_items": ["page-toc"],
     # "show_toc_level": 1,
     # "navbar_end": ["components/navbar-links.html"],
-    # # To remove search icon
     "navbar_persistent": "",
     "logo": {
         "text": "Garyfallidis Research Group",
@@ -120,4 +124,9 @@ html_additional_pages = {
     "career": "pages/career.html",
 }
 
-# No need for a setup function since we're not adding separate custom.css and custom.js files
+OUTPUT_DIR = "_templates/team"
+
+for filename in glob.glob(os.path.join(OUTPUT_DIR, "*.html")):
+    member_name = os.path.splitext(os.path.basename(filename))[0]
+    html_additional_pages[f"team/{member_name}"] = f"team/{os.path.basename(filename)}"
+

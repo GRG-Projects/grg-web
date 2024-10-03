@@ -31,9 +31,11 @@
 }
 
 .team-association {
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 4rem;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: sans-serif;
 }
 
 .team-grid-A {

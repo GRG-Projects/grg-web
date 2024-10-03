@@ -27,9 +27,7 @@
             />
           </div>
             <div class="team-member-info">
-            <a href="{{ pathto('team/' + member.name.lower().replace(' ', '_')) }}" target="_blank">
               <h2 class="team-member-name">{{ member.name }}</h2>
-            </a>
             <p class="team-member-role">{{ member.position }}</p>
             <div class="team-social-links">
               {% for type, icon in [
@@ -60,7 +58,7 @@
     {% endfor %}
     {% for section, members in [
       ('Current Team', team_current),
-      ('Collaborators', team_collaborators),
+      ('Alumni', team_alumni),
     ] %}
       <h2 class="team-association">{{ section }}</h2>
       <div class="team-grid-B">
@@ -74,9 +72,7 @@
             />
           </div>
             <div class="team-member-info">
-            <a href="{{ pathto('team/' + member.name.lower().replace(' ', '_')) }}" target="_blank">
               <h2 class="team-member-name">{{ member.name }}</h2>
-            </a>
             <p class="team-member-role">{{ member.position }}</p>
             <div class="team-social-links">
               {% for type, icon in [

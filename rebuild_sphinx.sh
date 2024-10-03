@@ -5,6 +5,6 @@
 # cd /path/to/your/sphinx/project
 
 # Run make clean and make html
-make clean && make html
+make clean && make html && python scripts/generate_team.py
 
 echo "Sphinx documentation rebuilt successfully!"

@@ -1,0 +1,417 @@
+# Publications component
+
+[[publication_paper]]
+title = "Dipy, a library for the analysis of diffusion MRI data"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Bagrat Amirbekian, Ariel Rokem, Stefan Van Der Walt, Maxime Descoteaux, Ian Nimmo-Smith, Dipy Contributors"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Tractometer: towards validation of tractography pipelines"
+authors = "Marc-Alexandre Côté, Gabriel Girard, Arnaud Boré, Eleftherios Garyfallidis, Jean-Christophe Houde, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Quickbundles, a method for tractography simplification"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Marta Morgado Correia, Guy B Williams, Ian Nimmo-Smith"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Quantitative comparison of reconstruction methods for intra-voxel fiber recovery from diffusion MRI"
+authors = "Alessandro Daducci, Erick Jorge Canales-Rodrı, Maxime Descoteaux, Eleftherios Garyfallidis, Yaniv Gur, Ying-Chia Lin, Merry Mani, Sylvain Merlet, Michael Paquette, Alonso Ramirez-Manzanares, Marco Reisert, Paulo Reis Rodrigues, Farshid Sepehrband, Emmanuel Caruyer, Jeiran Choupan, Rachid Deriche, Mathews Jacob, Gloria Menegaz, Vesna Prčkovska, Mariano Rivera, Yves Wiaux, Jean-Philippe Thiran"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Extracting biomarkers of autism from MEG resting-state functional connectivity networks"
+authors = "Vassilis Tsiaras, Panagiotis G Simos, Roozbeh Rezaie, Bhavin R Sheth, Eleftherios Garyfallidis, Eduardo M Castillo, Andrew C Papanicolaou"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Reduced brain white matter integrity in trichotillomania: a diffusion tensor imaging study"
+authors = "Samuel R Chamberlain, Adam Hampshire, Lara A Menzies, Eleftherios Garyfallidis, Jon E Grant, Brian L Odlaug, Kevin Craig, Naomi Fineberg, Barbara J Sahakian"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Ph.D Thesis: Towards an accurate brain tractography"
+authors = "Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Dipy–a novel software library for diffusion MR and tractography"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Bagrat Amirbekian, Christopher Nguyen, Fang-Cheng Yeh, Y Halchenko, I Nimmo-Smith"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Robust and efficient linear registration of white-matter fascicles in the space of streamlines"
+authors = "Eleftherios Garyfallidis, Omar Ocegueda, Demian Wassermann, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Dynamic changes in white matter abnormalities correlate with late improvement and deterioration following TBI: a diffusion tensor imaging study"
+authors = "Virginia FJ Newcombe, Marta M Correia, Christian Ledig, Maria G Abate, Joanne G Outtrim, Doris Chatfield, Thomas Geeraerts, Anne E Manktelow, Eleftherios Garyfallidis, John D Pickard, Barbara J Sahakian, Peter JA Hutchinson, Daniel Rueckert, Jonathan P Coles, Guy B Williams, David K Menon"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "The approximation of the dissimilarity projection"
+authors = "Emanuele Olivetti, Thien Bao Nguyen, Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Fast clustering for interactive tractography segmentation"
+authors = "Emanuele Olivetti, Thien Bao Nguyen, Eleftherios Garyfallidis, Nivedita Agarwal, Paolo Avesani"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Cleaning up the mess: tractography outlier removal using hierarchical QuickBundles clustering"
+authors = "Marc-Alexandre Côté, Eleftherios Garyfallidis, Hugo Larochelle, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Fast dimensionality reduction for brain tractography clustering"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Ian Nimmo-Smith"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Tractography-based connectomes are dominated by false-positive connections"
+authors = "Klaus Maier-Hein, Peter Neher, Jean-Christophe Houde, Marc-Alexandre Cote, Eleftherios Garyfallidis, Jidan Zhong, Maxime Chamberland, Fang-Cheng Yeh, Ying Chia Lin, Qing Ji"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Tract-profiling and bundle statistics: a test-retest validation study"
+authors = "Martin Cousineau, Eleftherios Garyfallidis, Marc-Alexandre Côté, Pierre-Marc Jodoin, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Tractome: a visual data mining tool for brain connectivity analysis"
+authors = "Diana Porro-Muñoz, Emanuele Olivetti, Nusrat Sharmin, Thien Bao Nguyen, Eleftherios Garyfallidis, Paolo Avesani"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Comparison between discrete and continuous propagator indices from cartesian q-space dsi sampling"
+authors = "Mauro Zucchelli, Eleftherios Garyfallidis, Michael Paquette, Sylvain Merlet, Gloria Menegaz, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Semi-Automatic Segmentation of Optic Radiations and LGN, and Their Relationship to EEG Alpha Waves"
+authors = "Emmanuelle Renauld, Maxime Descoteaux, Michaël Bernier, Eleftherios Garyfallidis, Kevin Whittingstall"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "A hybrid approach for optimal automatic segmentation of white matter tracts in hardi"
+authors = "Amira Chekir, Maxime Descoteaux, Eleftherios Garyfallidis, Marc-Alexandre Côté, Fatima Oulebsir Boumghar"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "QuickBundlesX: sequential clustering of millions of streamlines in multiple levels of detail at record execution time"
+authors = "Eleftherios Garyfallidis, Marc-Alexandre Côté, François Rheault, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Localizing and characterizing single fiber populations throughout the brain"
+authors = "Chantal MW Tax, Dmitry S Novikov, Eleftherios Garyfallidis, Max A Viergever, Maxime Descoteaux, Alexander Leemans"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Direct native-space fiber bundle alignment for group comparisons"
+authors = "Eleftherios Garyfallidis, Demian Wassermann, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Constrained spherical deconvolution on signal and ODF values"
+authors = "Eleftherios Garyfallidis, Samuel St-Jean, Michael Paquette, Pierrick Coupé, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Identification of corresponding tracks in diffusion MRI tractographies"
+authors = "Eleftherios Garyfallidis, Matthew Brett, Vassilis Tsiaras, George Vogiatzis, Ian Nimmo-Smith"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "On the computation of integrals over fixed-size rectangles of arbitrary dimension"
+authors = "Omar Ocegueda, Oscar Dalmau, Eleftherios Garyfallidis, Maxime Descoteaux, Mariano Rivera"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "False positive bundles in tractography"
+authors = "Maxime Descoteaux, Jasmeen Sidhu, Eleftherios Garyfallidis, Jean-Christophe Houde, Peter Neher, Bram Stieltjes, Klaus H Maier-Hein"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Deconvolution enhanced Generalized Q-Sampling 2 and DSI deconvolution"
+authors = "Eleftherios Garyfallidis, Michael Paquette, Samuel St-Jean, Pierrick Coupé, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Recognition of white matter bundles using local and global streamline-based registration and clustering"
+authors = "Eleftherios Garyfallidis, Marc-Alexandre Côté, Francois Rheault, Jasmeen Sidhu, Janice Hau, Laurent Petit, David Fortin, Stephen Cunanne, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "3D-SSF: A bio-inspired approach for dynamic multi-subject clustering of white matter tracts"
+authors = "A Chekir, Salima Hassas, Maxime Descoteaux, M Côté, Eleftherios Garyfallidis, Fatima Oulebsir-Boumghar"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "To appear in: Computers in Biology and Medicine"
+authors = "A Chekir, S Hassas, M Descoteaux, M Côté, E Garyfallidis, F Oulebsir-Boumghar"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "[Re] Optimization of a free water elimination two-compartment model for diffusion tensor imaging"
+authors = "Rafael Neto Henriques, Ariel Rokem, Eleftherios Garyfallidis, Samuel St-Jean, Eric Thomas Peterson, Marta Correia"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "NeuroView: a customizable browser-base utility"
+authors = "Anibal Sólon Heinsfeld, Alexandre Rosa Franco, Augusto Buchweitz, Felipe Meneguzzi"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "2015 Brainhack Proceedings"
+authors = "R Cameron Craddock, Pierre Bellec, Daniel S Margules, B Nolan Nichols, Jörg P Pfannmöller, AmanPreet Badhwar, David Kennedy, Jean-Baptiste Poline, Roberto Toro, Ben Cipollini, Ariel Rokem, Daniel Clark, Krzysztof J Gorgolewski, Daniel J Clark, Samir Das, Cécile Madjar, Ayan Sengupta, Zia Mohades, Sebastien Dery, Weiran Deng, Eric Earl, Damion V Demeter, Kate Mills, Glad Mihai, Luka Ruzic, Nick Ketz, Andrew Reineberg, Marianne C Reddan, Anne-Lise Goddings, Javier Gonzalez-Castillo, Caroline Froehlich, Gil Dekel, Daniel S Margulies, Ben D Fulcher, Tristan Glatard, Reza Adalat, Natacha Beck, Rémi Bernard, Najmeh Khalili-Mahani, Pierre Rioux, Marc-Étienne Rousseau, Alan C Evans, Yaroslav O Halchenko, Matteo Visconti di Oleggio Castello, Raúl Hernández-Pérez, Edgar A Morales, Laura V Cuaya, Kaori L Ito, Sook-Lei Liew, Hans J Johnson, Erik Kan, Julia Anglin, Michael Borich, Neda Jahanshad, Paul Thompson, Marcel Falkiewicz, Julia M Huntenburg, David O’Connor, Michael P Milham, Ramon Fraga Pereira, Anibal Sólon Heinsfeld, Alexandre Rosa Franco, Augusto Buchweitz, Felipe Meneguzzi, Rickson Mesquita, Luis CT Herrera, Daniela Dentico, Vanessa Sochat, Julio E Villalon-Reina, Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Fast implementations of contextual PDE's for HARDI data processing in DIPY"
+authors = "SPL Meesters, GR Sanguinetti, Eleftherios Garyfallidis, JM Portegies, Remco Duits"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Cleaning output of tractography via fiber to bundle coherence, a new open source implementation"
+authors = "SPL Meesters, GR Sanguinetti, Eleftherios Garyfallidis, JM Portegies, PPW Ossenblok, Remco Duits"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Particle Swarm Optimization in Multi-Tensor Imaging"
+authors = "Micheal Paquette, Eleftherios Garyfallidis, Samuel St-Jean, Pierrick Coupé, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "D21 Manual Segmentation of Fiber Tracts with Bundles of Interest"
+authors = "Paolo Avesani, Eleftherios Garyfallidis, Emanuele Olivetti, Stephan Gerhard"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Robustness of diffusion scalar metrics when estimated with Generalized Q-Sampling Imaging acquisition schemes"
+authors = "MM Correia, GB Williams, F Yeh, I Nimmo-Smith, E Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Multiple-scale Visualization of Large Data based on Hierarchical Clustering"
+authors = "Thien Bao Nguyen, Emanuele Olivetti, Eleftherios Garyfallidis, Nivedita Agarwal, Paolo Avesani"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "brainhack"
+authors = "Julio E Villalon-Reina, Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Cartesian 3D-SHORE with Laplacian Regularization"
+authors = "Gonzalo Sanguinetti, Samuel St-Jean, Eleftherios Garyfallidis, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "An algorithm and quantitative evaluation framework for registration of multi-modal brain MRI"
+authors = "Omar Ocegueda, Eleftherios Garyfallidis, Maxime Descoteaux, Mariano Rivera"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Spherical Deconvolution on single shell and multishell combined with denoising"
+authors = "Samuel St-Jean, Michael Paquette, Eleftherios Garyfallidis, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Cartesian 3D-SHORE with Laplacian Regularization"
+authors = "Michael Paquette, Gonzalo Sanguinetti, Samuel St-Jean, Eleftherios Garyfallidis, Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "The challenge of mapping the human connectome based on diffusion tractography"
+authors = "Klaus H. Maier-Hein, Peter F. Neher, Jean-Christophe Houde, Marc-Ale Marc-Alexandre Côté, Eleftherios Garyfallidis, Jidan Zhong, Maxime Chamberland, [...] ,Maxime Descoteaux"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "MicroLearn: Framework for machine learning, reconstruction, optimization and microstructure modeling"
+authors = "Shreyas Fadnavis , Marco Reisert , Hamza Farooq , Maryam Afzali , Cheng Hu , Bago Amirbekian , Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Bundle analytics, a computational framework for investigating the shapes and profiles of brain pathways across populations"
+authors = "Bramsh Qamar Chandio, Shannon Leigh Risacher, Franco Pestilli, Daniel Bullock, Fang-Cheng Yeh, Serge Koudoro, Ariel Rokem, Jaroslaw Harezlak & Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "StND: Streamline-based Non-rigid partial-Deformation Tractography Registration"
+authors = "Bramsh Qamar Chandio & Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Brainhack: Developing a culture of open, inclusive, community-driven neuroscience"
+authors = "Rémi Gau, Stephanie Noble, Katja Heuer, Katherine L Bottenhorn, Isil P Bilgin, Yu-Fang Yang, Julia M Huntenburg, Johanna MM Bayer, Richard AI Bethlehem, Shawn A Rhoads, Christoph Vogelbacher, Valentin"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Pandora: 4-D White Matter Bundle Population-Based Atlases Derived from Diffusion MRI Fiber Tractography"
+authors = "Colin B Hansen, Qi Yang, Ilwoo Lyu, Francois Rheault, Cailey Kerley, Bramsh Qamar Chandio, Shreyas Fadnavis, Owen Williams, Andrea T Shafer, Susan M Resnick, David H Zald, Laurie E Cutting, Warren D T"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
+
+[[publication_paper]]
+title = "Patch2Self: Denoising Diffusion MRI with Self-Supervised Learning"
+authors = "Shreyas Fadnavis, Joshua Batson, Eleftherios Garyfallidis"
+abstract = ""
+project = ""
+bibtex = ""
+pdf = ""
