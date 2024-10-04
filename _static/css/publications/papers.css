@@ -184,7 +184,7 @@ body.modal-open {
 .modal-container {
   max-height: none;
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   margin: 20px auto;
   background-color: #fff;
   border-radius: 16px;
