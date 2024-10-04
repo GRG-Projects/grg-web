@@ -19,12 +19,16 @@
   align-items: center;
 }
 
+.about-intro {
+  width: 100%;
+}
+
 .about-selector-cards {
   display: flex;
   padding: 2rem;
   gap: 3rem;
   margin-top: 2rem;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
 }
 

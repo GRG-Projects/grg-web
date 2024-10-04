@@ -59,6 +59,7 @@ html_js_files = [
     "js/search.js",
     "js/pagination.js",
     "js/publications.js",
+    "js/modal.js",
 ]
 
 html_css_files = [

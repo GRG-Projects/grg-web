@@ -75,7 +75,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
   cursor: pointer;
   border-radius: 12px;
   transition: all 0.3s ease;
@@ -90,8 +90,8 @@
 
 .research-section-icons {
   padding: 10px;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   color: white !important;
 }
 

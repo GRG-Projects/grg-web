@@ -46,5 +46,3 @@ for collection in collections:
             # Write the modified content to a new HTML file
             with open(os.path.join(OUTPUT_DIR, output_file), "w") as f:
                 f.write(member_html)
-
-            print(f"Generated {output_file} from collection {collection}")

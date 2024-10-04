@@ -1,75 +1,113 @@
 {% extends "layout.html" %} {% set title = 'Publications' %} {% block docs_main
 %}
-
-<div class="publication-section">
-  <div class="publication-intro">
-    <h1 id="publications" class="publication-intro-title">Publications</h1>
-    <p class="publication-intro-description">
-      Recent research papers and articles
-    </p>
+<section class="publication-page">
+  <div class="publication-hero">
+    <img
+      id="publication-image"
+      src="_static/images/banner/publication.jpg"
+      alt="publication-grg-image"
+    />
   </div>
-  <div class="publication-body">
-    <div class="publication-search">
-      <input
-        type="text"
-        id="publication-search-input"
-        placeholder="Title, Authors, Keywords"
-      />
-      <button id="search-button">Search</button>
-      <button id="reset-button">Reset</button>
+  <div class="publication-container">
+    <div class="publication-intro">
+      <h1 class="team-title">Publications</h1>
+      <p class="team-intro">Recent research papers and articles</p>
+      <!-- <div class="divider"></div> -->
     </div>
-    <div class="publication-list" id="publication-list">
-      {% for paper in publication_paper %}
-      <div class="publication-item">
-        <div class="publication-info">
-          <h2 class="publication-title">{{paper.title}}</h2>
-          <p class="publication-description">{{paper.authors}}</p>
-        </div>
-        <div class="publication-links">
-          <div class="link-item">
-            <a
-              href="{{paper.abstract}}"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Abstract</a
-            >
-          </div>
-          <div class="link-item">
-            <a
-              href="{{paper.project}}"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Project</a
-            >
-          </div>
-          <div class="link-item">
-            <a href="{{paper.bibtex}}" target="_blank" rel="noopener noreferrer"
-              >BibTeX</a
-            >
-          </div>
-          <div class="link-item">
-            <a href="{{paper.pdf}}" target="_blank" rel="noopener noreferrer"
-              >PDF</a
-            >
-          </div>
-        </div>
-        <div class="divider"></div>
+    <div class="publication-body">
+      <div class="publication-search">
+        <input
+          type="text"
+          id="publication-search-input"
+          placeholder="Title, Authors, Keywords"
+        />
+        <button id="search-button">Search</button>
+        <button id="reset-button">Reset</button>
       </div>
-      {% endfor %}
-    </div>
-    <div class="pagination">
-      <button id="prev-page" disabled>Previous</button>
-      <span id="page-info"
-        >Page <span id="current-page">1</span> of
-        <span id="total-pages">1</span></span
-      >
-      <button id="next-page">Next</button>
+      <div class="publication-list" id="publication-list">
+        {% for paper in publication_paper %}
+        <div class="publication-item">
+          <div class="publication-info">
+            <h2 class="publication-title">{{paper.title}}</h2>
+            <p class="publication-description">{{paper.authors}}</p>
+          </div>
+          <div class="publication-links">
+            <div class="link-item">
+              <a
+                href="#"
+                class="modal-link"
+                data-type="abstract"
+                data-content="{{paper.abstract}}"
+                >Abstract</a
+              >
+            </div>
+            <div class="link-item">
+              <a
+                href="{{paper.project}}"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Project</a
+              >
+            </div>
+            <div class="link-item">
+              <a
+                href="#"
+                class="modal-link"
+                data-type="bibtex"
+                data-content="{{paper.bibtex}}"
+                >BibTeX</a
+              >
+            </div>
+            <div class="link-item">
+              <a href="{{paper.pdf}}" download rel="noopener noreferrer">PDF</a>
+            </div>
+          </div>
+          <div class="divider"></div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="pagination">
+        <button id="prev-page" disabled>Previous</button>
+        <span id="page-info"
+          >Page <span id="current-page">1</span> of
+          <span id="total-pages">1</span></span
+        >
+        <button id="next-page">Next</button>
+      </div>
     </div>
   </div>
+</section>
+
+<div class="modal">
+  <article class="modal-container">
+    <header class="modal-container-header">
+      <div class="modal-container-title">
+        <span id="modal-title"></span>
+      </div>
+      <button class="modal-icon-button" id="close-modal">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+        >
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            fill="currentColor"
+            d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+          />
+        </svg>
+      </button>
+    </header>
+    <section class="modal-container-body rtf" id="modal-content">
+      <!-- Modal content will be inserted here -->
+    </section>
+  </article>
 </div>
 
 {% endblock %} {% block extrajs %}
 <script src="{{ pathto('_static/js/search.js', 1) }}"></script>
 <script src="{{ pathto('_static/js/pagination.js', 1) }}"></script>
 <script src="{{ pathto('_static/js/publications.js', 1) }}"></script>
+<script src="{{ pathto('_static/js/modal.js', 1) }}"></script>
 {% endblock %}
