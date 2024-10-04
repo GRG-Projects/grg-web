@@ -1,2 +1,139 @@
 {% extends "layout.html" %} {% set title = 'Software' %} {% block docs_main %}
+
+<section class="software-page">
+  <div class="software-hero">
+    <img
+      id="software-image"
+      src="_static/images/banner/software.jpg"
+      alt="software-grg-image"
+    />
+  </div>
+  <div class="software-container">
+    <div class="software-intro">
+      <h1 class="team-title">Software</h1>
+      <p class="team-intro">
+        GRG has developed two innovative software projects, DIPY and FURY. DIPY
+        (Diffusion Imaging in Python) is an open-source library for analyzing
+        diffusion MRI data, helping researchers study brain connectivity. FURY
+        is a 3D visualization tool designed for creating advanced scientific
+        visualizations. Both projects demonstrate GRG's commitment to providing
+        robust solutions for the scientific and medical communities.
+      </p>
+      <div class="divider"></div>
+    </div>
+    <div class="software-content">
+      <div class="software-card">
+        <div class="software-bg">
+          <div class="software-info">
+            <img
+              src="_static/images/logos/dipy-logo.png"
+              alt="dipy-logo"
+              id="software-logo"
+            />
+            <!-- <div class="divider"></div> -->
+            <h3>DIPY</h3>
+            <p class="software-description">
+              DIPY is the paragon 3D/4D+ imaging library in Python. Contains
+              generic methods for spatial normalization, signal processing,
+              machine learning, statistical analysis and visualization of
+              medical images.
+            </p>
+            <div class="software-links">
+              <a
+                href="https://dipy.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="_static/images/icons/web.svg"
+                  alt="Website"
+                  class="link-icon"
+                />
+              </a>
+              <a
+                href="https://github.com/dipy/dipy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="_static/images/icons/github.svg"
+                  alt="GitHub"
+                  class="link-icon"
+                />
+              </a>
+              <a
+                href="https://x.com/dipymri"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="_static/images/icons/x.svg"
+                  alt="X (Twitter)"
+                  class="link-icon"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/dipy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="_static/images/icons/linkedin.svg"
+                  alt="LinkedIn"
+                  class="link-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="software-blob"></div>
+      </div>
+      <div class="software-card">
+        <div class="software-bg">
+          <div class="software-info">
+            <img
+              src="_static/images/logos/fury.png"
+              alt="fury-logo"
+              id="software-logo"
+            />
+            <!-- <div class="divider"></div> -->
+            <h3>FURY</h3>
+            <p class="software-description">
+              FURY is designed to simplify the creation of advanced scientific
+              visualizations and animations, making it more accessible for
+              researchers to present complex data in an intuitive and visually
+              compelling way.
+            </p>
+            <div class="software-links">
+              <a
+                href="https://fury.gl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="_static/images/icons/web.svg"
+                  alt="Website"
+                  class="link-icon"
+                />
+              </a>
+              <a
+                href="https://github.com/fury-gl/fury"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="_static/images/icons/github.svg"
+                  alt="GitHub"
+                  class="link-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="software-blob"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 {% endblock docs_main %}

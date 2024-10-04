@@ -29,9 +29,6 @@ a:active {
 }
 
 /* To utilise full width of screen */
-.bd-header {
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-}
 
 .bd-main .bd-content .bd-article-container {
   max-width: none;
@@ -41,8 +38,14 @@ a:active {
   max-width: none;
 }
 
+header {
+  z-index: 999 !important;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
 .navbar {
   background: #990000 !important;
+  padding: 10px;
 }
 
 .navbar-brand {
@@ -51,12 +54,6 @@ a:active {
 
 .navbar-brand p {
   color: white;
-}
-
-/* _static/css/common.css */
-
-.navbar {
-  padding: 10px;
 }
 
 .navbar-list {
@@ -80,30 +77,6 @@ a:active {
   display: flex;
   justify-content: end;
 }
-
-/* .navbar-item.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  list-style-type: none;
-  padding: 10px;
-  margin: 0;
-}
-
-.dropdown-menu li {
-  margin-bottom: 10px;
-}
-
-.dropdown-menu li:last-child {
-  margin-bottom: 0;
-} */
 
 .divider {
   height: 4px;

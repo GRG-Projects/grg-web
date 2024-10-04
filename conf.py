@@ -77,6 +77,7 @@ html_css_files = [
     "css/teaching/teaching.css",
     "css/publications/papers.css",
     "css/about/about.css",
+    "css/software/software.css",
 ]
 
 # Load multiple TOML files
