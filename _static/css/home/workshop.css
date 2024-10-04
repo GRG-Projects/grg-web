@@ -89,7 +89,7 @@
 
 .banner-button .cta:hover {
   transition: 0.5s;
-  box-shadow: 10px 10px 0 #990000;
+  box-shadow: 10px 10px 0 maroon;
 }
 
 .banner-button .cta span {
@@ -147,7 +147,7 @@
     fill: white;
   }
   50% {
-    fill: #990000;
+    fill: maroon;
   }
   100% {
     fill: white;
