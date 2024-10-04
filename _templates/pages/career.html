@@ -1,2 +1,84 @@
-{% extends "layout.html" %} {% set title = 'Careers' %} {% block docs_main %} {%
-endblock docs_main %}
+{% extends "layout.html" %} {% set title = 'Careers' %} {% block docs_main %}
+
+<section class="career-page">
+  <div class="career-hero">
+    <img
+      id="career-image"
+      src="_static/images/banner/career.jpg"
+      alt="career-grg-image"
+    />
+  </div>
+  <div class="career-container">
+    <div class="career-intro">
+      <h1 class="team-title">Career</h1>
+      <p class="team-intro">Explore Opportunities with GRG</p>
+      <div class="divider"></div>
+    </div>
+    <div class="career-content">
+      <div>
+        The Garyfallidis Research Group offers research opportunities for
+        undergraduates, graduate students, professional students, postdoctoral
+        fellows, and sometimes professional staff. Interested candidates are
+        invited to contact Professor Garyfallidis by e-mail (elef@indiana.edu)
+      </div>
+      <br />
+      <div>
+        <p style="font-size: 1.5rem; font-weight: 700">
+          New PhD positions - Visualization and Machine Learning
+        </p>
+        <p>
+          A position is open for a brilliant PhD candidate to work on developing
+          exiting scientific visualization and machine learning algorithms. The
+          candidate will help build smart state-of-the-art open source
+          applications that visualize brain and nano data.
+          <br /><br />
+          <strong>Skills required:</strong> At least one machine learning course
+          at graduate or undergraduate level, deep learning (optional but
+          bonus), OpenGL or VTK, good background in applied mathematics, Python
+          and C programming, TOEFL score ( > 100), excellent GRE scores (GRE
+          writing > 3.0). The candidate will need to have excellent
+          communication skills and be happy to work in teams and develop open
+          source software. <br /><br />
+          Information about PhD applications in Intelligent Systems Engineering
+          is available
+          <a
+            href="https://luddy.indiana.edu/academics/grad-programs/index.html"
+            style="color: #990000 !important"
+            >here</a
+          >. <br /><br />
+          Before applying we recommend e-mailing
+          <a
+            href="{{ pathto('team/eleftherios_garyfallidis') }}"
+            style="color: #990000 !important"
+            >Prof. Eleftherios Garyfallidis</a
+          >
+          with your CV attached. <br /><br />
+          <em
+            >The Indiana University School of Informatics, Computing, and
+            Engineering’s rare combination of programs—including computer
+            science, data science, informatics, information science, intelligent
+            systems engineering, and library science—makes our school one of the
+            largest, broadest, and most accomplished of its kind. Our extensive
+            programs are united by a focus on information, engineering, and
+            technology. These rapidly evolving fields demand new ideas, new
+            discoveries, and new applications—the types of innovations our
+            faculty develop and the kinds of complex problems our students learn
+            to solve. The school has more than 130 faculty, 2000 undergraduates
+            and more than a 1000 graduate students.</em
+          >
+          <br /><br />
+          <em
+            >Indiana University, Bloomington is an equal opportunity employer,
+            and all qualified applicants will receive consideration for
+            employment without regard to race, color, religion, sex, sexual
+            orientation, gender identity, or national origin, disability status,
+            protected veteran status, or any other characteristic protected by
+            law.</em
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock docs_main %}

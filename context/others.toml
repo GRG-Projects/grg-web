@@ -4,61 +4,61 @@
 caption = "Journal 1"
 description = ""
 img = "frontiers.jpg"
-link = ""
+link = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3931231/"
 
 [[journal_slides]]
 caption = "Journal 2"
 description = ""
 img = "journal_archives_of_general_psychiatry.jpg"
-link = ""
+link = "https://pubmed.ncbi.nlm.nih.gov/20819990/"
 
 [[journal_slides]]
 caption = "Journal 3"
 description = ""
 img = "journal_ieee_tmi.jpg"
-link = ""
+link = "https://ieeexplore.ieee.org/abstract/document/6630106/"
 
 [[journal_slides]]
 caption = "Journal 4"
 description = ""
 img = "journal_Nature-Communications.jpg"
-link = ""
+link = "https://www.nature.com/articles/s41467-017-01285-x"
 
 [[journal_slides]]
 caption = "Journal 5"
 description = ""
 img = "journal_neuroimage.jpg"
-link = ""
+link = "https://www.sciencedirect.com/science/article/abs/pii/S1053811917305839"
 
 [[journal_slides]]
 caption = "Journal 6"
 description = ""
 img = "journal_pattern_recognition_letters.gif"
-link = ""
+link = "https://www.sciencedirect.com/science/article/abs/pii/S0167865516300861"
 
 [[journal_slides]]
 caption = "Journal 7"
 description = ""
 img = "NeurIPS_logo_stacked.png"
-link = ""
+link = "https://proceedings.neurips.cc//paper_files/paper/2020/hash/bc047286b224b7bfa73d4cb02de1238d-Abstract.html"
 
 [[journal_slides]]
 caption = "Journal 8"
 description = ""
 img = "neuron.jpg"
-link = ""
+link = "https://www.sciencedirect.com/science/article/pii/S0896627321002312"
 
 [[journal_slides]]
 caption = "Journal 9"
 description = ""
 img = "plos_one.jpg"
-link = ""
+link = "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0156436"
 
 [[journal_slides]]
 caption = "Journal 10"
 description = ""
 img = "sr_ysrHSfp.jpg"
-link = ""
+link = "https://www.nature.com/articles/s41598-020-74054-4"
 
 # Teaching Courses Components
 

@@ -78,10 +78,11 @@ html_css_files = [
     "css/publications/papers.css",
     "css/about/about.css",
     "css/software/software.css",
+    "css/career/career.css",
 ]
 
 # Load multiple TOML files
-toml_files = ["context/context.toml", "context/publications.toml", "context/team.toml"]
+toml_files = ["context/others.toml", "context/publications.toml", "context/team.toml"]
 config = {}
 
 for toml_file in toml_files:
