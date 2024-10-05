@@ -85,3 +85,7 @@ header {
   border-radius: 2px;
   margin: 1rem auto;
 }
+
+.bd-header ul.navbar-nav > li.nav-item > .nav-link:hover:before {
+  border-bottom: max(3px, 0.1875rem, 0.12em) solid white !important;
+}
