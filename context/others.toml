@@ -64,27 +64,30 @@ link = "https://www.nature.com/articles/s41598-020-74054-4"
 
 [[teaching_course]]
 name = "Image Processing for Medical Applications"
-code = "ISE - ENGR - E435/535"
+status = "Active"
+code = "ENGR-E 535/545 || CSCI-B 456"
 level = "Graduate"
-semester = "Spring 2017-2021"
+semester = "Spring 2017-2025"
 prerequisite = "One programming course, linear algebra and calculus are required. Any machine learning or computer vision course would be helpful, but not necessary."
 description = "Learn how to build intelligent algorithms and software for medical imaging that can help medical doctors to treat their patients and researchers to understand how the body works. Students will be familiarized with algorithmic techniques such as tracking, denoising, warping, segmentation, model fitting, optimization and interactive visualization of medical datasets."
 link = "_static/others/IPMA_Spring2018.pdf"
 
 [[teaching_course]]
+name = "Intro to Neuro-Engineering"
+status = "Active"
+code = "ISE-ENGR-E506"
+level = "Graduate"
+semester = "Fall 2018-2024"
+prerequisite = "None"
+description = "The students will learn key concepts of neuroengineering. For example what is plasticity. Furthermore you will learn how to build cool machines for neuroengineering applications but more importantly understand the biology and anatomy of human intelligence"
+link = "_static/others/ITIN_Promo.pdf"
+
+[[teaching_course]]
 name = "Intelligent Systems I"
+status = "Legacy"
 code = "ISE - ENGR – E221"
 level = "Undergraduate"
 semester = "Fall 2017"
 prerequisite = "Calc I (M211); Calc II (M212); Physics I (P221); Software systems engineering (ENGR – E-111)"
 description = "This course introduces important concepts about intelligent systems. It provides a basis in mathematical tools and algorithms used in AI and machine learning. It introduces optimization techniques used in Intelligent Systems II. It will describe many current examples and how they are implemented in cloud systems. The course is based on Python for data analytics."
 link = ""
-
-[[teaching_course]]
-name = "Intro to ISE Neuro-Engineering"
-code = "ISE-ENGR-E506"
-level = "Graduate"
-semester = "Fall 2018, 2019"
-prerequisite = "None"
-description = "The students will learn key concepts of neuroengineering. For example what is plasticity. Furthermore you will learn how to build cool machines for neuroengineering applications but more importantly understand the biology and anatomy of human intelligence"
-link = "_static/others/ITIN_Promo.pdf"

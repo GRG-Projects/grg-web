@@ -69,7 +69,7 @@
 }
 
 .link-item a {
-  color: maroon !important;
+  color: #800000 !important;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@
 #search-button,
 #reset-button {
   padding: 10px 15px;
-  background-color: maroon;
+  background-color: #800000;
   color: white;
   border: none;
   border-radius: 5px;
@@ -126,7 +126,7 @@
 
 .pagination button {
   padding: 5px 10px;
-  background-color: maroon;
+  background-color: #800000;
   color: white;
   border: none;
   border-radius: 5px;
@@ -139,7 +139,7 @@
 }
 
 #page-info {
-  color: maroon;
+  color: #800000;
 }
 
 /* modal css */

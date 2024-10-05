@@ -80,7 +80,7 @@
   border-radius: 12px;
   transition: all 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(135deg, #c23636 0%, #ac0707 40%, maroon 100%);
+  background: linear-gradient(135deg, #990000 0%, #8c0000 40%, #800000 100%);
 }
 
 .research-selector:hover {
