@@ -8,6 +8,7 @@
 
 import glob
 import os
+import shutil
 import sys
 
 project = "Garyfallidis Research Group"
@@ -38,8 +39,6 @@ extensions = [
     "ablog",
 ]
 
-templates_path = ["_templates"]
-
 # The suffix of source filenames.
 source_suffix = ".rst"
 
@@ -51,6 +50,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 html_theme = "pydata_sphinx_theme"
 
+templates_path = ["_templates"]
 html_static_path = ["_static"]
 
 html_js_files = [
@@ -62,24 +62,7 @@ html_js_files = [
     "js/modal.js",
 ]
 
-html_css_files = [
-    "css/common.css",
-    "css/splide.css",
-    "css/navbar.css",
-    "css/footer.css",
-    "css/home/hero.css",
-    "css/home/research.css",
-    "css/home/journals.css",
-    "css/home/workshop.css",
-    "css/team/team.css",
-    "css/team/member.css",
-    "css/research/research.css",
-    "css/teaching/teaching.css",
-    "css/publications/papers.css",
-    "css/about/about.css",
-    "css/software/software.css",
-    "css/career/career.css",
-]
+html_style = "css/main.css"
 
 # Load multiple TOML files
 toml_files = ["context/others.toml", "context/publications.toml", "context/team.toml"]
@@ -118,6 +101,57 @@ html_theme_options = {
     "footer_end": [],
 }
 
+
+def generate_team_pages():
+    TOML_FILE = "context/team.toml"
+    TEMPLATE_FILE = "_templates/components/team_template/team_template.html"
+    OUTPUT_DIR = "_templates/team"
+
+    # Clear the output directory
+    if os.path.exists(OUTPUT_DIR):
+        for filename in os.listdir(OUTPUT_DIR):
+            file_path = os.path.join(OUTPUT_DIR, filename)
+            try:
+                if os.path.isfile(file_path) or os.path.islink(file_path):
+                    os.unlink(file_path)
+                elif os.path.isdir(file_path):
+                    shutil.rmtree(file_path)
+            except Exception as e:
+                print(f"Failed to delete {file_path}. Reason: {e}")
+    else:
+        os.makedirs(OUTPUT_DIR)
+
+    # Read the team.toml file
+    with open(TOML_FILE, "rb") as f:
+        team_data = tomllib.load(f)
+
+    # Read the template file
+    with open(TEMPLATE_FILE, "r") as f:
+        template_content = f.read()
+
+    # List of all team collections we want to process
+    collections = ["team_director", "team_staff", "team_current", "team_alumni"]
+
+    # Loop through each collection
+    for collection in collections:
+        if collection in team_data:
+            for member in team_data[collection]:
+                member_name = member["name"].lower().replace(" ", "_")
+                output_file = f"{member_name}.html"
+
+                member_html = template_content.replace("{{ collection }}", collection)
+                member_html = member_html.replace(
+                    "{{ member.name }}", member.get("name", "")
+                )
+
+                with open(os.path.join(OUTPUT_DIR, output_file), "w") as f:
+                    f.write(member_html)
+
+
+# Generate team pages
+generate_team_pages()
+
+# Now populate html_additional_pages
 html_additional_pages = {
     "index": "pages/home.html",
     "about": "pages/about.html",
