@@ -1,28 +1,28 @@
 /* Index CSS file */
 /* Do not add any css directly here.... */
 
-@import url("common.css");
-@import url("footer.css");
-@import url("navbar.css");
-@import url("splide.css");
+@import url("./grg/common.css");
+@import url("./grg/footer.css");
+@import url("./grg/navbar.css");
+@import url("./grg/splide.css");
 
 /* Home Page */
-@import url("./home/hero.css");
-@import url("./home/journals.css");
-@import url("./home/research.css");
-@import url("./home/workshop.css");
+@import url("./grg/home/hero.css");
+@import url("./grg/home/journals.css");
+@import url("./grg/home/research.css");
+@import url("./grg/home/workshop.css");
 /* About Page */
-@import url("./about/about.css");
+@import url("./grg/about/about.css");
 /* Career Page */
-@import url("./career/career.css");
+@import url("./grg/career/career.css");
 /* Team Page */
-@import url("./team/member.css"); /* For individual member page */
-@import url("./team/team.css"); /* For all team members page */
+@import url("./grg/team/member.css"); /* For individual member page */
+@import url("./grg/team/team.css"); /* For all team members page */
 /* Research Page */
-@import url("./research/research.css");
+@import url("./grg/research/research.css");
 /* Teaching Page */
-@import url("./teaching/teaching.css");
+@import url("./grg/teaching/teaching.css");
 /* Publications Page */
-@import url("./publications/papers.css");
+@import url("./grg/publications/papers.css");
 /* Software Page */
-@import url("./software/software.css");
+@import url("./grg/software/software.css");
