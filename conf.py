@@ -91,8 +91,9 @@ for toml_file in toml_files:
 
 html_context = {
     "journal_slides": config["journal_slides"],
-    "team_current": config["team_current"],
     "team_director": config["team_director"],
+    "team_staff": config["team_staff"],
+    "team_current": config["team_current"],
     "team_alumni": config["team_alumni"],
     "teaching_course": config["teaching_course"],
     "publication_paper": config["publication_paper"],

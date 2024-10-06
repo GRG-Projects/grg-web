@@ -31,7 +31,7 @@ focus = []
 
 # Current Team
 
-[[team_current]]
+[[team_staff]]
 name = "Serge Koudoro"
 position = "Software Engineer"
 role = "Software Engineer in Intelligent Systems Engineering"
@@ -53,6 +53,24 @@ Today, Serge is Release Manager for DIPY, a large opensource software for comput
 """
 centers = [
   "Intelligent Systems Engineering",
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_staff]]
+name = "Maharshi"
+position = "Graduate Software Engineer"
+role = "Software Engineer in Intelligent Systems Engineering"
+img = "Maharishi.jpeg"
+phone = "8128376007"
+email = "magor@iu.edu"
+website = ""
+interests = ""
+education = []
+bio = """
+Hi, I am Maharshi Gor. I am a Research Assistant at GRG. I have completed my master's in data science from Indiana University Bloomington. I primarily work on developing new features in DIPY Horizon and FURY.
+"""
+centers = [
   "Garyfallidis Research Group"
 ]
 focus = []
@@ -120,24 +138,6 @@ He holds a Bachelor's degree from Birla Institute of Technology and Science, Pil
 """
 centers = [
   "Intelligent Systems Engineering",
-  "Garyfallidis Research Group"
-]
-focus = []
-
-[[team_current]]
-name = "Maharshi"
-position = "Graduate Software Engineer"
-role = "Software Engineer in Intelligent Systems Engineering"
-img = "Maharishi.jpeg"
-phone = "8128376007"
-email = "magor@iu.edu"
-website = ""
-interests = ""
-education = []
-bio = """
-Hi, I am Maharshi Gor. I am a Research Assistant at GRG. I have completed my master's in data science from Indiana University Bloomington. I primarily work on developing new features in DIPY Horizon and FURY.
-"""
-centers = [
   "Garyfallidis Research Group"
 ]
 focus = []

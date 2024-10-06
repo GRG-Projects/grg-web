@@ -38,54 +38,10 @@ a:active {
   max-width: none;
 }
 
-header {
-  z-index: 999 !important;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-}
-
-.navbar {
-  background: #800000 !important;
-  padding: 10px;
-}
-
-.navbar-brand {
-  text-decoration: none !important;
-}
-
-.navbar-brand p {
-  color: white;
-}
-
-.navbar-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.navbar-item {
-  margin-right: 20px;
-  position: relative;
-}
-
-.navbar-item a {
-  text-decoration: none !important;
-  color: white !important;
-}
-
-.bd-header .navbar-header-items {
-  display: flex;
-  justify-content: end;
-}
-
 .divider {
   height: 4px;
   width: 100%;
   background: linear-gradient(135deg, #313132 0%, #202024 50%, #000000 100%);
   border-radius: 2px;
   margin: 1rem auto;
-}
-
-.bd-header ul.navbar-nav > li.nav-item > .nav-link:hover:before {
-  border-bottom: max(3px, 0.1875rem, 0.12em) solid white !important;
 }
