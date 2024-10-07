@@ -116,10 +116,7 @@
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
-  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
-    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
-    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
-    "Noto Sans", sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -130,6 +127,5 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   width: fit-content;
-  word-break: break-word;
   border: 0;
 }
