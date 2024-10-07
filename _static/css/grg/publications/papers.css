@@ -11,7 +11,7 @@
 }
 
 .publication-container {
-  max-width: 80%;
+  width: 80%;
   margin: 0 auto;
   padding: 60px 24px;
   display: flex;
@@ -33,8 +33,11 @@
 }
 
 .publication-list {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+}
+
+.publication-item {
+  min-width: 100%;
 }
 
 .publication-info {
@@ -206,6 +209,8 @@ body.modal-open {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #990000;
+  color: white;
 }
 
 .modal-container-title {
@@ -304,5 +309,5 @@ body.modal-open {
 
 .modal-icon-button:hover,
 .modal-icon-button:focus {
-  background-color: #dfdad7;
+  background-color: #999999;
 }

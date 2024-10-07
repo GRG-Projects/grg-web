@@ -32,6 +32,7 @@
             <p class="publication-description">{{paper.authors}}</p>
           </div>
           <div class="publication-links">
+            {% if paper.abstract %}
             <div class="link-item">
               <a
                 href="#"
@@ -41,6 +42,7 @@
                 >Abstract</a
               >
             </div>
+            {% endif %} {% if paper.project %}
             <div class="link-item">
               <a
                 href="{{paper.project}}"
@@ -49,6 +51,7 @@
                 >Project</a
               >
             </div>
+            {% endif %} {% if paper.bibtex %}
             <div class="link-item">
               <a
                 href="#"
@@ -58,9 +61,11 @@
                 >BibTeX</a
               >
             </div>
+            {% endif %} {% if paper.pdf %}
             <div class="link-item">
               <a href="{{paper.pdf}}" download rel="noopener noreferrer">PDF</a>
             </div>
+            {% endif %}
           </div>
           <div class="divider"></div>
         </div>
@@ -93,7 +98,7 @@
         >
           <path fill="none" d="M0 0h24v24H0z" />
           <path
-            fill="currentColor"
+            fill="#FFFFFF"
             d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
           />
         </svg>

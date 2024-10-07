@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentPageSpan = document.getElementById("current-page");
   const totalPagesSpan = document.getElementById("total-pages");
 
-  const itemsPerPage = 10;
+  const itemsPerPage = 11;
   let filteredItems = [...publicationList.children];
   let paginator = new Paginator(filteredItems, itemsPerPage);
 
