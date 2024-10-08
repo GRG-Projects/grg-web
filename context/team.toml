@@ -33,7 +33,7 @@ focus = []
 
 [[team_staff]]
 name = "Serge Koudoro"
-position = "Software Engineer"
+position = "Research Software Engineer"
 role = "Software Engineer in Intelligent Systems Engineering"
 img = "Serge.jpg"
 phone = ""
@@ -59,7 +59,7 @@ focus = []
 
 [[team_staff]]
 name = "Maharshi Gor"
-position = "Graduate Software Engineerr"
+position = "Graduate Software Engineer"
 role = "Software Engineer in Intelligent Systems Engineering"
 img = "Maharishi.jpeg"
 phone = "8128376007"
