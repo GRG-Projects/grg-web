@@ -40,7 +40,7 @@ phone = ""
 email = "skoudoro@iu.edu"
 website = ""
 interests = "Image Processing, Software Optimization, Algorithms, NeuroInformatics"
-education = [ 
+education = [
   "BSc in Electrical Engineering and Industrial Data Processing",
   "MSc in Computer Vision - Image Processing"
 ]
@@ -59,7 +59,7 @@ focus = []
 
 [[team_staff]]
 name = "Maharshi Gor"
-position = "Graduate Software Engineer"
+position = "Research Associate Engineer"
 role = "Software Engineer in Intelligent Systems Engineering"
 img = "Maharishi.jpeg"
 phone = "8128376007"
@@ -243,10 +243,10 @@ website = ""
 interests = "Machine Learning, Deep Learning, Computer Vision, Image Processing, Neuroimaging, and Cognitive and Neuro Science"
 education = []
 bio = """
-I am Aziza from Iran. I was privileged to join the GRG lab as a PhD student in Intelligent Systems Engineering, Neuroengineering track at Indiana University Bloomington. 
+I am Aziza from Iran. I was privileged to join the GRG lab as a PhD student in Intelligent Systems Engineering, Neuroengineering track at Indiana University Bloomington.
 
-I completed my Bachelor of Science in Computer Science at Sharif University of Technology, Iran, and my Master of Science in Computer Engineering at Bilkent University, Turkey. 
-I have both experience and enthusiasm in Deep Learning and Machine Learning, especially problems that can be solved using Convolutional Neural Networks (CNN). During my master’s degree, I dedicated my research time to Medical Image analysis using Deep Convolutional Networks and now I am starting to work in the area of Neuroengineering. 
+I completed my Bachelor of Science in Computer Science at Sharif University of Technology, Iran, and my Master of Science in Computer Engineering at Bilkent University, Turkey.
+I have both experience and enthusiasm in Deep Learning and Machine Learning, especially problems that can be solved using Convolutional Neural Networks (CNN). During my master’s degree, I dedicated my research time to Medical Image analysis using Deep Convolutional Networks and now I am starting to work in the area of Neuroengineering.
 
 My interests include Machine Learning, Deep Learning, Computer Vision, Image Processing, Neuroimaging, and Cognitive and Neuro Science. All these areas can be brought together in the highly interdisciplinary field of Neuroengineering and hence field of my future research direction.
 """
