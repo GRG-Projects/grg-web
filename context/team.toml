@@ -62,13 +62,20 @@ name = "Maharshi Gor"
 position = "Research Associate Engineer"
 role = "Software Engineer in Intelligent Systems Engineering"
 img = "Maharishi.jpeg"
-phone = "8128376007"
+phone = ""
 email = "magor@iu.edu"
 website = ""
-interests = ""
-education = []
+interests = "Software Engineering, System Design, Algorithms"
+education = [
+  "BTech in Computer Engineering",
+  "MS in Data Science"
+]
 bio = """
-Hi, I am Maharshi Gor. I am a Research Assistant at GRG. I have completed my master's in data science from Indiana University Bloomington. I primarily work on developing new features in DIPY Horizon and FURY.
+Maharshi is from India and has three years of experience as a Software Engineer, having worked at Intuit Inc. and Quinbay Technologies, where he contributed to the development of various SaaS products.  
+
+He earned a master’s degree in Data Science from Indiana University Bloomington. During his studies, he served as a Research Assistant in the Garyfallidis Research Group, where he significantly contributed to the advancement of DIPY and FURY, two prominent open-source projects of the lab.  
+
+Currently, he continues his work at the Garyfallidis Research Group as a Research Associate Engineer, furthering his contributions to research and open-source development.
 """
 centers = [
   "Garyfallidis Research Group"
