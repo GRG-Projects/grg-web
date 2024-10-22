@@ -13,7 +13,7 @@ website = ""
 interests = "Neuroimaging, Machine Learning, Open Source Development, Applied Mathematics, Scientific Visualization"
 education = []
 bio = """
-Dr. Garyfallidis holds the position of Assistant Professor of Intelligent Systems Engineering (ISE) of Indiana University (IU) School of Informatics, Computing and Engineering. He is also the founder and scientific lead of Diffusion Imaging in Python (DIPY), currently the largest open source project in the development of diffusion MRI methods.
+Dr. Garyfallidis holds the position of Associate Professor of Intelligent Systems Engineering (ISE) of Indiana University (IU) School of Informatics, Computing and Engineering. He is also the founder and scientific lead of Diffusion Imaging in Python (DIPY), currently the largest open source project in the development of diffusion MRI methods.
 
 Diffusion MRI is a unique non-invasive MRI technique that is used to study the structural connectivity of the brain.
 
@@ -71,9 +71,9 @@ education = [
   "MS in Data Science"
 ]
 bio = """
-Maharshi is from India and has three years of experience as a Software Engineer, having worked at Intuit Inc. and Quinbay Technologies, where he contributed to the development of various SaaS products.  
+Maharshi is from India and has three years of experience as a Software Engineer, having worked at Intuit Inc. and Quinbay Technologies, where he contributed to the development of various SaaS products.
 
-He earned a master’s degree in Data Science from Indiana University Bloomington. During his studies, he served as a Research Assistant in the Garyfallidis Research Group, where he significantly contributed to the advancement of DIPY and FURY, two prominent open-source projects of the lab.  
+He earned a master’s degree in Data Science from Indiana University Bloomington. During his studies, he served as a Research Assistant in the Garyfallidis Research Group, where he significantly contributed to the advancement of DIPY and FURY, two prominent open-source projects of the lab.
 
 Currently, he continues his work at the Garyfallidis Research Group as a Research Associate Engineer, furthering his contributions to research and open-source development.
 """
