@@ -29,6 +29,7 @@
   color: #636973;
   font-size: 1.1rem;
   line-height: 1.6;
+  word-break: break-all;
 }
 
 .team-association {
@@ -127,20 +128,28 @@
   border-radius: 100%;
 }
 
-@media (min-width: 640px) {
-  /* .team-member {
-    flex: 1 1 calc(50% - 40px);
-  } */
-}
-
-@media (min-width: 1920px) {
-  /* .team-member {
-    flex: 1 1 calc(33.333% - 40px);
-  } */
-}
-
-@media (min-width: 2560px) {
+/* @media (min-width: 2560px) {
   .team-grid-B {
     width: 70%;
+  }
+} */
+
+@media (max-width: 768px) {
+  .team-intro {
+    margin: 0 auto 20px;
+  }
+
+  .team-container {
+    max-width: 100%;
+  }
+
+  .team-grid-B {
+    grid-template-columns: 1fr;
+  }
+
+  .team-member {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -234,7 +234,7 @@ body.modal-open {
 .modal-container-body {
   padding: 24px 32px;
   overflow-y: auto;
-  max-height: calc(100vh - 400px); /* Adjust this value as needed */
+  max-height: calc(100vh - 400px);
 }
 
 .rtf h1,
@@ -310,4 +310,131 @@ body.modal-open {
 .modal-icon-button:hover,
 .modal-icon-button:focus {
   background-color: #999999;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .publication-container {
+    width: 80%;
+    padding: 40px 16px;
+  }
+
+  #publication-image {
+    height: 250px;
+  }
+
+  .publication-section {
+    padding: 3rem;
+    line-height: 1.5;
+  }
+
+  .publication-title {
+    font-size: 1.3rem;
+  }
+
+  .publication-search {
+    width: 80%;
+  }
+
+  .publication-links {
+    gap: 8px;
+  }
+
+  .pagination button {
+    padding: 5px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .publication-container {
+    width: 80%;
+    padding: 30px 12px;
+  }
+
+  #publication-image {
+    height: 200px;
+  }
+
+  .publication-section {
+    padding: 2rem;
+    line-height: 1.4;
+  }
+
+  .publication-title {
+    font-size: 1.2rem;
+  }
+
+  .publication-search {
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #publication-search-input {
+    padding: 8px;
+  }
+
+  .pagination button {
+    padding: 4px 8px;
+    font-size: 0.9rem;
+  }
+
+  .modal-container {
+    width: 90%;
+  }
+
+  .modal-container-header,
+  .modal-container-body {
+    padding: 12px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .publication-container {
+    padding: 20px 8px;
+  }
+
+  #publication-image {
+    height: 150px;
+  }
+
+  .publication-section {
+    padding: 1.5rem;
+  }
+
+  .publication-title {
+    font-size: 1rem;
+  }
+
+  .publication-search {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #search-button,
+  #reset-button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  .pagination button {
+    padding: 3px 6px;
+    font-size: 0.8rem;
+  }
+
+  .modal-container-body {
+    max-height: calc(100vh - 200px);
+  }
+
+  .rtf h1 {
+    font-size: 1.25rem;
+  }
+
+  .rtf h2 {
+    font-size: 1.1rem;
+  }
+
+  .rtf h3 {
+    font-size: 0.95rem;
+  }
 }
