@@ -1,28 +1,59 @@
-<div class="navbar-nav-wrapper">
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="{{ pathto('index') }}">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{{ pathto('about') }}">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{{ pathto('team') }}">Team</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{{ pathto('research') }}">Research</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{{ pathto('teaching') }}">Teaching</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{{ pathto('publications') }}">Publications</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{{ pathto('software') }}">Software</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{{ pathto('career') }}">Career</a>
-    </li>
-  </ul>
+{# _templates/components/common/navbar.html #}
+<div class="custom-navbar-wrapper">
+  <!-- Desktop Navbar -->
+  <nav class="desktop-navbar">
+    <div class="nav-content">
+      <div class="nav-brand">
+        <a href="{{ pathto('index') }}">
+          <img
+            src="{{ pathto('_static/images/logos/trident-large.png', 1) }}"
+            alt="Logo"
+            class="nav-logo"
+          />
+          <span class="nav-title">Garyfallidis Research Group</span>
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="{{ pathto('index') }}" class="nav-link">Home</a>
+        <a href="{{ pathto('about') }}" class="nav-link">About</a>
+        <a href="{{ pathto('team') }}" class="nav-link">Team</a>
+        <a href="{{ pathto('research') }}" class="nav-link">Research</a>
+        <a href="{{ pathto('teaching') }}" class="nav-link">Teaching</a>
+        <a href="{{ pathto('publications') }}" class="nav-link">Publications</a>
+        <a href="{{ pathto('software') }}" class="nav-link">Software</a>
+        <a href="{{ pathto('career') }}" class="nav-link">Career</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Navbar -->
+  <nav class="mobile-navbar">
+    <div class="nav-header">
+      <div class="nav-brand">
+        <a href="{{ pathto('index') }}">
+          <img
+            src="{{ pathto('_static/images/logos/trident-large.png', 1) }}"
+            alt="Logo"
+            class="nav-logo"
+          />
+          <span class="nav-title-mobile">Garyfallidis Research Group</span>
+        </a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="{{ pathto('index') }}" class="nav-link">Home</a>
+      <a href="{{ pathto('about') }}" class="nav-link">About</a>
+      <a href="{{ pathto('team') }}" class="nav-link">Team</a>
+      <a href="{{ pathto('research') }}" class="nav-link">Research</a>
+      <a href="{{ pathto('teaching') }}" class="nav-link">Teaching</a>
+      <a href="{{ pathto('publications') }}" class="nav-link">Publications</a>
+      <a href="{{ pathto('software') }}" class="nav-link">Software</a>
+      <a href="{{ pathto('career') }}" class="nav-link">Career</a>
+    </div>
+  </nav>
 </div>

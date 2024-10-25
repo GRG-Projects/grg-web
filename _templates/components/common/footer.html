@@ -22,17 +22,29 @@
       </div>
       <div class="footer-links">
         <ul class="footer-list">
-          <li><a href="#" class="footer-link">Home</a></li>
-          <li><a href="#" class="footer-link">DIPY</a></li>
-          <li><a href="#" class="footer-link">FURY</a></li>
-          <li><a href="#" class="footer-link">ISE, Indiana</a></li>
+          <li><a href="{{ pathto('index') }}" class="footer-link">Home</a></li>
+          <li>
+            <a href="https://dipy.org/index.html" class="footer-link">DIPY</a>
+          </li>
+          <li>
+            <a href="https://fury.gl/latest/index.html" class="footer-link"
+              >FURY</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://engineering.indiana.edu/index.html"
+              class="footer-link"
+              >ISE, Indiana</a
+            >
+          </li>
         </ul>
       </div>
       <div class="footer-logo-social">
         <div class="footer-logo-container">
           <img
             class="footer-logo"
-            src="_static/images/logos/trident-no-bg.png"
+            src="{{ pathto('_static/images/logos/trident-no-bg.png', 1) }}"
             alt="Logo"
           />
           <span class="footer-logo-name">Garyfallidis Research Group</span>
@@ -40,17 +52,26 @@
         <ul class="footer-social-links">
           <li>
             <a href="#">
-              <img src="_static/images/icons/linkedin.png" alt="" />
+              <img
+                src="{{ pathto('_static/images/icons/linkedin.png', 1) }}"
+                alt="LinkedIn"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/GRG-Projects">
+              <img
+                src="{{ pathto('_static/images/icons/github.png', 1) }}"
+                alt="GitHub"
+              />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="_static/images/icons/github.png" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="_static/images/icons/twitter.png" alt="" />
+              <img
+                src="{{ pathto('_static/images/icons/twitter.png', 1) }}"
+                alt="Twitter"
+              />
             </a>
           </li>
         </ul>
