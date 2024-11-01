@@ -93,6 +93,8 @@
   gap: 1.5rem;
   padding-top: 1rem;
   list-style: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .footer-link {
