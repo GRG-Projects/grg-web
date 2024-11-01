@@ -141,7 +141,7 @@
 .footer-social-links img {
   width: 2rem;
   transition: opacity 0.3s;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 0.3rem;
 }
 
