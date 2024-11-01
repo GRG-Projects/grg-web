@@ -19,8 +19,13 @@
   align-items: center;
 }
 
-.about-intro {
+.about-intro-des {
   width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: #636973;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .about-selector-cards {

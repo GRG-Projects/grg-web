@@ -179,6 +179,30 @@
 }
 
 @media (max-width: 768px) {
+  .software-info h3 {
+    margin: 1rem 0;
+  }
+
+  .software-card {
+    width: 300px;
+    height: 400px;
+  }
+
+  .software-bg {
+    width: 290px;
+    height: 390px;
+  }
+
+  .software-blob-1 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .software-blob-2 {
+    width: 250px;
+    height: 250px;
+  }
+
   .software-container {
     max-width: 90%;
     padding: 60px 0;

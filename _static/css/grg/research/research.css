@@ -168,6 +168,7 @@
   .research-selector-cards {
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding: 0;
   }
 
   .research-selector {
