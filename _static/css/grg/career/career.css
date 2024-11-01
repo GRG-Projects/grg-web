@@ -22,3 +22,37 @@
 .career-intro {
   width: 100%;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .career-container {
+    max-width: 80%;
+    padding: 40px 16px;
+  }
+
+  #career-image {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .career-container {
+    max-width: 85%;
+    padding: 30px 12px;
+  }
+
+  #career-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .career-container {
+    max-width: 85%;
+    padding: 20px 8px;
+  }
+
+  #career-image {
+    height: 150px;
+  }
+}

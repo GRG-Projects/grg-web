@@ -32,13 +32,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
   searchButton.addEventListener("click", handleSearch);
   resetButton.addEventListener("click", handleReset);
+
   prevButton.addEventListener("click", () => {
     paginator.prevPage();
     updateDisplay();
+    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top on previous
   });
+
   nextButton.addEventListener("click", () => {
     paginator.nextPage();
     updateDisplay();
+    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top on next
   });
 
   // Initial setup

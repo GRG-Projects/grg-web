@@ -38,6 +38,23 @@ a:active {
   max-width: none;
 }
 
+.bd-header {
+  background: #800000 !important;
+}
+
+.bd-header .navbar-header-items__start {
+  width: 100%;
+  padding: 1rem;
+}
+
+.bd-header button.primary-toggle {
+  display: none;
+}
+
+.bd-header .navbar-item {
+  width: 100%;
+}
+
 .divider {
   height: 4px;
   width: 100%;

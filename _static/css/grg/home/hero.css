@@ -68,6 +68,7 @@
 
 .hero-video {
   display: flex;
+  max-width: 100%;
   justify-content: center;
   margin-top: -60px;
   margin-bottom: -35px;
@@ -75,6 +76,7 @@
 
 #background-video {
   background-size: cover;
+  max-width: 200%;
 }
 
 /* Intro-vision CSS */
@@ -128,4 +130,83 @@
   touch-action: manipulation;
   width: fit-content;
   border: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Hero Section */
+  #hero-item, .hero-name-content, .hero-uni, .hero-content {
+    padding: 0.5rem;
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: 2em;
+    margin: 0 auto;
+  }
+
+  .hero-description {
+    margin-top: 1rem;
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .hero-video {
+    margin-top: -30px;
+    margin-bottom: -20px;
+  }
+
+  #hero-uni-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .hero-uni .hero-uni-description {
+    font-size: 16px;
+  }
+
+  /* Intro-Vision Section */
+  .intro-vision-content {
+    padding: 2rem;
+  }
+
+  .intro-vision-content h2 {
+    font-size: 1.75rem;
+  }
+
+  .intro-vision-content p {
+    width: 90%;
+    padding: 1rem;
+    font-size: 16px;
+  }
+
+  /* Button */
+  .button-34 {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Hero Section */
+  .hero-title {
+    font-size: 1.75em;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  /* Intro-Vision Section */
+  .intro-vision-content p {
+    font-size: 14px;
+  }
+
+  /* Button */
+  .button-34 {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
 }

@@ -54,6 +54,7 @@ templates_path = ["_templates"]
 html_static_path = ["_static"]
 
 html_js_files = [
+    "js/nav.js",
     "js/carousel.js",
     "js/splide.js",
     "js/search.js",
@@ -88,14 +89,15 @@ html_favicon = "_static/images/logos/trident-favicon.png"
 html_theme_options = {
     # "secondary_sidebar_items": ["page-toc"],
     # "show_toc_level": 1,
-    # "navbar_end": ["components/navbar-links.html"],
-    "navbar_persistent": "",
     "logo": {
         "text": "Garyfallidis Research Group",
         "image_light": "_static/images/logos/trident-large.png",
         "image_dark": "_static/images/logos/trident-large.png",
     },
-    "navbar_end": ["components/common/navbar.html"],
+    "navbar_persistent": [],
+    "navbar_start": ["components/common/navbar.html"],
+    "navbar_center": [],
+    "navbar_end": [],
     "footer_center": ["components/common/footer.html"],
     "footer_start": [],
     "footer_end": [],

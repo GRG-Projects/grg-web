@@ -1,113 +1,150 @@
-.footer {
-  background-color: #800000;
-  padding: 48px 0;
-  color: white !important;
-}
-.footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
 .bd-footer .bd-footer__inner {
   padding: 0;
 }
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 24px;
+
+.footer-container {
+  margin: 0 auto;
 }
-@media (min-width: 640px) {
-  .footer-grid {
-    grid-template-columns: repeat(2, 1fr);
+
+/* Newsletter box */
+.footer-newsletter-box {
+  padding: 3rem;
+  background-color: #880000;
+  text-align: center;
+}
+
+/* Content */
+.footer-content {
+  margin-bottom: 2rem;
+}
+
+.footer-title {
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-description {
+  color: #aeaeae;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .footer-description {
+    max-width: 50%;
+    font-size: 1.125rem;
   }
 }
-@media (min-width: 1024px) {
-  .footer-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-.col-span-2 {
-  grid-column: span 2;
-}
-.newsletter h2 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 24px;
-}
-.newsletter-form {
+
+/* Input container */
+.footer-input-container {
   display: flex;
-  flex-direction: row;
-  align-items: center !important;
-  justify-content: center !important;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding-top: 1rem;
 }
-@media (min-width: 768px) {
-  .newsletter-form {
-    flex-direction: row;
-  }
+
+.footer-input-email {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  width: 100%;
+  max-width: 300px;
 }
-.newsletter-input {
-  padding: 8px 16px;
-  border: 1px solid #d1d5db;
-  border-radius: 4px;
-  margin-bottom: 12px;
-}
-@media (min-width: 768px) {
-  .newsletter-input {
-    margin-bottom: 0;
-    margin-right: 16px;
-  }
-}
-.newsletter-button {
-  padding: 10px 24px;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 4px;
+
+.footer-button-subscribe {
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
   cursor: pointer;
   transition: background-color 0.3s;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  width: 100%;
+  max-width: 150px;
 }
-.newsletter-button:hover {
-  background-color: whitesmoke;
+
+.footer-button-subscribe:hover {
+  background-color: #ffd6db;
 }
-.footer-links h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  /* color: #1f2937; */
-  margin-bottom: 20px;
+
+@media (min-width: 640px) {
+  .footer-input-container {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
-.footer-links ul {
-  list-style-type: none;
-  padding: 0;
+
+/* Footer Links */
+.footer-links {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: white;
 }
-.footer-links li {
-  margin-bottom: 8px;
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-top: 1rem;
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
 }
-.footer-links a {
-  /* color: #4b5563; */
+
+.footer-link {
+  color: white;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: text-decoration 0.3s;
 }
-.footer-links a:hover {
-  color: #2563eb;
+
+.footer-link:hover {
   text-decoration: underline;
 }
-.footer-bottom {
+
+/* Logo and Social Links */
+.footer-logo-social {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer-logo-container {
+  padding-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.footer-logo {
+  width: 2rem;
+  max-width: 100%;
+}
+
+.footer-logo-name {
+  color: white;
+}
+
+.footer-social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-top: 48px;
-  padding-top: 24px;
-  border-top: 1px solid #d1d5db;
+  gap: 1rem;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
 }
-.footer-logo img {
-  height: 28px;
+
+.footer-social-links img {
+  width: 2rem;
+  transition: opacity 0.3s;
+  /* background-color: white; */
+  border-radius: 0.3rem;
 }
-.social-links a {
-  margin-left: 8px;
-  /* color: #4b5563; */
-}
-.social-links svg {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
+
+.footer-social-links img:hover {
+  opacity: 0.5;
 }

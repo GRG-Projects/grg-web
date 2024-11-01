@@ -12,6 +12,7 @@
       tomorrow's breakthroughs.
     </p>
     <div class="divider"></div>
+    <div class="team-wrapper">
     {% for section, members in [
       ('Director', team_director),
     ] %}
@@ -27,7 +28,7 @@
             />
           </div>
             <div class="team-member-info">
-            <a href="{{ pathto('team/' + member.name.lower().replace(' ', '_')) }}" target="_blank">
+            <a href="{{ pathto('team/' + member.name.lower().replace(' ', '_')) }}">
               <h2 class="team-member-name">{{ member.name }}</h2>
             </a>
             <p class="team-member-role">{{ member.position }}</p>
@@ -75,7 +76,7 @@
             />
           </div>
             <div class="team-member-info">
-            <a href="{{ pathto('team/' + member.name.lower().replace(' ', '_')) }}" target="_blank">
+            <a href="{{ pathto('team/' + member.name.lower().replace(' ', '_')) }}">
               <h2 class="team-member-name">{{ member.name }}</h2>
             </a>
             <p class="team-member-role">{{ member.position }}</p>
@@ -106,6 +107,7 @@
         {% endfor %}
       </div>
     {% endfor %}
+  </div>
   </div>
 </div>
 {% endblock docs_main %}

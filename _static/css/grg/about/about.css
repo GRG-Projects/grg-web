@@ -19,13 +19,17 @@
   align-items: center;
 }
 
-.about-intro {
+.about-intro-des {
   width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: #636973;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .about-selector-cards {
   display: flex;
-  padding: 2rem;
   gap: 3rem;
   margin-top: 2rem;
   justify-content: center;
@@ -99,4 +103,123 @@
 
 #about-section-founder-pic {
   border-radius: 12px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .about-container {
+    max-width: 90%;
+    padding: 40px 16px;
+  }
+
+  .about-selector-cards {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .about-selector {
+    width: 120px;
+    height: 120px;
+  }
+
+  #about-image {
+    height: 250px;
+  }
+
+  .about-section-intro-founder {
+    max-width: 40%;
+    margin: 1.5rem;
+  }
+
+  .about-section-main-founder {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 30px 12px;
+  }
+
+  #about-image {
+    height: 200px;
+  }
+
+  .about-selector-cards {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .about-selector {
+    width: 100px;
+    height: 100px;
+    padding: 0.75rem;
+  }
+
+  .about-section-icons {
+    width: 60px;
+    height: 60px;
+  }
+
+  .about-section-name {
+    font-size: 0.9rem;
+  }
+
+  .about-section-intro-founder {
+    max-width: 100%;
+    float: none; /* Remove float for stacked layout */
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .about-section-main-founder {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    max-width: 90%;
+    padding: 20px 8px;
+  }
+
+  #about-image {
+    height: 150px;
+  }
+
+  .about-selector-cards {
+    gap: 1rem;
+  }
+
+  .about-selector {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about-section-icons {
+    height: 50px;
+  }
+
+  .about-section-name {
+    font-size: 0.8rem;
+  }
+
+  .about-section-header {
+    font-size: 1rem;
+  }
+
+  #about-lab,
+  #about-founder,
+  #about-research {
+    font-size: 0.9rem;
+  }
+
+  .about-section-intro-founder {
+    text-align: center;
+  }
+
+  .about-section-main-founder {
+    padding: 0.5rem;
+    text-align: justify;
+  }
 }
