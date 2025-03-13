@@ -240,7 +240,7 @@ centers = [
 focus = []
 
 [[team_current]]
-name = "Aziza Saber"
+name = "Aziza Saber Jabdaragh"
 position = "Ph.D. Student"
 role = "Ph.D. Student"
 img = "Aziza.jpg"
@@ -250,10 +250,10 @@ website = ""
 interests = "Machine Learning, Deep Learning, Computer Vision, Image Processing, Neuroimaging, and Cognitive and Neuro Science"
 education = []
 bio = """
-I am Aziza from Iran. I was privileged to join the GRG lab as a PhD student in Intelligent Systems Engineering, Neuroengineering track at Indiana University Bloomington.
+I am a Ph.D. student in Intelligent Systems Engineering at Indiana University Bloomington, focusing on Neuroengineering within the GRG Lab. My initial research aims to focus on diffusion image analysis to advance our understanding of brain connectivity and microstructure.
 
-I completed my Bachelor of Science in Computer Science at Sharif University of Technology, Iran, and my Master of Science in Computer Engineering at Bilkent University, Turkey.
-I have both experience and enthusiasm in Deep Learning and Machine Learning, especially problems that can be solved using Convolutional Neural Networks (CNN). During my master’s degree, I dedicated my research time to Medical Image analysis using Deep Convolutional Networks and now I am starting to work in the area of Neuroengineering.
+My academic journey began with a Bachelor of Science in Computer Science from Sharif University of Technology (Iran), followed by a Master of Science in Computer Engineering from Bilkent University (Turkey). During my master’s, I specialized in medical image analysis using deep convolutional neural networks (CNNs), tackling challenges in automated diagnostics. 
+Now, as a neuroengineering researcher, I am expanding my work to cortical analysis and diffusion MRI. My vision is to decode brain connectivity and microstructure patterns associated with neurodegenerative disorders such as Parkinson’s disease (PD) and Alzheimer’s disease (AD).
 
 My interests include Machine Learning, Deep Learning, Computer Vision, Image Processing, Neuroimaging, and Cognitive and Neuro Science. All these areas can be brought together in the highly interdisciplinary field of Neuroengineering and hence field of my future research direction.
 """
