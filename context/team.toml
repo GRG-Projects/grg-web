@@ -151,13 +151,13 @@ focus = []
 
 [[team_current]]
 name = "Atharva Shah"
-position = "Graduate Research Assistant"
+position = "Ph.D. Student"
 role = "Graduate Research Assistant"
 img = "Atharva.jpg"
 phone = "8128373963"
 email = "athshah@iu.edu"
-website = ""
-interests = ""
+website = "https://atharva-shah-2298.github.io/"
+interests = "Machine Learning, Deep Learning, Medical Imaging"
 education = []
 bio = """
 I am a mechanical engineering graduate with a graduate degree in data science. I have worked in neuberg supratech for 2 years mainly in genomics and bioinformatics where I developed test for endometrial receptivity assay meant for IVF.
