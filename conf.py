@@ -36,6 +36,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.ifconfig",
     "sphinx_reredirects",
+    "sphinx_sitemap",
     "ablog",
 ]
 
@@ -48,6 +49,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_baseurl = "https://grg.luddy.indiana.edu/"
 html_theme = "pydata_sphinx_theme"
 
 templates_path = ["_templates"]
@@ -170,3 +172,7 @@ OUTPUT_DIR = "_templates/team"
 for filename in glob.glob(os.path.join(OUTPUT_DIR, "*.html")):
     member_name = os.path.splitext(os.path.basename(filename))[0]
     html_additional_pages[f"team/{member_name}"] = f"team/{os.path.basename(filename)}"
+
+#-- Options for Sitemap ---------------------------------------------
+sitemap_locales = [None]
+sitemap_url_scheme = "{link}"
