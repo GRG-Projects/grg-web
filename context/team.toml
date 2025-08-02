@@ -98,7 +98,7 @@ Jong Sung Park was born in Gwangju, South Korea. After acquiring a Bachelor in L
 
 With an interest in Medical images, as a doctoral candidate in Intelligent Systems Engineering and Neuroscience at Indiana University, he works on various pre-processing steps on neuroimages.
 
-As one of the contributors of the open source package DIPY, he is also focusing on implementing and porting methods to faciliate easier and more accurate processing of diffusion images.
+As one of the contributors of the open source package DIPY, he is also focusing on implementing and porting methods to facilitate easier and more accurate processing of diffusion images.
 """
 centers = [
   "Intelligent Systems Engineering",
@@ -210,7 +210,7 @@ interests = "Neuroimaging, Artificial Intelligence, Neuroengineering"
 education = []
 bio = """
 Sai Prajwal Reddy is from Bangalore, India. He has a Bachelors Degree in Mechanical Engineering. He graduated with a Master's degree in Data Science at Indiana University, Bloomington.
-He is currently working on various post-processing techniques on neuroimages as a doctoral candidate in Intelligent Systems Enginnering - Neuro Engineering track at Indiana University, Bloomington.
+He is currently working on various post-processing techniques on neuroimages as a doctoral candidate in Intelligent Systems Engineering - Neuro Engineering track at Indiana University, Bloomington.
 """
 centers = [
   "Garyfallidis Research Group"
