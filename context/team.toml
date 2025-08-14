@@ -29,7 +29,7 @@ centers = [
 ]
 focus = []
 
-# Current Team
+# Staff Team
 
 [[team_staff]]
 name = "Serge Koudoro"
@@ -82,6 +82,7 @@ centers = [
 ]
 focus = []
 
+# Current Team
 
 [[team_current]]
 name = "Jong Sung Park"
@@ -234,6 +235,27 @@ My academic journey began with a Bachelor of Science in Computer Science from Sh
 Now, as a neuroengineering researcher, I am expanding my work to cortical analysis and diffusion MRI. My vision is to decode brain connectivity and microstructure patterns associated with neurodegenerative disorders such as Parkinson’s disease (PD) and Alzheimer’s disease (AD).
 
 My interests include Machine Learning, Deep Learning, Computer Vision, Image Processing, Neuroimaging, and Cognitive and Neuro Science. All these areas can be brought together in the highly interdisciplinary field of Neuroengineering and hence field of my future research direction.
+"""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_current]]
+name = "Kaustav Deka"
+position = "Research Assistant"
+role = "Master's Student in Intelligent Systems Engineering"
+img = "Kaustav.jpeg"
+phone = ""
+email = "dekak@iu.edu"
+website = ""
+interests = "Machine Learning, Image Processing, NeuroScience, Game Development,& Graphics Design"
+education = []
+bio = """
+I am a graduate student pursuing a Master's in Intelligent Systems Engineering at Indiana University Bloomington with a specialization in NeuroEngineering. 
+Hailing from Assam, India, I hold a Bachelor's degree in Industrial Engineering & Management and have professional experience in both Product Management and Software Development. 
+My journey into computational neuroscience was solidified through my participation in the Google Summer of Code, where I contributed to the DIPY open-source project. 
+I am passionate about the intersection of technology, engineering, and the human brain.
 """
 centers = [
   "Garyfallidis Research Group"
