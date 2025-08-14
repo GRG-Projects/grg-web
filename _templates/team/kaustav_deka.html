@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+{% set title = 'Kaustav Deka' %}
+{% block docs_main %}
+{% for member in team_current %}
+{% if member.name == "Kaustav Deka" %}
+<div class="member-page">
+  <div class="member-container">
+    <div class="member-intro-section">
+      <div class="member-image">
+        <img
+          id="member-image"
+          src="{% if member.img.startswith('http') %}{{ member.img }}{% else %}../_static/images/team/{{ member.img }}{% endif %}"
+          alt="Kaustav Deka"
+        />
+      </div>
+      <div class="member-info">
+        <h1 class="member-name">Kaustav Deka</h1>
+        <p class="member-role">{{ member.role }}</p>
+        {% if member.interests %}
+        <p><strong>Interests:</strong> {{ member.interests }}</p>
+        {% endif %}
+
+        <div class="member-details">
+          {% if member.phone %}
+          <p><strong>Phone:</strong> {{ member.phone }}</p>
+          {% endif %} {% if member.email %}
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+          </p>
+          {% endif %} {% if member.website %}
+          <p>
+            <strong>Website:</strong>
+            <a href="{{ member.website }}" target="_blank"
+              >{{ member.website }}</a
+            >
+          </p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="member-detailed">
+      <div class="member-detailed-title">About</div>
+      <div class="divider"></div>
+      {% if member.bio %}
+      <div class="member-bio">
+        <h2>Biography</h2>
+        <p>{{ member.bio }}</p>
+      </div>
+      {% endif %} {% if member.education %}
+      <div class="member-education">
+        <h2>Education</h2>
+        <p>
+          <ul>
+            {% for edu in member.education %}
+            <li>{{ edu }}</li>
+            {% endfor %}
+          </ul>
+        </p>
+      </div>
+      {% endif %} {% if member.focus %}
+      <div class="member-education">
+        <h2>Current Focus</h2>
+        <p>
+          <ul>
+            {% for foc in member.focus %}
+            <li>{{ foc }}</li>
+            {% endfor %}
+          </ul>
+        </p>
+      </div>
+      {% endif %} {% if member.centers %}
+      <div class="member-centers">
+        <h2>Centers</h2>
+        <p>
+          <ul>
+            {% for center in member.centers %}
+            <li>{{ center }}</li>
+            {% endfor %}
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    {% endif %}
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+{% endblock docs_main %}
