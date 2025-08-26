@@ -147,23 +147,6 @@ centers = [
 ]
 focus = []
 
-[[team_current]]
-name = "Mansi Ranka"
-position = "Research Assistant"
-role = "Research Assistant"
-img = "Mansi.png"
-phone = "8128373852"
-email = "mranka@iu.edu"
-website = ""
-interests = ""
-education = []
-bio = """
-I recently completed my Master’s in Data Science from Indiana University Bloomington, where I gained a deep understanding of topics like machine learning, computer vision, and deep learning systems. Prior to my master’s, I worked as a software developer at NVIDIA and OYO Rooms, where I developed solutions from scratch, led projects, and enhanced user experiences. I am developing a Functional Data Analysis (FDA) model in R and Python for DIPY, identifying regional white matter differences between healthy and unhealthy brains using Z-tests. This work leverages advanced statistical techniques to gain insights into brain health and support neurological research.
-"""
-centers = [
-  "Garyfallidis Research Group"
-]
-focus = []
 
 [[team_current]]
 name = "Aayush Jaiswal"
@@ -252,9 +235,9 @@ website = ""
 interests = "Machine Learning, Image Processing, NeuroScience, Game Development,& Graphics Design"
 education = []
 bio = """
-I am a graduate student pursuing a Master's in Intelligent Systems Engineering at Indiana University Bloomington with a specialization in NeuroEngineering. 
-Hailing from Assam, India, I hold a Bachelor's degree in Industrial Engineering & Management and have professional experience in both Product Management and Software Development. 
-My journey into computational neuroscience was solidified through my participation in the Google Summer of Code, where I contributed to the DIPY open-source project. 
+I am a graduate student pursuing a Master's in Intelligent Systems Engineering at Indiana University Bloomington with a specialization in NeuroEngineering.
+Hailing from Assam, India, I hold a Bachelor's degree in Industrial Engineering & Management and have professional experience in both Product Management and Software Development.
+My journey into computational neuroscience was solidified through my participation in the Google Summer of Code, where I contributed to the DIPY open-source project.
 I am passionate about the intersection of technology, engineering, and the human brain.
 """
 centers = [
@@ -287,28 +270,28 @@ centers = []
 focus = []
 
 
-[[team_alumni]]
-name = "Javier Guaje"
-position = "Ph.D. Student"
-role = "Ph.D Student of Intelligent Systems Engineering"
-img = "Javier.jpg"
-phone = "+13177461076"
-email = "jrguajeg@iu.edu"
-website = ""
-interests = "Neuroimaging, Computer Vision, Image Processing"
-education = []
-bio = """
-Javier Guaje is a Colombian citizen born and raised in Bogota. He holds a Bachelor and a Master degree in Systems and Computational Engineering from the National University of Colombia. During his master he specialized in medical image processing, mainly working with functional MRI (fMRI) acquired in resting state (RS).
+# [[team_alumni]]
+# name = "Javier Guaje"
+# position = "Alumni"
+# role = "Ph.D Student of Intelligent Systems Engineering"
+# img = "Javier.jpg"
+# phone = "+13177461076"
+# email = "jrguajeg@iu.edu"
+# website = ""
+# interests = "Neuroimaging, Computer Vision, Image Processing"
+# education = []
+# bio = """
+# Javier Guaje is a Colombian citizen born and raised in Bogota. He holds a Bachelor and a Master degree in Systems and Computational Engineering from the National University of Colombia. During his master he specialized in medical image processing, mainly working with functional MRI (fMRI) acquired in resting state (RS).
 
-He has also worked on image processing with Landsat 7 images, which are one of the many types of spectral images captured by NASA's satellites. As a data analyst, Guaje has worked for Bavaria S.A., one of the subsidiaries of SAB Miller, now AB InBev. His job consisted in performing several types of analysis to measure and/or improve the performance of trade marketing campaigns.
+# He has also worked on image processing with Landsat 7 images, which are one of the many types of spectral images captured by NASA's satellites. As a data analyst, Guaje has worked for Bavaria S.A., one of the subsidiaries of SAB Miller, now AB InBev. His job consisted in performing several types of analysis to measure and/or improve the performance of trade marketing campaigns.
 
-Guaje is currently a doctoral student in Intelligent Systems Engineering at Indiana University. His research is focused on developing fiber tracking algorithms using machine learning and neuroimaging.
-"""
-centers = [
-  "Intelligent Systems Engineering",
-  "Garyfallidis Research Group"
-]
-focus = []
+# Guaje is currently a doctoral student in Intelligent Systems Engineering at Indiana University. His research is focused on developing fiber tracking algorithms using machine learning and neuroimaging.
+# """
+# centers = [
+#   "Intelligent Systems Engineering",
+#   "Garyfallidis Research Group"
+# ]
+# focus = []
 
 
 [[team_alumni]]
@@ -333,3 +316,22 @@ focus = [
   "Supervised Bayesian Learning for Neuroanatomy",
   "Numerical Methods and Mathematical Optimization"
 ]
+
+[[team_alumni]]
+name = "Mansi Ranka"
+position = "Alumni"
+role = "Research Assistant"
+img = "Mansi.png"
+phone = "8128373852"
+email = "mranka@iu.edu"
+website = ""
+interests = ""
+education = []
+bio = """
+I recently completed my Master’s in Data Science from Indiana University Bloomington, where I gained a deep understanding of topics like machine learning, computer vision, and deep learning systems. Prior to my master’s, I worked as a software developer at NVIDIA and OYO Rooms, where I developed solutions from scratch, led projects, and enhanced user experiences. I am developing a Functional Data Analysis (FDA) model in R and Python for DIPY, identifying regional white matter differences between healthy and unhealthy brains using Z-tests. This work leverages advanced statistical techniques to gain insights into brain health and support neurological research.
+"""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
