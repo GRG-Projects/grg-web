@@ -245,6 +245,30 @@ centers = [
 ]
 focus = []
 
+[[team_current]]
+name = "Sukrut Akolkar"
+position = "Research Assistant"
+role = "Research Assistant"
+img = "Sukrut.jpg"
+phone = ""
+email = "sakolkar@iu.edu"
+website = ""
+interests = "Deep Learning, 3D/4D Computer Vision, Signal Processing, ML Systems Engineering"
+education = [
+  "Master of Science in Intelligent Systems Engineering, Indiana University Bloomington, 2024",
+  "Bachelor of Engineering in Computer Engineering, University of Mumbai, 2018"]
+bio = """
+I'm a recent Master’s graduate in Intelligent Systems Engineering from Indiana University Bloomington. At GRG, I'm focusing on applying signal processing and deep learning techniques to develop self-supervised, grounded methods for super-resolution of medical images.
+
+My broader interests lie in statistical learning and deep learning for spatiotemporal machine perception, and building scalable software systems for deep learning systems.
+
+Prior to my Master's and joining GRG, I earned my Bachelor's in Computer Engineering from the University of Mumbai and worked as a Senior Full-Stack Developer at Honeywell, where I helped build a SaaS platform for managing physical security devices across remote sites.
+"""
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
 # Alumni Team
 
 [[team_alumni]]
