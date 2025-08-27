@@ -8,7 +8,7 @@ position = "Director"
 role = "Professor of Intelligent Systems Engineering, Neuroengineering Track"
 img = "Eleftherios.jpg"
 phone = "8128565240"
-email = "elef@indiana.edu"
+email = "elef@iu.edu"
 website = ""
 interests = "Neuroimaging, Machine Learning, Open Source Development, Applied Mathematics, Scientific Visualization"
 education = []
@@ -142,23 +142,6 @@ bio = """
 I am a mechanical engineering graduate with a graduate degree in data science. I have worked in neuberg supratech for 2 years mainly in genomics and bioinformatics where I developed test for endometrial receptivity assay meant for IVF.
 I have been a part of GRG since a year and has been working on fiber reconstruction problem with simulations and deep learning.
 """
-centers = [
-  "Garyfallidis Research Group"
-]
-focus = []
-
-
-[[team_current]]
-name = "Aayush Jaiswal"
-position = "M.Sc. Student"
-role = "M.Sc. Student"
-img = "Aayush.jpeg"
-phone = ""
-email = "aajais@iu.edu"
-website = "https://linkedin.com/in/jaiswal-aayush/"
-interests = ""
-education = []
-bio = ""
 centers = [
   "Garyfallidis Research Group"
 ]
@@ -330,6 +313,22 @@ education = []
 bio = """
 I recently completed my Master’s in Data Science from Indiana University Bloomington, where I gained a deep understanding of topics like machine learning, computer vision, and deep learning systems. Prior to my master’s, I worked as a software developer at NVIDIA and OYO Rooms, where I developed solutions from scratch, led projects, and enhanced user experiences. I am developing a Functional Data Analysis (FDA) model in R and Python for DIPY, identifying regional white matter differences between healthy and unhealthy brains using Z-tests. This work leverages advanced statistical techniques to gain insights into brain health and support neurological research.
 """
+centers = [
+  "Garyfallidis Research Group"
+]
+focus = []
+
+[[team_alumni]]
+name = "Aayush Jaiswal"
+position = "Alumni"
+role = "M.Sc. Student"
+img = "Aayush.jpeg"
+phone = ""
+email = "aajais@iu.edu"
+website = "https://linkedin.com/in/jaiswal-aayush/"
+interests = ""
+education = []
+bio = ""
 centers = [
   "Garyfallidis Research Group"
 ]
