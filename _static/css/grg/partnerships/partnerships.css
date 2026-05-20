@@ -190,7 +190,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.75rem;
-  align-items: start;
+  align-items: stretch;
 }
 
 .ecosystem-card {
@@ -204,12 +204,19 @@
 .ecosystem-card-featured {
   border-color: #800000;
   border-top-width: 4px;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .ecosystem-right {
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
+  height: 100%;
+}
+
+.ecosystem-right .ecosystem-card {
+  flex: 1;
 }
 
 .ecosystem-card-header {
