@@ -86,14 +86,15 @@
 }
 
 .hero-btn-secondary {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.18);
   color: #ffffff !important;
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid #ffffff;
+  backdrop-filter: blur(4px);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 .hero-btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: #ffffff;
+  background: rgba(255, 255, 255, 0.32);
   transform: translateY(-2px);
 }
 
