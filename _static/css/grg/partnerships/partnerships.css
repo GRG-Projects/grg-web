@@ -75,7 +75,10 @@
   cursor: pointer;
 }
 
-.hero-btn-primary {
+.hero-btn-primary,
+.hero-btn-primary:link,
+.hero-btn-primary:visited,
+.hero-btn-primary:active {
   background: #800000;
   color: #ffffff !important;
   border: 2px solid #800000;
@@ -84,6 +87,7 @@
 .hero-btn-primary:hover {
   background: #990000;
   border-color: #990000;
+  color: #ffffff !important;
   transform: translateY(-2px);
 }
 
@@ -508,7 +512,10 @@
   color: #ffffff !important;
 }
 
-.tier-cta-featured {
+.tier-cta-featured,
+.tier-cta-featured:link,
+.tier-cta-featured:visited,
+.tier-cta-featured:active {
   background: linear-gradient(135deg, #990000 0%, #800000 100%);
   color: #ffffff !important;
   border-color: transparent;
@@ -817,7 +824,10 @@
   margin: 0 auto 1.5rem;
 }
 
-.partnerships-cta-btn {
+.partnerships-cta-btn,
+.partnerships-cta-btn:link,
+.partnerships-cta-btn:visited,
+.partnerships-cta-btn:active {
   display: inline-block;
   padding: 1rem 2.5rem;
   background: linear-gradient(135deg, #990000 0%, #800000 100%);
@@ -833,6 +843,7 @@
 
 .partnerships-cta-btn:hover {
   opacity: 0.88;
+  color: #ffffff !important;
   transform: translateY(-2px);
 }
 
@@ -900,8 +911,15 @@
   opacity: 0.9;
 }
 
-.sticky-cta-email {
+.sticky-cta-email,
+.sticky-cta-email:link,
+.sticky-cta-email:visited,
+.sticky-cta-email:active {
   background: linear-gradient(135deg, #990000 0%, #800000 100%);
+  color: #ffffff !important;
+}
+
+.sticky-cta-email:hover {
   color: #ffffff !important;
 }
 
