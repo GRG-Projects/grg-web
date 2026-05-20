@@ -1,0 +1,397 @@
+{% extends "layout.html" %} {% set title = 'Industry & Lab Partnerships' %} {% block docs_main %}
+
+<section class="partnerships-page">
+
+  <!-- HERO -->
+  <div class="partnerships-hero">
+    <img
+      id="partnerships-banner"
+      src="_static/images/banner/research.jpg"
+      alt="GRG Industry Partnerships"
+    />
+    <div class="partnerships-hero-overlay">
+      <h1 class="partnerships-hero-title">GRG Industry &amp; Partnership Ecosystem</h1>
+      <p class="partnerships-hero-subtitle">
+        Accelerate your neuroimaging pipelines with direct access to the innovators
+        behind DIPY, FURY, and THETAN.
+      </p>
+    </div>
+  </div>
+
+  <div class="partnerships-container">
+
+    <!-- INTRO -->
+    <div class="partnerships-intro">
+      <p class="partnerships-intro-text">
+        While our core software remains completely open-source and free for the world,
+        the Garyfallidis Research Group provides structured premium partnerships for
+        academic labs and corporate teams requiring enterprise-grade optimization,
+        sequence validation, and clinical trial compliance.
+      </p>
+      <div class="divider"></div>
+    </div>
+
+    <!-- WHY PARTNER -->
+    <div class="partnerships-section" id="why-partner">
+      <h2 class="partnerships-section-title">Why Partner with GRG?</h2>
+      <p class="partnerships-section-subtitle">
+        Bridging cutting-edge computational neuroengineering and real-world industrial
+        applications, GRG partnerships give your team an unfair advantage.
+      </p>
+      <div class="partnerships-pillars">
+
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <img src="_static/images/icons/ml.svg" alt="Engineering" class="pillar-icon" />
+          </div>
+          <h3 class="pillar-title">Eliminate Engineering Bottlenecks</h3>
+          <p class="pillar-body">
+            Direct access to core maintainers of DIPY, FURY, and THETAN to optimize
+            processing pipelines, configuration tuning, and throughput — eliminating
+            the months your team would otherwise spend reverse-engineering undocumented
+            internals.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <img src="_static/images/icons/brain.svg" alt="Sequence Validation" class="pillar-icon" />
+          </div>
+          <h3 class="pillar-title">Sequence Validation</h3>
+          <p class="pillar-body">
+            Expert consulting on optimal diffusion acquisition strategies — multishell
+            b-value schemes, directional resolution for crossing fibers, and protocol
+            harmonization across scanner platforms — grounded in two decades of
+            hands-on MRI research.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <img src="_static/images/icons/info.svg" alt="Regulatory" class="pillar-icon" />
+          </div>
+          <h3 class="pillar-title">Regulatory &amp; Compliance Support</h3>
+          <p class="pillar-body">
+            Algorithmic documentation, validation datasets, and reproducibility
+            evidence essential for FDA submissions and clinical trial compliance.
+            Leverage an R1 university research group's institutional credibility for
+            your regulatory pathway.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- PRICING TIERS -->
+    <div class="partnerships-section" id="tiers">
+      <h2 class="partnerships-section-title">Premium Partnership Tiers</h2>
+      <p class="partnerships-section-subtitle">
+        Choose the engagement level that fits your team's scale, timeline, and
+        technical requirements. All tiers include access to our open-source
+        ecosystems; premium layers add direct human expertise.
+      </p>
+
+      <div class="tiers-grid">
+
+        <!-- TIER 1 -->
+        <div class="tier-card tier-academic">
+          <div class="tier-header">
+            <span class="tier-badge">Academic</span>
+            <h3 class="tier-name">Academic Lab</h3>
+            <div class="tier-price">
+              <span class="tier-amount">$2,500</span>
+              <span class="tier-period">/ year</span>
+            </div>
+            <p class="tier-tagline">
+              For research groups leveraging GRG software in grant-funded studies.
+            </p>
+          </div>
+          <ul class="tier-features">
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Workshop Access</strong> — Priority registration &amp; discounted seats at annual DIPY workshops</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Support Channels</strong> — Dedicated GitHub issue lane + email queue (48-hour response)</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Private Consult Hours</strong> — 4 hours / year of direct video consultation</span>
+            </li>
+            <li>
+              <span class="feat-dash">&#8212;</span>
+              <span class="feat-unavail">Custom Algorithm Adaptation</span>
+            </li>
+            <li>
+              <span class="feat-dash">&#8212;</span>
+              <span class="feat-unavail">Regulatory Compliance Docs</span>
+            </li>
+            <li>
+              <span class="feat-dash">&#8212;</span>
+              <span class="feat-unavail">SLA &amp; Priority Patching</span>
+            </li>
+          </ul>
+          <a href="mailto:workshop@dipy.org?subject=Academic Lab Partnership Inquiry" class="tier-cta">
+            Get Started
+          </a>
+        </div>
+
+        <!-- TIER 2 -->
+        <div class="tier-card tier-corporate tier-featured">
+          <div class="tier-featured-badge">Most Popular</div>
+          <div class="tier-header">
+            <span class="tier-badge">Corporate</span>
+            <h3 class="tier-name">Corporate R&amp;D Partner</h3>
+            <div class="tier-price">
+              <span class="tier-amount">$7,500</span>
+              <span class="tier-period">/ year</span>
+            </div>
+            <p class="tier-tagline">
+              For biotech, medtech, and pharmaceutical R&amp;D teams integrating
+              GRG pipelines into product workflows.
+            </p>
+          </div>
+          <ul class="tier-features">
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Workshop Access</strong> — Complimentary seats (up to 3 attendees) at annual workshops</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Support Channels</strong> — Private Slack channel + dedicated email (24-hour response)</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Private Consult Hours</strong> — 16 hours / year of direct consultation with core developers</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Custom Algorithm Adaptation</strong> — Minor pipeline customizations scoped annually</span>
+            </li>
+            <li>
+              <span class="feat-dash">&#8212;</span>
+              <span class="feat-unavail">Regulatory Compliance Docs</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>SLA &amp; Priority Patching</strong> — Critical bug fixes prioritized within 5 business days</span>
+            </li>
+          </ul>
+          <a href="mailto:workshop@dipy.org?subject=Corporate R%26D Partnership Inquiry" class="tier-cta tier-cta-featured">
+            Get Started
+          </a>
+        </div>
+
+        <!-- TIER 3 -->
+        <div class="tier-card tier-enterprise">
+          <div class="tier-header">
+            <span class="tier-badge">Enterprise</span>
+            <h3 class="tier-name">Enterprise &amp; Clinical Sponsor</h3>
+            <div class="tier-price">
+              <span class="tier-amount">$20,000</span>
+              <span class="tier-period">/ year</span>
+            </div>
+            <p class="tier-tagline">
+              For clinical-stage organizations requiring full validation support,
+              regulatory-grade documentation, and named engineering resources.
+            </p>
+          </div>
+          <ul class="tier-features">
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Workshop Access</strong> — Unlimited team seats + private half-day session with GRG leadership</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Support Channels</strong> — Named point-of-contact engineer + phone escalation path</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Private Consult Hours</strong> — 48 hours / year + quarterly strategic review sessions</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Custom Algorithm Adaptation</strong> — Substantial customization and co-development scope</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>Regulatory Compliance Docs</strong> — Algorithmic validation reports, reproducibility datasets, and IU-signed technical letters</span>
+            </li>
+            <li>
+              <span class="feat-check">&#10003;</span>
+              <span><strong>SLA &amp; Priority Patching</strong> — Guaranteed 48-hour critical response with root-cause analysis report</span>
+            </li>
+          </ul>
+          <a href="mailto:workshop@dipy.org?subject=Enterprise Clinical Sponsorship Inquiry" class="tier-cta">
+            Contact Us
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Comparison summary table -->
+      <div class="tiers-table-wrap">
+        <h3 class="tiers-table-heading">At a Glance</h3>
+        <table class="tiers-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Academic Lab<br /><em>$2,500 / yr</em></th>
+              <th class="col-featured">Corporate R&amp;D<br /><em>$7,500 / yr</em></th>
+              <th>Enterprise &amp; Clinical<br /><em>$20,000 / yr</em></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Workshop Access</td>
+              <td>Priority &amp; discounted</td>
+              <td class="col-featured">Up to 3 complimentary seats</td>
+              <td>Unlimited + private session</td>
+            </tr>
+            <tr>
+              <td>Support Channels</td>
+              <td>GitHub lane + email (48 hr)</td>
+              <td class="col-featured">Private Slack + email (24 hr)</td>
+              <td>Named engineer + phone</td>
+            </tr>
+            <tr>
+              <td>Private Consult Hours</td>
+              <td>4 hr / yr</td>
+              <td class="col-featured">16 hr / yr</td>
+              <td>48 hr / yr + quarterly reviews</td>
+            </tr>
+            <tr>
+              <td>Custom Algorithm Adaptation</td>
+              <td class="cell-no">&#8212;</td>
+              <td class="col-featured">Minor scope</td>
+              <td>Substantial co-development</td>
+            </tr>
+            <tr>
+              <td>Regulatory Compliance Docs</td>
+              <td class="cell-no">&#8212;</td>
+              <td class="col-featured cell-no">&#8212;</td>
+              <td>Full package + IU-signed letters</td>
+            </tr>
+            <tr>
+              <td>SLA &amp; Priority Patching</td>
+              <td class="cell-no">&#8212;</td>
+              <td class="col-featured">5 business days</td>
+              <td>48-hour critical response</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- GRANT COLLABORATION -->
+    <div class="partnerships-section" id="grant-collaboration">
+      <h2 class="partnerships-section-title">Include GRG in Your Grant</h2>
+      <p class="partnerships-section-subtitle">
+        GRG has a strong track record as a funded collaborator on NIH and NSF grants.
+        Adding us to your proposal brings computational neuroimaging expertise, validated
+        open-source infrastructure, and Indiana University's institutional credibility
+        directly into your research team.
+      </p>
+
+      <div class="grant-track-record">
+        <div class="grant-stat">
+          <span class="grant-stat-num">20+</span>
+          <span class="grant-stat-label">Years of NIH &amp; NSF-funded research</span>
+        </div>
+        <div class="grant-stat">
+          <span class="grant-stat-num">3</span>
+          <span class="grant-stat-label">Active open-source ecosystems (DIPY, FURY, THETAN)</span>
+        </div>
+        <div class="grant-stat">
+          <span class="grant-stat-num">R1</span>
+          <span class="grant-stat-label">Indiana University — Carnegie R1 research institution</span>
+        </div>
+      </div>
+
+      <div class="grant-grid">
+
+        <div class="grant-card">
+          <h3 class="grant-card-title">What We Bring to Your Proposal</h3>
+          <ul class="grant-list">
+            <li>Established computational neuroimaging pipeline (DIPY) already cited in hundreds of peer-reviewed publications</li>
+            <li>Expertise in diffusion MRI, tractography, and brain connectivity analysis</li>
+            <li>Machine learning and scientific visualization capabilities (FURY, THETAN)</li>
+            <li>A multidisciplinary team spanning ISE, neuroscience, and clinical imaging</li>
+            <li>Proven ability to deliver reproducible, open-source software artifacts required by NIH data-sharing mandates</li>
+          </ul>
+        </div>
+
+        <div class="grant-card">
+          <h3 class="grant-card-title">What GRG Can Provide for Your Application</h3>
+          <ul class="grant-list">
+            <li><strong>Letter of Support</strong> — signed by Prof. Garyfallidis, outlining GRG's commitment and role</li>
+            <li><strong>NIH Biosketch</strong> — current biosketch for Prof. Garyfallidis and key personnel</li>
+            <li><strong>Facilities &amp; Resources statement</strong> — describing GRG compute infrastructure and IU HPC access</li>
+            <li><strong>Subaward / Subcontract setup</strong> — IU Sponsored Research Services handles all subcontract paperwork</li>
+            <li><strong>Scope of Work draft</strong> — tailored to your specific aims and budget period</li>
+          </ul>
+        </div>
+
+        <div class="grant-card">
+          <h3 class="grant-card-title">Common Collaboration Mechanisms</h3>
+          <ul class="grant-list">
+            <li><strong>NIH R01 / R21 subaward</strong> — GRG listed as subcontractor with dedicated budget</li>
+            <li><strong>NSF collaborative research</strong> — multi-PI or subaward structure through IU Sponsored Programs</li>
+            <li><strong>Consultant role</strong> — lighter engagement, no subcontract needed</li>
+            <li><strong>Co-investigator</strong> — for deeper, multi-year research partnerships where GRG leads a specific aim</li>
+            <li><strong>Data management plan contribution</strong> — GRG expertise in open-data and FAIR neuroimaging standards</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <blockquote class="partnerships-billing-note" style="margin-top: 2rem;">
+        <strong>Ready to collaborate on a grant?</strong> Contact us early — ideally
+        4–6 weeks before your submission deadline — so we have time to prepare
+        the necessary documents and coordinate with
+        <strong>IU Sponsored Research Services</strong>.
+        Email <a href="mailto:workshop@dipy.org?subject=Grant Collaboration Inquiry" style="color: #800000;">workshop@dipy.org</a>
+        with your funding opportunity number and target submission date.
+      </blockquote>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- CTA -->
+    <div class="partnerships-section partnerships-cta" id="contact">
+      <h2 class="partnerships-section-title">Partner With Us Today</h2>
+      <p class="partnerships-cta-body">
+        Ready to streamline your team's imaging workflows or looking to clear
+        corporate procurement hurdles? Contact our fiscal and technical management
+        team to start the conversation.
+      </p>
+      <a
+        href="mailto:workshop@dipy.org?subject=Partnership Inquiry"
+        class="partnerships-cta-btn"
+      >
+        Email workshop@dipy.org
+      </a>
+      <p class="partnerships-cta-body" style="margin-top: 1.5rem;">
+        We will set up an introductory consultation and, upon request, provide an
+        official <strong>Indiana University invoice</strong> or
+        <strong>wire instruction packet</strong> through our IU Merchant accounts.
+      </p>
+      <blockquote class="partnerships-billing-note">
+        <strong>Corporate Billing Note:</strong> University billing is processed
+        smoothly via <strong>ACH&nbsp;/&nbsp;Wire Transfer</strong> and
+        <strong>Purchase Orders (POs)</strong> through Indiana University's
+        official merchant accounts — fully compliant with standard corporate
+        procurement requirements. Your finance team will have everything needed
+        for a clean approval cycle.
+      </blockquote>
+    </div>
+
+  </div>
+</section>
+
+{% endblock docs_main %}

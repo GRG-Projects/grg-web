@@ -72,6 +72,23 @@
   transform: scaleX(1);
 }
 
+.nav-link-cta {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.35rem 0.9rem !important;
+  border-radius: 6px;
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.nav-link-cta:hover {
+  background: rgba(255, 255, 255, 0.28);
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-link-cta:after {
+  display: none !important;
+}
+
 /* Mobile Navbar Styles */
 .mobile-navbar {
   display: none;
