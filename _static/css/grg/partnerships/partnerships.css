@@ -76,12 +76,14 @@
 }
 
 .hero-btn-primary {
-  background: #ffffff;
-  color: #800000 !important;
+  background: #800000;
+  color: #ffffff !important;
+  border: 2px solid #800000;
 }
 
 .hero-btn-primary:hover {
-  opacity: 0.9;
+  background: #990000;
+  border-color: #990000;
   transform: translateY(-2px);
 }
 
