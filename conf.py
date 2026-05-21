@@ -165,6 +165,7 @@ html_additional_pages = {
     "publications": "pages/publications.html",
     "software": "pages/software.html",
     "career": "pages/career.html",
+    "partnerships": "pages/partnerships.html",
 }
 
 OUTPUT_DIR = "_templates/team"
