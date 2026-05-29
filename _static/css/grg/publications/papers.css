@@ -237,6 +237,48 @@ body.modal-open {
   max-height: calc(100vh - 400px);
 }
 
+.modal-container-body.bibtex-view {
+  position: relative;
+}
+
+.bibtex-block {
+  margin: 0;
+  padding: 16px;
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #24292e;
+  white-space: pre;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -moz-tab-size: 2;
+  tab-size: 2;
+}
+
+.bibtex-copy {
+  position: sticky;
+  top: 0;
+  float: right;
+  margin: 0 0 -34px 8px;
+  padding: 5px 12px;
+  background-color: #990000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.2s ease;
+}
+
+.bibtex-copy:hover,
+.bibtex-copy:focus {
+  background-color: #b30000;
+}
+
 .rtf h1,
 .rtf h2,
 .rtf h3,

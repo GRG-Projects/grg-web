@@ -3,7 +3,19 @@ title = "Dipy, a library for the analysis of diffusion MRI data"
 authors = "Eleftherios Garyfallidis and Matthew Brett and Bagrat Amirbekian and Ariel Rokem and Stefan Van Der Walt and Maxime Descoteaux and Ian Nimmo-Smith and Dipy Contributors"
 abstract = "Diffusion Imaging in Python (Dipy) is a free and open source software project for the analysis of data from diffusion magnetic resonance imaging (dMRI) experiments. dMRI is an application of MRI that can be used to measure structural features of brain white matter. Many methods have been developed to use dMRI data to model the local configuration of white matter nerve fiber bundles and infer the trajectory of bundles connecting different parts of the brain. Dipy gathers implementations of many different methods in dMRI, including: ..."
 project = "https://dipy.org/index.html"
-bibtex = "@ARTICLE{10.3389/fninf.2014.00008, AUTHOR={Garyfallidis, Eleftherios and Brett, Matthew and Amirbekian, Bagrat and Rokem, Ariel and Van Der Walt, Stefan and Descoteaux, Maxime and Nimmo-Smith, Ian}, TITLE={Dipy, a library for the analysis of diffusion MRI data}, JOURNAL={Frontiers in Neuroinformatics}, VOLUME={8}, PAGES={8}, YEAR={2014}, URL={http://journal.frontiersin.org/article/10.3389/fninf.2014.00008}, DOI={10.3389/fninf.2014.00008}, ISSN={1662-5196}, ABSTRACT={Diffusion Imaging in Python (Dipy) is a free and open source software projectfor the analysis of data from diffusion magnetic resonance imaging (dMRI)experiments. dMRI is an application of MRI that can be used to measurestructural features of brain white matter. Many methods have been developed touse dMRI data to model the local configuration of white matter nerve fiberbundles and infer the trajectory of bundles connecting different parts of thebrain.Dipy gathers implementations of many different methods in dMRI, including:diffusion signal pre-processing; reconstruction of diffusion distributions inindividual voxels; fiber tractography and fiber track post-processing, analysisand visualization. Dipy aims to provide transparent implementations forall the different steps of dMRI analysis with a uniform programming interface.We have implemented classical signal reconstruction techniques, such as thediffusion tensor model and deterministic fiber tractography. In addition,cutting edge novel reconstruction techniques are implemented, such asconstrained spherical deconvolution and diffusion spectrum imaging withdeconvolution, as well as methods for probabilistic tracking and originalmethods for tractography clustering. Many additional utility functions areprovided to calculate various statistics, informative visualizations, as wellas file-handling routines to assist in the development and use of noveltechniques.In contrast to many other scientific software projects, Dipy is not beingdeveloped by a single research group. Rather, it is an open project thatencourages contributions from any scientist/developer through GitHub and opendiscussions on the project mailing list. Consequently, Dipy today has aninternational team of contributors, spanning seven different academic institutionsin five countries and three continents, which is still growing.} }"
+bibtex = '''
+@ARTICLE{10.3389/fninf.2014.00008,
+  AUTHOR   = {Garyfallidis, Eleftherios and Brett, Matthew and Amirbekian, Bagrat and Rokem, Ariel and Van Der Walt, Stefan and Descoteaux, Maxime and Nimmo-Smith, Ian},
+  TITLE    = {Dipy, a library for the analysis of diffusion MRI data},
+  JOURNAL  = {Frontiers in Neuroinformatics},
+  VOLUME   = {8},
+  PAGES    = {8},
+  YEAR     = {2014},
+  URL      = {http://journal.frontiersin.org/article/10.3389/fninf.2014.00008},
+  DOI      = {10.3389/fninf.2014.00008},
+  ISSN     = {1662-5196},
+}
+'''
 pdf = "https://pmc.ncbi.nlm.nih.gov/articles/PMC3931231/pdf/fninf-08-00008.pdf"
 
 [[publication_paper]]
@@ -11,7 +23,22 @@ title = "Tractometer: towards validation of tractography pipelines"
 authors = "Marc-Alexandre Côté and Gabriel Girard and Arnaud Boré and Eleftherios Garyfallidis and Jean-Christophe Houde and Maxime Descoteaux"
 abstract = "We have developed the Tractometer: an online evaluation and validation system for tractography processing pipelines. One can now evaluate the results of more than 57,000 fiber tracking outputs using different acquisition settings (b-value, averaging), different local estimation techniques (tensor, q-ball, spherical deconvolution) and different tracking parameters (masking, seeding, maximum curvature, step size). At this stage, the system is solely based on a revised FiberCup analysis, but we hope that the community will get ..."
 project = ""
-bibtex = "@article{COTE2013844, title = 'Tractometer: Towards validation of tractography pipelines', journal = 'Medical Image Analysis', volume = '17', number = '7', pages = '844 - 857', year = '2013', note = 'Special Issue on the 2012 Conference on Medical Image Computing and Computer Assisted Intervention', issn = '1361-8415', doi = 'https://doi.org/10.1016/j.media.2013.03.009', url = 'http://www.sciencedirect.com/science/article/pii/S1361841513000479', author = 'Marc-Alexandre Côté and Gabriel Girard and Arnaud Boré and Eleftherios Garyfallidis and Jean-Christophe Houde and Maxime Descoteaux', keywords = 'Diffusion MRI', keywords = 'Tractography', keywords = 'Validation', keywords = 'Connectivity analysis', keywords = 'a-ODF', keywords = 'ABC', keywords = 'CC', keywords = 'Cg', keywords = 'csa-ODF', keywords = 'CSF', keywords = 'CST', keywords = 'dMRI', keywords = 'DTI', keywords = 'DWI', keywords = 'fODF', keywords = 'FA', keywords = 'GM', keywords = 'HARDI', keywords = 'IB', keywords = 'IC', keywords = 'ODF', keywords = 'NC', keywords = 'r6', keywords = 'rk', keywords = 'ROI', keywords = 'SD-r6', keywords = 'SLF', keywords = 'TEND', keywords = 'VB', keywords = 'VC', keywords = 'WM' }"
+bibtex = '''
+@article{COTE2013844,
+  title    = {Tractometer: Towards validation of tractography pipelines},
+  journal  = {Medical Image Analysis},
+  volume   = {17},
+  number   = {7},
+  pages    = {844 - 857},
+  year     = {2013},
+  note     = {Special Issue on the 2012 Conference on Medical Image Computing and Computer Assisted Intervention},
+  issn     = {1361-8415},
+  doi      = {https://doi.org/10.1016/j.media.2013.03.009},
+  url      = {http://www.sciencedirect.com/science/article/pii/S1361841513000479},
+  author   = {Marc-Alexandre Côté and Gabriel Girard and Arnaud Boré and Eleftherios Garyfallidis and Jean-Christophe Houde and Maxime Descoteaux},
+  keywords = {Diffusion MRI, Tractography, Validation, Connectivity analysis, a-ODF, ABC, CC, Cg, csa-ODF, CSF, CST, dMRI, DTI, DWI, fODF, FA, GM, HARDI, IB, IC, ODF, NC, r6, rk, ROI, SD-r6, SLF, TEND, VB, VC, WM}
+}
+'''
 pdf = "https://grg.luddy.indiana.edu/_static/publication/1-s2.0-S1361841513000479-main.pdf"
 
 [[publication_paper]]
@@ -19,7 +46,18 @@ title = "Quickbundles, a method for tractography simplification"
 authors = "Eleftherios Garyfallidis and Matthew Brett and Marta Morgado Correia and Guy B Williams and Ian Nimmo-Smith"
 abstract = "Diffusion MR data sets produce large numbers of streamlines which are hard to visualize, interact with, and interpret in a clinically acceptable time scale, despite numerous proposed approaches. As a solution we present a simple, compact, tailor-made clustering algorithm, QuickBundles (QB), that overcomes the complexity of these large data sets and provides informative clusters in seconds. Each QB cluster can be represented by a single centroid streamline; collectively these centroid streamlines can be taken as an effective ..."
 project = ""
-bibtex = "@article{Garyfallidis2012, doi = {10.3389/fnins.2012.00175}, url = {https://doi.org/10.3389/fnins.2012.00175}, year = {2012}, publisher = {Frontiers Media {SA}}, volume = {6}, author = {Eleftherios Garyfallidis and Matthew Brett and Marta Morgado Correia and Guy B. Williams and Ian Nimmo-Smith}, title = {{QuickBundles}, a Method for Tractography Simplification}, journal = {Frontiers in Neuroscience} }"
+bibtex = '''
+@article{Garyfallidis2012,
+  doi       = {10.3389/fnins.2012.00175},
+  url       = {https://doi.org/10.3389/fnins.2012.00175},
+  year      = {2012},
+  publisher = {Frontiers Media {SA}},
+  volume    = {6},
+  author    = {Eleftherios Garyfallidis and Matthew Brett and Marta Morgado Correia and Guy B. Williams and Ian Nimmo-Smith},
+  title     = {{QuickBundles}, a Method for Tractography Simplification},
+  journal   = {Frontiers in Neuroscience}
+}
+'''
 pdf = "https://grg.luddy.indiana.edu/_static/publication/fnins-06-00175.pdf"
 
 [[publication_paper]]
@@ -35,7 +73,21 @@ title = "Extracting biomarkers of autism from MEG resting-state functional conne
 authors = "Vassilis Tsiaras and Panagiotis G Simos and Roozbeh Rezaie and Bhavin R Sheth and Eleftherios Garyfallidis and Eduardo M Castillo and Andrew C Papanicolaou"
 abstract = "The present study is a preliminary attempt to use graph theory for deriving distinct features of resting-state functional networks in young adults with autism spectrum disorder (ASD). Networks modeled neuromagnetic signal interactions between sensors using three alternative interdependence measures:(a) a non-linear measure of generalized synchronization (robust interdependence measure [RIM]),(b) mutual information (MI), and (c) partial directed coherence (PDC). To summarize the information contained in each ..."
 project = ""
-bibtex = "@article{Tsiaras2011, doi = {10.1016/j.compbiomed.2011.04.004}, url = {https://doi.org/10.1016/j.compbiomed.2011.04.004}, year = {2011}, month = {dec}, publisher = {Elsevier {BV}}, volume = {41}, number = {12}, pages = {1166--1177}, author = {Vassilis Tsiaras and Panagiotis G. Simos and Roozbeh Rezaie and Bhavin R. Sheth and Eleftherios Garyfallidis and Eduardo M. Castillo and Andrew C. Papanicolaou}, title = {Extracting biomarkers of autism from {MEG} resting-state functional connectivity networks}, journal = {Computers in Biology and Medicine} }"
+bibtex = '''
+@article{Tsiaras2011,
+  doi       = {10.1016/j.compbiomed.2011.04.004},
+  url       = {https://doi.org/10.1016/j.compbiomed.2011.04.004},
+  year      = {2011},
+  month     = {dec},
+  publisher = {Elsevier {BV}},
+  volume    = {41},
+  number    = {12},
+  pages     = {1166--1177},
+  author    = {Vassilis Tsiaras and Panagiotis G. Simos and Roozbeh Rezaie and Bhavin R. Sheth and Eleftherios Garyfallidis and Eduardo M. Castillo and Andrew C. Papanicolaou},
+  title     = {Extracting biomarkers of autism from {MEG} resting-state functional connectivity networks},
+  journal   = {Computers in Biology and Medicine}
+}
+'''
 pdf = "https://grg.luddy.indiana.edu/_static/publication/1-s2.0-S0010482511000758-main.pdf"
 
 [[publication_paper]]
@@ -387,7 +439,18 @@ title = "Bundle analytics, a computational framework for investigating the shape
 authors = "Bramsh Qamar Chandio, Shannon Leigh Risacher, Franco Pestilli, Daniel Bullock, Fang-Cheng Yeh, Serge Koudoro, Ariel Rokem, Jaroslaw Harezlak & Eleftherios Garyfallidis"
 abstract = "Tractography has created new horizons for researchers to study brain connectivity in vivo. However, tractography is an advanced and challenging method that has not been used so far for medical data analysis at a large scale in comparison to other traditional brain imaging methods. This work allows tractography to be used for large scale and high-quality medical analytics. BUndle ANalytics (BUAN) is a fast, robust, and flexible computational framework for real-world tractometric studies. BUAN combines tractography and anatomical information to analyze the challenging datasets and identifies significant group differences in specific locations of the white matter bundles. Additionally, BUAN takes the shape of the bundles into consideration for the analysis. BUAN compares the shapes of the bundles using a metric called bundle adjacency which calculates shape similarity between two given bundles. BUAN builds networks of bundle shape similarities that can be paramount for automating quality control. BUAN is freely available in DIPY. Results are presented using publicly available Parkinson’s Progression Markers Initiative data."
 project = ""
-bibtex = "@article{chandio2020bundle, title={Bundle analytics, a computational framework for investigating the shapes and profiles of brain pathways across populations}, author={Chandio, Bramsh Qamar and Risacher, Shannon Leigh and Pestilli, Franco and Bullock, Daniel and Yeh, Fang-Cheng and Koudoro, Serge and Rokem, Ariel and Harezlak, Jaroslaw and Garyfallidis, Eleftherios}, journal={Scientific reports}, volume={10}, number={1}, pages={1--18}, year={2020}, publisher={Nature Publishing Group} }"
+bibtex = '''
+@article{chandio2020bundle,
+  title     = {Bundle analytics, a computational framework for investigating the shapes and profiles of brain pathways across populations},
+  author    = {Chandio, Bramsh Qamar and Risacher, Shannon Leigh and Pestilli, Franco and Bullock, Daniel and Yeh, Fang-Cheng and Koudoro, Serge and Rokem, Ariel and Harezlak, Jaroslaw and Garyfallidis, Eleftherios},
+  journal   = {Scientific reports},
+  volume    = {10},
+  number    = {1},
+  pages     = {1--18},
+  year      = {2020},
+  publisher = {Nature Publishing Group}
+}
+'''
 pdf = ""
 
 [[publication_paper]]
@@ -395,7 +458,14 @@ title = "StND: Streamline-based Non-rigid partial-Deformation Tractography Regis
 authors = "Bramsh Qamar Chandio & Eleftherios Garyfallidis"
 abstract = "A brain pathway is digitally represented as a 3D line connecting an ordered sequence of 3D vector points called a streamline. Streamlines are generated by tractography methods applied on diffusion-weighted MRI. Direct alignment of white matter tractography/tracts is a crucial part of any diffusion MRI tractography based methods such as group analysis, tract segmentation, and tractometry analysis. In the past decade, several linear registration methods for streamline registration have been developed but the neuroimaging field still lacks robust methods for nonrigid streamline-based registration. In this paper, we introduce StND method for streamline-based partial-deformation registration. We formulate a registration problem for nonrigid registration of white matter tracts. In the StND, we first perform affine streamline-based linear registration (SLR) on white matter tracts and add a deformation step in it using the probabilistic non-rigid registration method called Coherent Point Drift. We model our collection of streamline data as a 3Dpoint-set data and apply high-level deformations to better align tracts."
 project = ""
-bibtex = "@article{chandio2020stnd, title={StND: Streamline-based Non-rigid partial-Deformation Tractography Registration}, author={Chandio, Bramsh Qamar and Garyfallidis, Eleftherios}, journal={Medical Imaging Meets NeurIPS}, year={2020} }"
+bibtex = '''
+@article{chandio2020stnd,
+  title   = {StND: Streamline-based Non-rigid partial-Deformation Tractography Registration},
+  author  = {Chandio, Bramsh Qamar and Garyfallidis, Eleftherios},
+  journal = {Medical Imaging Meets NeurIPS},
+  year    = {2020}
+}
+'''
 pdf = ""
 
 [[publication_paper]]
@@ -403,7 +473,15 @@ title = "Brainhack: Developing a culture of open, inclusive, community-driven ne
 authors = "Rémi Gau, Stephanie Noble, Katja Heuer, Katherine L Bottenhorn, Isil P Bilgin, Yu-Fang Yang, Julia M Huntenburg, Johanna MM Bayer, Richard AI Bethlehem, Shawn A Rhoads, Christoph Vogelbacher, Valentin"
 abstract = "Brainhack is an innovative meeting format that promotes scientific collaboration and education in an open, inclusive environment. This NeuroView describes the myriad benefits for participants and the research community and how Brainhacks complement conventional formats to augment scientific progress."
 project = ""
-bibtex = "@article{gau2021brainhack, title={Brainhack: Developing a culture of open, inclusive, community-driven neuroscience}, author={Gau, R{\\'e}mi and Noble, Stephanie and Heuer, Katja and Bottenhorn, Katherine L and Bilgin, Isil P and Yang, Yu-Fang and Huntenburg, Julia M and Bayer, Johanna MM and Bethlehem, Richard AI and Rhoads, Shawn A and others}, journal={Neuron}, year={2021}, publisher={Elsevier} }"
+bibtex = '''
+@article{gau2021brainhack,
+  title     = {Brainhack: Developing a culture of open, inclusive, community-driven neuroscience},
+  author    = {Gau, R{\'e}mi and Noble, Stephanie and Heuer, Katja and Bottenhorn, Katherine L and Bilgin, Isil P and Yang, Yu-Fang and Huntenburg, Julia M and Bayer, Johanna MM and Bethlehem, Richard AI and Rhoads, Shawn A and others},
+  journal   = {Neuron},
+  year      = {2021},
+  publisher = {Elsevier}
+}
+'''
 pdf = ""
 
 [[publication_paper]]
@@ -411,7 +489,16 @@ title = "Pandora: 4-D White Matter Bundle Population-Based Atlases Derived from 
 authors = "Colin B Hansen, Qi Yang, Ilwoo Lyu, Francois Rheault, Cailey Kerley, Bramsh Qamar Chandio, Shreyas Fadnavis, Owen Williams, Andrea T Shafer, Susan M Resnick, David H Zald, Laurie E Cutting, Warren D T"
 abstract = "Brain atlases have proven to be valuable neuroscience tools for localizing regions of interest and performing statistical inferences on populations. Although many human brain atlases exist, most do not contain information about white matter structures, often neglecting them completely or labelling all white matter as a single homogenous substrate. While few white matter atlases do exist based on diffusion MRI fiber tractography, they are often limited to descriptions of white matter as spatially separate “regions” rather than as white matter “bundles” or fascicles, which are well-known to overlap throughout the brain. Additional limitations include small sample sizes, few white matter pathways, and the use of outdated diffusion models and techniques. Here, we present a new population-based collection of white matter atlases represented in both volumetric and surface coordinates in a standard space. These atlases are based on 2443 subjects, and include 216 white matter bundles derived from 6 different automated state-of-the-art tractography techniques. This atlas is freely available and will be a useful resource for parcellation and segmentation."
 project = ""
-bibtex = "@article{hansen2020pandora, title={Pandora: 4-D white matter bundle population-based atlases derived from diffusion MRI fiber tractography}, author={Hansen, Colin B and Yang, Qi and Lyu, Ilwoo and Rheault, Francois and Kerley, Cailey and Chandio, Bramsh Qamar and Fadnavis, Shreyas and Williams, Owen and Shafer, Andrea T and Resnick, Susan M and others}, journal={Neuroinformatics}, pages={1--14}, year={2020}, publisher={Springer} }"
+bibtex = '''
+@article{hansen2020pandora,
+  title     = {Pandora: 4-D white matter bundle population-based atlases derived from diffusion MRI fiber tractography},
+  author    = {Hansen, Colin B and Yang, Qi and Lyu, Ilwoo and Rheault, Francois and Kerley, Cailey and Chandio, Bramsh Qamar and Fadnavis, Shreyas and Williams, Owen and Shafer, Andrea T and Resnick, Susan M and others},
+  journal   = {Neuroinformatics},
+  pages     = {1--14},
+  year      = {2020},
+  publisher = {Springer}
+}
+'''
 pdf = ""
 
 [[publication_paper]]
@@ -419,6 +506,13 @@ title = "Patch2Self: Denoising Diffusion MRI with Self-Supervised Learning\u200b
 authors = "Shreyas Fadnavis, Joshua Batson, Eleftherios Garyfallidis"
 abstract = "Diffusion-weighted magnetic resonance imaging (DWI) is the only non-invasive method for quantifying microstructure and reconstructing white-matter pathways in the living human brain. Fluctuations from multiple sources create significant noise in DWI data which must be suppressed before subsequent microstructure analysis. We introduce a self-supervised learning method for denoising DWI data, Patch2Self, which uses the entire volume to learn a full-rank locally linear denoiser for that volume. By taking advantage of the oversampled q-space of DWI data, Patch2Self can separate structure from noise without requiring an explicit model for either. We demonstrate the effectiveness of Patch2Self via quantitative and qualitative improvements in microstructure modeling, tracking (via fiber bundle coherency) and model estimation relative to other unsupervised methods on real and simulated data."
 project = ""
-bibtex = "@article{fadnavis2020patch2self, title={Patch2Self: Denoising Diffusion MRI with Self-Supervised Learning}, author={Fadnavis, Shreyas and Batson, Joshua and Garyfallidis, Eleftherios}, journal={arXiv preprint arXiv:2011.01355}, year={2020} }"
+bibtex = '''
+@article{fadnavis2020patch2self,
+  title   = {Patch2Self: Denoising Diffusion MRI with Self-Supervised Learning},
+  author  = {Fadnavis, Shreyas and Batson, Joshua and Garyfallidis, Eleftherios},
+  journal = {arXiv preprint arXiv:2011.01355},
+  year    = {2020}
+}
+'''
 pdf = ""
 

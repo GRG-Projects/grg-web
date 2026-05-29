@@ -73,7 +73,17 @@ config = {}
 
 for toml_file in toml_files:
     with open(toml_file, "rb") as f:
-        config.update(tomllib.load(f))
+        try:
+            config.update(tomllib.load(f))
+        except tomllib.TOMLDecodeError as exc:
+            print(
+                f"\nFailed to parse {toml_file}: {exc}\n"
+                "Hint: wrap any value containing backslashes (e.g. BibTeX/LaTeX)\n"
+                "in a multi-line literal string using triple single-quotes:\n"
+                "    bibtex = '''\n    @article{...}\n    '''\n",
+                file=sys.stderr,
+            )
+            raise SystemExit(1)
 
 html_context = {
     "journal_slides": config["journal_slides"],
