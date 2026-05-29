@@ -9,7 +9,33 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to open the modal
   function openModal(type, content) {
     modalTitle.textContent = type.charAt(0).toUpperCase() + type.slice(1);
-    modalContent.innerHTML = content;
+    modalContent.textContent = "";
+    if (type === "bibtex") {
+      modalContent.classList.add("bibtex-view");
+
+      const copyBtn = document.createElement("button");
+      copyBtn.className = "bibtex-copy";
+      copyBtn.type = "button";
+      copyBtn.textContent = "Copy";
+      copyBtn.addEventListener("click", function () {
+        navigator.clipboard.writeText(content.trim()).then(function () {
+          copyBtn.textContent = "Copied!";
+          setTimeout(function () {
+            copyBtn.textContent = "Copy";
+          }, 1500);
+        });
+      });
+
+      const pre = document.createElement("pre");
+      pre.className = "bibtex-block";
+      pre.textContent = content.trim();
+
+      modalContent.appendChild(copyBtn);
+      modalContent.appendChild(pre);
+    } else {
+      modalContent.classList.remove("bibtex-view");
+      modalContent.textContent = content;
+    }
     modal.style.display = "flex";
     document.body.classList.add("modal-open");
   }
