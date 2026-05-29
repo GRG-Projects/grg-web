@@ -41,6 +41,27 @@ bibtex = '''
 pdf = "https://www.sciencedirect.com/science/article/pii/S1361841526001830"
 
 [[publication_paper]]
+title = "Mapping the structural connections between the anterior cingulate cortex and the insula/ventrolateral prefrontal cortex"
+authors = "Wei Tang, Javier Guaje, Shreyas Fadnavis, Sarah R. Heilbronner, Eleftherios Garyfallidis"
+abstract = "The anterior cingulate cortex (ACC) is functionally closely related with the insula and the ventral lateral prefrontal cortex (vlPFC). The ACC and insula are the main hubs of the salience network, a set of functionally related brain regions involved in detecting salient stimuli and coordinating inter-network communication, while communication between ACC and vlPFC is closely linked to inhibitory control. However, despite strong indirect evidence from nonhuman primate (NHP) tract tracing, the structural connections between the ACC and the insula/vlPFC remain poorly understood in the human brain, in part because standard approaches fail to capture this projection. In this study, we show that diffusion-weighted magnetic resonance imaging (dMRI) can reconstruct ACC–insula/vlPFC pathways after a technical adjustment to the fiber orientation distribution functions. First, using NHP dMRI as a diagnostic tool, we pinpointed an issue of fiber orientation biases in the deep white matter that uniquely impacts the streamlines connecting the ACC and the insula/vlPFC region. We introduced a reweighting approach based on individual variability to correct for the fiber orientation density function. Finally, we demonstrated that, by applying this fix, dMRI tractography can fully recover the ACC–insula/vlPFC pathways, supporting the anatomical basis of the functional relationships among these regions."
+project = ""
+bibtex = '''
+@article{10.1162/IMAG.a.1253,
+  author  = {Tang, Wei and Guaje, Javier and Fadnavis, Shreyas and Heilbronner, Sarah R. and Garyfallidis, Eleftherios},
+  title   = {Mapping the structural connections between the anterior cingulate cortex and the insula/ventrolateral prefrontal cortex},
+  journal = {Imaging Neuroscience},
+  volume  = {4},
+  pages   = {IMAG.a.1253},
+  year    = {2026},
+  month   = {05},
+  issn    = {2837-6056},
+  doi     = {10.1162/IMAG.a.1253},
+  url     = {https://doi.org/10.1162/IMAG.a.1253}
+}
+'''
+pdf = "https://direct.mit.edu/imag/article-pdf/doi/10.1162/IMAG.a.1253/2598272/imag.a.1253.pdf"
+
+[[publication_paper]]
 title = "Tractometer: towards validation of tractography pipelines"
 authors = "Marc-Alexandre Côté and Gabriel Girard and Arnaud Boré and Eleftherios Garyfallidis and Jean-Christophe Houde and Maxime Descoteaux"
 abstract = "We have developed the Tractometer: an online evaluation and validation system for tractography processing pipelines. One can now evaluate the results of more than 57,000 fiber tracking outputs using different acquisition settings (b-value, averaging), different local estimation techniques (tensor, q-ball, spherical deconvolution) and different tracking parameters (masking, seeding, maximum curvature, step size). At this stage, the system is solely based on a revised FiberCup analysis, but we hope that the community will get ..."
