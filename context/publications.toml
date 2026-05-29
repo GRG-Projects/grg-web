@@ -18,6 +18,28 @@ bibtex = '''
 '''
 pdf = "https://pmc.ncbi.nlm.nih.gov/articles/PMC3931231/pdf/fninf-08-00008.pdf"
 
+
+[[publication_paper]]
+title = "BundleWarp: Enhancing white matter tractometry and morphometry with precise neuronal mapping using streamline-based nonlinear registration"
+authors = "Bramsh Qamar Chandio, Emanuele Olivetti, David Romero-Bascones, Sophia I. Thomopoulos, Julio E. Villalon-Reina, Talia M. Nir, Jaroslaw Harezlak, Paul M. Thompson, Eleftherios Garyfallidis"
+abstract = "Tractometry analysis is an advanced neuroimaging approach that reconstructs and characterizes white matter tracts with greater precision than traditional ROI- or voxel-based methods. Accurate alignment of tracts across subjects is essential for reliable analysis, but nonlinear registration of tractography data is challenging and can introduce artifacts that obscure anatomical details. To address this, we introduce BundleWarp, a streamline-based nonlinear deformable registration method specifically designed for white matter bundles. BundleWarp aligns tracts while preserving their topological and anatomical features through probability density estimation, motion coherence penalties, and displacement field regularization. We also present a tract morphometry framework that uses BundleWarp’s displacement field to quantify tract shape differences. Results demonstrate improved structural harmonization, enhanced tractometry analysis, and increased test–retest reproducibility of bundle shape and microstructural measures (FA, MD, RD, AD). BundleWarp effectively detects structural and microstructural white matter changes associated with Alzheimer’s disease, Parkinson’s disease, Mild Cognitive Impairment (MCI), dementia, and early Alzheimer’s biomarkers, including amyloid-beta plaques and tau neurofibrillary tangles."
+project = ""
+bibtex = '''
+@article{CHANDIO2026104114,
+  title    = {BundleWarp: Enhancing white matter tractometry and morphometry with precise neuronal mapping using streamline-based nonlinear registration},
+  journal  = {Medical Image Analysis},
+  volume   = {112},
+  pages    = {104114},
+  year     = {2026},
+  issn     = {1361-8415},
+  doi      = {https://doi.org/10.1016/j.media.2026.104114},
+  url      = {https://www.sciencedirect.com/science/article/pii/S1361841526001830},
+  author   = {Bramsh Qamar Chandio and Emanuele Olivetti and David Romero-Bascones and Sophia I. Thomopoulos and Julio E. Villalon-Reina and Talia M. Nir and Jaroslaw Harezlak and Paul M. Thompson and Eleftherios Garyfallidis},
+  keywords = {Diffusion MRI, Tractometry, Deformable streamline-based registration, BundleWarp, BW, BUAN, Morphometry, Alzheimer’s disease, Parkinson’s disease, Amyloid, TAU}
+}
+'''
+pdf = "https://www.sciencedirect.com/science/article/pii/S1361841526001830"
+
 [[publication_paper]]
 title = "Tractometer: towards validation of tractography pipelines"
 authors = "Marc-Alexandre Côté and Gabriel Girard and Arnaud Boré and Eleftherios Garyfallidis and Jean-Christophe Houde and Maxime Descoteaux"
