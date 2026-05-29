@@ -18,6 +18,49 @@ bibtex = '''
 '''
 pdf = "https://pmc.ncbi.nlm.nih.gov/articles/PMC3931231/pdf/fninf-08-00008.pdf"
 
+
+[[publication_paper]]
+title = "BundleWarp: Enhancing white matter tractometry and morphometry with precise neuronal mapping using streamline-based nonlinear registration"
+authors = "Bramsh Qamar Chandio, Emanuele Olivetti, David Romero-Bascones, Sophia I. Thomopoulos, Julio E. Villalon-Reina, Talia M. Nir, Jaroslaw Harezlak, Paul M. Thompson, Eleftherios Garyfallidis"
+abstract = "Tractometry analysis is an advanced neuroimaging approach that reconstructs and characterizes white matter tracts with greater precision than traditional ROI- or voxel-based methods. Accurate alignment of tracts across subjects is essential for reliable analysis, but nonlinear registration of tractography data is challenging and can introduce artifacts that obscure anatomical details. To address this, we introduce BundleWarp, a streamline-based nonlinear deformable registration method specifically designed for white matter bundles. BundleWarp aligns tracts while preserving their topological and anatomical features through probability density estimation, motion coherence penalties, and displacement field regularization. We also present a tract morphometry framework that uses BundleWarp’s displacement field to quantify tract shape differences. Results demonstrate improved structural harmonization, enhanced tractometry analysis, and increased test–retest reproducibility of bundle shape and microstructural measures (FA, MD, RD, AD). BundleWarp effectively detects structural and microstructural white matter changes associated with Alzheimer’s disease, Parkinson’s disease, Mild Cognitive Impairment (MCI), dementia, and early Alzheimer’s biomarkers, including amyloid-beta plaques and tau neurofibrillary tangles."
+project = ""
+bibtex = '''
+@article{CHANDIO2026104114,
+  title    = {BundleWarp: Enhancing white matter tractometry and morphometry with precise neuronal mapping using streamline-based nonlinear registration},
+  journal  = {Medical Image Analysis},
+  volume   = {112},
+  pages    = {104114},
+  year     = {2026},
+  issn     = {1361-8415},
+  doi      = {https://doi.org/10.1016/j.media.2026.104114},
+  url      = {https://www.sciencedirect.com/science/article/pii/S1361841526001830},
+  author   = {Bramsh Qamar Chandio and Emanuele Olivetti and David Romero-Bascones and Sophia I. Thomopoulos and Julio E. Villalon-Reina and Talia M. Nir and Jaroslaw Harezlak and Paul M. Thompson and Eleftherios Garyfallidis},
+  keywords = {Diffusion MRI, Tractometry, Deformable streamline-based registration, BundleWarp, BW, BUAN, Morphometry, Alzheimer’s disease, Parkinson’s disease, Amyloid, TAU}
+}
+'''
+pdf = "https://www.sciencedirect.com/science/article/pii/S1361841526001830"
+
+[[publication_paper]]
+title = "Mapping the structural connections between the anterior cingulate cortex and the insula/ventrolateral prefrontal cortex"
+authors = "Wei Tang, Javier Guaje, Shreyas Fadnavis, Sarah R. Heilbronner, Eleftherios Garyfallidis"
+abstract = "The anterior cingulate cortex (ACC) is functionally closely related with the insula and the ventral lateral prefrontal cortex (vlPFC). The ACC and insula are the main hubs of the salience network, a set of functionally related brain regions involved in detecting salient stimuli and coordinating inter-network communication, while communication between ACC and vlPFC is closely linked to inhibitory control. However, despite strong indirect evidence from nonhuman primate (NHP) tract tracing, the structural connections between the ACC and the insula/vlPFC remain poorly understood in the human brain, in part because standard approaches fail to capture this projection. In this study, we show that diffusion-weighted magnetic resonance imaging (dMRI) can reconstruct ACC–insula/vlPFC pathways after a technical adjustment to the fiber orientation distribution functions. First, using NHP dMRI as a diagnostic tool, we pinpointed an issue of fiber orientation biases in the deep white matter that uniquely impacts the streamlines connecting the ACC and the insula/vlPFC region. We introduced a reweighting approach based on individual variability to correct for the fiber orientation density function. Finally, we demonstrated that, by applying this fix, dMRI tractography can fully recover the ACC–insula/vlPFC pathways, supporting the anatomical basis of the functional relationships among these regions."
+project = ""
+bibtex = '''
+@article{10.1162/IMAG.a.1253,
+  author  = {Tang, Wei and Guaje, Javier and Fadnavis, Shreyas and Heilbronner, Sarah R. and Garyfallidis, Eleftherios},
+  title   = {Mapping the structural connections between the anterior cingulate cortex and the insula/ventrolateral prefrontal cortex},
+  journal = {Imaging Neuroscience},
+  volume  = {4},
+  pages   = {IMAG.a.1253},
+  year    = {2026},
+  month   = {05},
+  issn    = {2837-6056},
+  doi     = {10.1162/IMAG.a.1253},
+  url     = {https://doi.org/10.1162/IMAG.a.1253}
+}
+'''
+pdf = "https://direct.mit.edu/imag/article-pdf/doi/10.1162/IMAG.a.1253/2598272/imag.a.1253.pdf"
+
 [[publication_paper]]
 title = "Tractometer: towards validation of tractography pipelines"
 authors = "Marc-Alexandre Côté and Gabriel Girard and Arnaud Boré and Eleftherios Garyfallidis and Jean-Christophe Houde and Maxime Descoteaux"
